@@ -29,7 +29,7 @@ All 66 HTML documents were parsed before replacement. `legacy-inventory.json` re
 
 The WordPress mirror contains theme-template material: RyanCV/BSL metadata, California location, Oleksandr author archives, copied 2020 demo articles, demo project names/images, generic testimonial copy (Abc.inc), template client logos, skill percentage bars, and unrelated placeholder descriptions in experience/education. It is archived completely but not presented as personal work or endorsements.
 
-The new opening notebook item is an explicitly labelled AI-assisted site note based on the rebuild brief. Other planned topics are labelled upcoming, not represented as existing articles. Draft and future-dated articles are excluded by the generator.
+The new opening notebook item is an explicitly labelled AI-assisted site note based on the rebuild brief. Other planned topics are labelled upcoming, not represented as existing articles. Drafts remain outside the public repository until the owner is ready to publish; there is no generator.
 
 ## Corrected implementation — native static site
 
@@ -37,18 +37,21 @@ The owner clarified that authoring must also use only HTML/CSS/browser JavaScrip
 
 `assets/images/profile.png` is the owner's latest portrait. It replaces the older image and appears immediately in both the Studio overview and Tactical identity panel.
 
-The Tactical view was rebuilt as a full-viewport dashboard based on renewed review of the supplied tactical/HUD and satellite-surveillance references. It has a navigation rail, portrait/identity panel, notebook panel, original conceptual terrain atlas, project dossiers, research readout, career timeline, and a paged document reader. Whole-page scrolling is disabled; document content is paginated within the viewport. No reference screenshot is reused as a website background.
+The Tactical view now follows the owner's clarified military HUD direction: full viewport, dot matrix and crossing marks, thin instrument frames, a native Canvas 3D geographic map, owner and visitor pins, visitor browser/IP/location readouts, and a second-by-second digital/analogue clock. The map uses local Natural Earth 1:110m public-domain coastline geometry, with visual extrusion rather than real elevation data. Whole-page scrolling is disabled; documents are paginated within the viewport. No reference screenshot is reused as a website background.
 
-Studio now starts with the owner's name and portrait rather than a generic orbital marketing hero. Shared dashboard summaries live in plain `assets/portfolio.js`, and page-specific dossier contents are read directly from the existing HTML DOM without network requests.
+Studio restores the original site's persistent vCard, vertical menu, and content-pane structure. The profile card remains visible while content scrolls independently. Studio Light and Tactical Dark were preserved; Studio Dark was revised to warm charcoal, and Tactical Light to cool grey-blue. Shared dashboard summaries live in plain `assets/portfolio.js`; dossier contents are read from the page's existing HTML DOM.
+
+Visitor browser details are read locally. External GeoJS lookup is initiated by a labelled button and explicitly identifies the recipient. Device location requires native browser permission and is not forwarded externally. Unknown positions are not fabricated, missing coordinates clear the visitor marker, and failed/denied requests retain useful local readouts. The portfolio stores no visitor coordinates or public IP. Owner coordinates identify Dhaka city centre only.
 
 ## Validation of the corrected revision
 
-- 13 directly maintained HTML pages; all 438 relative asset/navigation references resolve.
+- 13 directly maintained HTML pages returned HTTP 200; all 577 relative references resolve. RSS and sitemap parse successfully.
 - No package manifest, Node script, TypeScript file, generator, or compilation step remains in the current source tree.
 - Renewed visual reference review covered all 41 files under `tactical/` and `render/Satellite Surveillance/`, including military HUD, contour map, instrument-panel, dense dark UI, and pale grid-interface references.
 - Tactical overview, resume, notebook, and article navigation were exercised in the browser. The dashboard stays exactly within the viewport at desktop and mobile sizes.
 - Reader previous/next controls and focus mode work; measured reader content height did not exceed its panel height during the exercised pages.
-- Atlas zoom works, and Light/Dark and Studio/Tactical switches were reviewed. The latest `profile.png` loads in the first frame of both views.
+- Native geographic map pan/zoom/rotation and flat/3D controls were implemented; rotation and flat/3D controls were exercised in the browser. Light/Dark and Studio/Tactical switches were reviewed, and the latest `profile.png` stays visible in the Studio vCard.
+- A temporary HTML fixture page outside the repository exercised the actual map and visitor components with a synthetic New York position. Success added the second marker; lookup failure restored retry controls; missing coordinates cleared the marker; denied device permission displayed its explicit status. A separate successful device fixture using the owner city-centre coordinates placed both pins without overlapping their labels. No real IP lookup or native device-location request was made during these tests. Browser console checks reported no errors or warnings for the exercised pages.
 - Direct file opening is supported by relative asset paths and local-folder link resolution; the in-app browser prohibits file URLs, so direct-file rendering was not visually tested there. Visual checks used a temporary local Python static preview, which is not part of the site or a user requirement.
 - Browser print layout has not been exported and visually verified. Publication links were preserved from the sources rather than independently revalidated.
 - No remote push or deployment is included in this revision.
