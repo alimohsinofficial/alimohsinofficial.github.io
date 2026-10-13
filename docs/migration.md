@@ -31,21 +31,24 @@ The WordPress mirror contains theme-template material: RyanCV/BSL metadata, Cali
 
 The new opening notebook item is an explicitly labelled AI-assisted site note based on the rebuild brief. Other planned topics are labelled upcoming, not represented as existing articles. Draft and future-dated articles are excluded by the generator.
 
-## Technical decisions
+## Corrected implementation — native static site
 
-- Dependency-free static output with a Node authoring script; checked-in root HTML supports current GitHub Pages root hosting.
-- Real directory/index URLs, no client router or backend contact form.
-- Blueprint core plus segmented, theme-toggle, accordion, and copy-button; vendored distribution updated by an explicit sync command.
-- Shared templates/content across Studio/Tactical and Light/Dark; no duplicate article trees.
-- SEO metadata, canonical links, Person/BlogPosting schema, RSS, sitemap, accessible navigation, reduced-motion support, print resume.
+The owner clarified that authoring must also use only HTML/CSS/browser JavaScript: no npm, Node.js, TypeScript, compilation, or generators. The package manifest, all Node scripts, generated-content source files, and generated route manifest were removed. HTML files are now the maintained sources; the RSS feed and sitemap are edited directly. Local links work by opening `index.html` from disk, and hosted links retain folder URLs.
 
-## Validation
+`assets/images/profile.png` is the owner's latest portrait. It replaces the older image and appears immediately in both the Studio overview and Tactical identity panel.
 
-- `node scripts/build.mjs`: 13 generated static pages, one published site note, RSS and sitemap.
-- `node scripts/check.mjs`: all 388 generated internal references resolve; draft template excluded; legacy template metadata absent.
-- Syntax checks passed for generator, local server, and site behaviour scripts.
-- Local HTTP request to `/resume/` returned 200.
-- In-app browser review covered Studio and Tactical in both Light and Dark, desktop (1366 px) and mobile (390 px), saved preferences across navigation, article category controls, search matching/empty state, and native skill disclosure using Enter.
-- Browser console inspection reported no warnings or errors during the exercised pages. Mobile homepage and resume had document width within the viewport.
-- Print styles and before/after-print disclosure restoration were implemented and reviewed; an exported browser PDF was not visually verified.
-- Remote push, existing GitHub Pages settings, and deployment are not included in this local rebuild. External publication URLs were preserved from the sources and were not independently revalidated.
+The Tactical view was rebuilt as a full-viewport dashboard based on renewed review of the supplied tactical/HUD and satellite-surveillance references. It has a navigation rail, portrait/identity panel, notebook panel, original conceptual terrain atlas, project dossiers, research readout, career timeline, and a paged document reader. Whole-page scrolling is disabled; document content is paginated within the viewport. No reference screenshot is reused as a website background.
+
+Studio now starts with the owner's name and portrait rather than a generic orbital marketing hero. Shared dashboard summaries live in plain `assets/portfolio.js`, and page-specific dossier contents are read directly from the existing HTML DOM without network requests.
+
+## Validation of the corrected revision
+
+- 13 directly maintained HTML pages; all 438 relative asset/navigation references resolve.
+- No package manifest, Node script, TypeScript file, generator, or compilation step remains in the current source tree.
+- Renewed visual reference review covered all 41 files under `tactical/` and `render/Satellite Surveillance/`, including military HUD, contour map, instrument-panel, dense dark UI, and pale grid-interface references.
+- Tactical overview, resume, notebook, and article navigation were exercised in the browser. The dashboard stays exactly within the viewport at desktop and mobile sizes.
+- Reader previous/next controls and focus mode work; measured reader content height did not exceed its panel height during the exercised pages.
+- Atlas zoom works, and Light/Dark and Studio/Tactical switches were reviewed. The latest `profile.png` loads in the first frame of both views.
+- Direct file opening is supported by relative asset paths and local-folder link resolution; the in-app browser prohibits file URLs, so direct-file rendering was not visually tested there. Visual checks used a temporary local Python static preview, which is not part of the site or a user requirement.
+- Browser print layout has not been exported and visually verified. Publication links were preserved from the sources rather than independently revalidated.
+- No remote push or deployment is included in this revision.

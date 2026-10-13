@@ -1,42 +1,55 @@
-# Mohsin Ali — portfolio & field notebook
+# Mohsin Ali — static portfolio
 
-Static HTML, CSS, JavaScript, and a pinned local Blueprint UI snapshot. Production has no runtime dependencies. Generated pages are committed in the repository root so the existing GitHub Pages branch deployment can continue to use `master` / root.
+Only HTML, CSS, and browser JavaScript. No npm, Node.js, TypeScript, compiler, generator, installation, or build step.
 
-## Develop
+Open `index.html` directly in a browser, or host this directory on any static host. Each page is maintained directly in its own `folder/index.html`. Hosted navigation uses pretty folder URLs; JavaScript resolves those same links to `index.html` when browsing local files. Assets and styles use relative paths. No fetch requests, database, or application server are needed.
 
-Requires Node.js only for authoring and generation; visitors need no Node runtime.
+## Views
 
-```sh
-npm run build
-npm run check
-npm run dev
-```
+- **Studio:** a personal portfolio led by the current profile photo, name, career, projects, and writing.
+- **Tactical:** a full-screen surveillance-style dashboard with a navigation rail, identity panel, conceptual terrain/work atlas, notebook, engineering dossiers, research, and career timeline. The document reader uses previous/next pages instead of scrolling the whole page. It also has a focus control and atlas zoom/reset controls.
+- Both views have Light/Dark controls using Blueprint UI. Preferences persist where browser local storage is available.
+- The atlas is an original conceptual portfolio illustration, not live satellite imagery or telemetry.
 
-Open http://127.0.0.1:4173/. Every content route uses a directory with `index.html`, including articles and project case studies. `404.html` is the static-host error document.
+## Edit directly
 
-## Update content
+| File | Content |
+| --- | --- |
+| `index.html` | Studio portfolio overview |
+| `about/index.html` | Profile and capabilities |
+| `resume/index.html` | Web resume and print layout |
+| `projects/index.html` and `projects/*/index.html` | Work and case studies |
+| `research/index.html` | Publications |
+| `contact/index.html` | Contact information |
+| `blog/index.html` and `blog/*/index.html` | Notebook and articles |
+| `assets/portfolio.js` | Shared dashboard identity, navigation, article/project summaries, and links |
+| `assets/images/profile.png` | Current profile picture, used in both views |
+| `assets/site.css`, `assets/portfolio.css` | Studio styling |
+| `assets/console.css`, `assets/console.js` | Tactical dashboard component |
 
-- `content/profile.json`: career, education, skills, links, and research.
-- `content/projects.json`: case studies and reported outcomes.
-- `content/posts/*.md`: articles. Copy `_template.md`; choose a unique lowercase hyphenated slug. Use `status: draft` while preparing and reviewing. Set `status: published` to include it in pages, RSS, and sitemap. Future dates stay unpublished until rebuilt on or after that date in Asia/Dhaka. The parser supports paragraphs, headings, unordered lists, code fences, inline code, bold, and Markdown links. Raw HTML is escaped.
-- AI-assisted writing should use `ai_assisted: true`. Review factual claims and add sources before publishing. The initial article is explicitly labelled an AI-assisted site note.
+Tactical readers reuse the content already present in each page's HTML. The shared dashboard summaries are edited in `assets/portfolio.js`. This is ordinary browser JavaScript, not a build configuration.
 
-Run `npm run build` after content changes, then commit the generated HTML, feed, and sitemap with source. Publication is through the repository's GitHub Pages configuration; this task does not change remote deployment settings.
+## Add a blog article
 
-## Update Blueprint UI
+1. Copy `blog/a-new-home/index.html` to `blog/your-slug/index.html`.
+2. Edit its title, description, canonical/Open Graph URLs, JSON-LD, article heading, byline, date, and article body. Keep `body page="article"` and the relative assets unchanged at this folder depth.
+3. Add an article card and category on `blog/index.html`, and add a summary/link to `assets/portfolio.js`.
+4. Add its URL and publication details to `feed.xml` and `sitemap.xml`. Update the overview's featured article when appropriate.
+5. Review AI-assisted writing and identify assistance in its byline. Keep drafts outside the public repository until ready.
 
-```sh
-npm run sync:blueprint -- "E:/WorkSpace/my/projects/blueprint_lib/gemini-blueprint-ui"
-npm run build
-npm run check
-```
+Save the files. There is nothing to compile or regenerate.
 
-The sync script copies the library's existing distribution core and four selected components. Rebuild that library's distribution first if its component source has changed. Portfolio styles are separate in `assets/site.css`; the original library is not modified. Snapshot provenance lives in `assets/vendor/blueprint/snapshot.json`.
+## Update the component library
 
-## Appearances
+Copy the corresponding existing distribution files from your Blueprint UI library into `assets/vendor/blueprint/`:
 
-Studio and Tactical modes share content. Each supports Light and Dark. Blueprint's theme control and the style selector persist choices in browser local storage. The resume has print styles for browser Save as PDF; the source PDF is separately linked and labelled.
+- `dist/blueprint.js` and `dist/blueprint.css`
+- `dist/components/segmented/`, `accordion/`, `copy-button/`, and `theme-toggle/`
 
-## Migration
+Keep folder names intact. This portfolio loads those native web components directly. Its skin styles live separately, and the original library has not been modified. `snapshot.json` records the imported version.
 
-The complete original site and seven previously untracked image assets are preserved on `codex/legacy-portfolio-2026-10-14` (commit `354c978`). Read `docs/migration.md` for source decisions and unresolved differences. `docs/legacy-inventory.json` contains extracted text, links, and image references from all 66 original HTML documents.
+## Preservation
+
+The original WordPress mirror and local assets are preserved on `codex/legacy-portfolio-2026-10-14`. `docs/legacy-inventory.json` contains the original 66-page text/link/image inventory. See `docs/migration.md` for resume conflicts and source decisions.
+
+Nothing in this local revision changes GitHub Pages settings or publishes remotely.
