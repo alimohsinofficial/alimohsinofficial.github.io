@@ -1,0 +1,291 @@
+/* -------------------------------------------------------------------------
+   Blueprint UI — Theme Toggle (`<x-theme-toggle>`) & Theme Generator
+   Looks (classes on the host):
+     (default)        outline icon button cycling light → dark → system
+     .segmented       Light | Dark | Auto pill with a sliding thumb (iOS / Raycast)
+     .segmented.icons the same with sun / moon / monitor icons only
+     .switch          light ↔ dark switch, sun / moon in the thumb
+     .menu            icon button opening a Light / Dark / System menu
+     .labels          text label next to the icon (default, menu; icons + text in segmented)
+     .sm / .lg        one Density step smaller / larger
+   Contract + Density tokens only. The thumb is lighter than its track in both
+   themes (white on gray in light, raised gray on dark in dark).
+   ------------------------------------------------------------------------- */
+
+x-theme-toggle {
+  --theme-toggle-size: var(--control-height);
+  --theme-toggle-icon: 1rem;
+  --theme-toggle-pad: 0.1875rem;
+  --theme-toggle-track: var(--element);
+  --theme-toggle-thumb: var(--gray-1);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  max-width: 100%;
+  font-size: var(--control-font-size);
+  color: var(--color-text);
+}
+/* blueprint.css sets color-scheme per theme, so light-dark() follows the page theme. */
+@supports (color: light-dark(white, black)) {
+  x-theme-toggle { --theme-toggle-thumb: light-dark(var(--gray-1), var(--gray-7)); }
+}
+x-theme-toggle.sm { --theme-toggle-size: var(--control-height-3); --theme-toggle-icon: 0.875rem; --theme-toggle-pad: 0.125rem; }
+x-theme-toggle.lg {
+  --theme-toggle-size: calc(var(--control-height) + 0.5rem);
+  --theme-toggle-icon: 1.125rem;
+  --theme-toggle-pad: 0.25rem;
+  font-size: calc(var(--control-font-size) + 0.0625rem);
+}
+/* Reserve the button's box before the script renders, so the header does not jump. */
+x-theme-toggle:empty { min-width: var(--theme-toggle-size); min-height: var(--theme-toggle-size); }
+
+x-theme-toggle x-icon { font-size: var(--theme-toggle-icon); }
+x-theme-toggle .theme-toggle-swap { animation: theme-toggle-swap 0.32s var(--ease-out, ease-out); }
+@keyframes theme-toggle-swap {
+  from { opacity: 0; transform: rotate(-90deg) scale(0.5); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ---- (default) cycle button + menu trigger ----------------------------- */
+x-theme-toggle .theme-toggle-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--control-gap);
+  min-width: var(--theme-toggle-size);
+  height: var(--theme-toggle-size);
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-background);
+  color: var(--color-text);
+  font: inherit;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color var(--transition), border-color var(--transition), color var(--transition), box-shadow var(--transition);
+}
+x-theme-toggle .theme-toggle-button:hover:not(:disabled) { background: var(--element-hover); border-color: var(--color-border-hover); }
+x-theme-toggle .theme-toggle-button:active:not(:disabled),
+x-theme-toggle .theme-toggle-button[aria-expanded="true"] { background: var(--element-active); }
+x-theme-toggle .theme-toggle-button:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+x-theme-toggle .theme-toggle-button > .theme-toggle-label { display: none; }
+x-theme-toggle.labels .theme-toggle-button { padding-inline: calc(var(--control-pad-x) * 0.875) var(--control-pad-x); }
+x-theme-toggle.labels .theme-toggle-button > .theme-toggle-label { display: inline; }
+
+/* ---- .segmented --------------------------------------------------------- */
+x-theme-toggle.segmented {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: stretch;
+  height: var(--theme-toggle-size);
+  padding: var(--theme-toggle-pad);
+  border-radius: var(--radius-full);
+  background: var(--theme-toggle-track);
+  box-shadow: inset 0 0 0 1px var(--gray-a3);
+  isolation: isolate;
+}
+x-theme-toggle.segmented > .theme-toggle-thumb {
+  position: absolute;
+  z-index: 0;
+  top: var(--theme-toggle-pad);
+  bottom: var(--theme-toggle-pad);
+  left: var(--theme-toggle-pad);
+  width: calc((100% - 2 * var(--theme-toggle-pad)) / 3);
+  border-radius: var(--radius-full);
+  background: var(--theme-toggle-thumb);
+  box-shadow: var(--shadow-2, var(--shadow-1));
+  transform: translateX(calc(var(--theme-index, 0) * 100%));
+  transition: transform 0.28s cubic-bezier(0.3, 0.7, 0.2, 1);
+  pointer-events: none;
+}
+x-theme-toggle.segmented:dir(rtl) > .theme-toggle-thumb {
+  left: auto;
+  right: var(--theme-toggle-pad);
+  transform: translateX(calc(var(--theme-index, 0) * -100%));
+}
+x-theme-toggle.segmented > .theme-toggle-option {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375em;
+  min-width: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0 calc(var(--control-pad-x) * 1.25);
+  border: 0;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--color-text-muted);
+  font: inherit;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color var(--transition), box-shadow var(--transition);
+}
+x-theme-toggle.segmented > .theme-toggle-option:hover:not(:disabled) { background: transparent; color: var(--color-text); }
+x-theme-toggle.segmented > .theme-toggle-option.active {
+  background: transparent;
+  color: var(--color-text);
+  font-weight: var(--font-weight-medium, 500);
+}
+x-theme-toggle.segmented > .theme-toggle-option:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+x-theme-toggle.segmented:not(.icons) > .theme-toggle-option > x-icon { display: none; }
+
+/* .segmented.icons — round icon-only options (each has an aria-label) */
+x-theme-toggle.segmented.icons:not(.labels) { grid-auto-columns: calc(var(--theme-toggle-size) - 2 * var(--theme-toggle-pad)); }
+x-theme-toggle.segmented.icons:not(.labels) > .theme-toggle-option { padding: 0; }
+x-theme-toggle.segmented.icons:not(.labels) > .theme-toggle-option > .theme-toggle-label { display: none; }
+
+/* ---- .switch ------------------------------------------------------------ */
+x-theme-toggle .theme-toggle-switch {
+  --theme-toggle-knob: calc(var(--theme-toggle-size) - 2 * var(--theme-toggle-pad));
+  display: inline-flex;
+  align-items: center;
+  gap: var(--control-gap);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 1;
+  cursor: pointer;
+}
+x-theme-toggle.switch > .theme-toggle-switch:is(:hover, .active) { background: transparent; color: inherit; }
+x-theme-toggle .theme-toggle-switch:focus-visible { outline: none; box-shadow: none; }
+x-theme-toggle .theme-toggle-switch:focus-visible > .theme-toggle-track { box-shadow: inset 0 0 0 1px var(--gray-a3), var(--focus-ring); }
+x-theme-toggle .theme-toggle-track {
+  position: relative;
+  flex: none;
+  width: calc(var(--theme-toggle-size) * 1.75);
+  height: var(--theme-toggle-size);
+  border-radius: var(--radius-full);
+  background: var(--theme-toggle-track);
+  box-shadow: inset 0 0 0 1px var(--gray-a3);
+  transition: background-color var(--transition), box-shadow var(--transition);
+}
+x-theme-toggle .theme-toggle-switch:hover > .theme-toggle-track { background: var(--element-hover); }
+x-theme-toggle .theme-toggle-track > .theme-toggle-thumb {
+  position: absolute;
+  top: var(--theme-toggle-pad);
+  left: var(--theme-toggle-pad);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--theme-toggle-knob);
+  height: var(--theme-toggle-knob);
+  border-radius: var(--radius-full);
+  background: var(--theme-toggle-thumb);
+  box-shadow: var(--shadow-2, var(--shadow-1));
+  color: var(--warning-solid);
+  transition: transform 0.28s cubic-bezier(0.3, 0.7, 0.2, 1), color var(--transition);
+}
+x-theme-toggle .theme-toggle-switch[aria-checked="true"] .theme-toggle-thumb {
+  color: var(--accent-11);
+  transform: translateX(calc(var(--theme-toggle-size) * 0.75));
+}
+x-theme-toggle .theme-toggle-switch:dir(rtl) .theme-toggle-thumb { left: auto; right: var(--theme-toggle-pad); }
+x-theme-toggle .theme-toggle-switch[aria-checked="true"]:dir(rtl) .theme-toggle-thumb { transform: translateX(calc(var(--theme-toggle-size) * -0.75)); }
+x-theme-toggle .theme-toggle-switch > .theme-toggle-label { display: none; }
+x-theme-toggle.labels .theme-toggle-switch > .theme-toggle-label { display: inline; }
+
+/* ---- .menu -------------------------------------------------------------- */
+/* Shown through Blueprint.layer (top layer, anchored) when loaded; below the host otherwise. */
+x-theme-toggle .theme-toggle-menu {
+  position: absolute;
+  top: calc(100% + 0.375rem);
+  inset-inline-end: 0;
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 9.5rem;
+  padding: 0.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-panel);
+  color: var(--color-text);
+  box-shadow: var(--shadow-lg);
+  font-size: var(--control-font-size);
+}
+x-theme-toggle .theme-toggle-menu[hidden] { display: none; }
+x-theme-toggle .theme-toggle-menu > .theme-toggle-item {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--control-gap) * 1.25);
+  width: 100%;
+  height: var(--theme-toggle-size);
+  margin: 0;
+  padding: 0 var(--item-pad-x);
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text);
+  font: inherit;
+  font-weight: 400;
+  line-height: 1;
+  text-align: start;
+  cursor: pointer;
+}
+x-theme-toggle .theme-toggle-menu > .theme-toggle-item > x-icon { color: var(--color-text-muted); }
+x-theme-toggle .theme-toggle-menu > .theme-toggle-item > .theme-toggle-label { flex: 1; }
+x-theme-toggle .theme-toggle-menu > .theme-toggle-item:is(:hover, :focus):not(:disabled) {
+  outline: none;
+  background: var(--element-hover);
+  color: var(--color-text);
+}
+x-theme-toggle .theme-toggle-menu > .theme-toggle-item:focus-visible { box-shadow: inset 0 0 0 1px var(--accent-8); }
+x-theme-toggle .theme-toggle-menu > .theme-toggle-item.active { color: var(--color-text); font-weight: var(--font-weight-medium, 500); }
+x-theme-toggle .theme-toggle-menu > .theme-toggle-item.active:not(:hover, :focus) { background: transparent; }
+x-theme-toggle .theme-toggle-menu > .theme-toggle-item > .theme-toggle-check { visibility: hidden; color: var(--color-primary); }
+x-theme-toggle .theme-toggle-menu > .theme-toggle-item.active > .theme-toggle-check { visibility: visible; }
+
+@media (prefers-reduced-motion: reduce) {
+  x-theme-toggle .theme-toggle-swap { animation: none; }
+  x-theme-toggle.segmented > .theme-toggle-thumb,
+  x-theme-toggle .theme-toggle-track > .theme-toggle-thumb { transition: none; }
+}
+@media (forced-colors: active) {
+  x-theme-toggle.segmented > .theme-toggle-option.active,
+  x-theme-toggle .theme-toggle-switch .theme-toggle-thumb { outline: 2px solid Highlight; }
+}
+
+/* ---- <x-theme-generator> ------------------------------------------------ */
+x-theme-generator {
+  display: block;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: calc(var(--panel-pad) * 1.25);
+}
+
+x-theme-generator .generator-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space, 1rem);
+  margin-bottom: var(--space-sm, 0.5rem);
+}
+
+x-theme-generator .generator-row label {
+  font-weight: 600;
+  font-size: var(--control-font-size);
+}
+
+x-theme-generator .generator-row input[type="color"] {
+  width: 3rem;
+  height: var(--control-height-3);
+  min-height: var(--control-height-3);
+  padding: 0.125rem;
+  cursor: pointer;
+}

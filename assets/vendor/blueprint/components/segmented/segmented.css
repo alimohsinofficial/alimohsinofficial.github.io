@@ -1,0 +1,72 @@
+/* Blueprint UI — Segmented Control (`<x-segmented>`)
+   ContextBase .segment: a filled track with 2px padding; the checked segment is a raised
+   background chip with a hairline shadow. Contract + Density tokens only. */
+
+x-segmented {
+  --segmented-height: var(--control-height);
+  display: inline-flex;
+  align-items: stretch;
+  gap: 0.125rem;
+  max-width: 100%;
+  height: var(--segmented-height);
+  padding: 0.125rem;
+  border-radius: var(--radius);
+  background: var(--element);
+  vertical-align: middle;
+  font-size: var(--control-font-size);
+}
+x-segmented > [hidden] { display: none !important; }
+x-segmented.sm { --segmented-height: var(--control-height-3); }
+x-segmented.lg { --segmented-height: calc(var(--control-height) + 0.5rem); font-size: calc(var(--control-font-size) + 0.0625rem); }
+x-segmented.block { display: flex; }
+x-segmented.block > :is(button, [item]) { flex: 1 1 0; }
+
+x-segmented > :is(button, [item]) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+  min-width: 0;
+  height: auto;
+  padding: 0 var(--item-pad-x);
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text-muted);
+  font: inherit;
+  font-size: 0.925em;
+  font-weight: var(--font-weight-medium);
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color var(--transition), color var(--transition), box-shadow var(--transition);
+}
+x-segmented > :is(button, [item]):not([aria-checked="true"], :disabled, [aria-disabled="true"]):hover {
+  background: var(--gray-a4);
+  color: var(--color-text);
+}
+x-segmented > :is(button, [item])[aria-checked="true"],
+x-segmented > :is(button, [item]).active {
+  background: var(--color-background);
+  color: var(--color-text);
+  box-shadow: var(--shadow-1);
+}
+x-segmented > :is(button, [item]):focus-visible { box-shadow: var(--focus-ring); }
+x-segmented > :is(button, [item]):is(:disabled, [aria-disabled="true"]) { opacity: 0.45; cursor: default; }
+x-segmented[disabled] { opacity: 0.6; }
+x-segmented[disabled] > :is(button, [item]) { opacity: 1; }
+
+/* Icon-only segments are square. */
+x-segmented > :is(button, [item]):has(> x-icon:only-child) { aspect-ratio: 1; padding: 0; }
+x-segmented > :is(button, [item]) > x-icon { font-size: 1.15em; }
+
+x-segmented.pill,
+x-segmented.pill > :is(button, [item]) { border-radius: var(--radius-full); }
+x-segmented.square,
+x-segmented.square > :is(button, [item]) { border-radius: 0; }
+
+x-segmented:not(:defined) > :is(button, [item]) { border: 0; background: transparent; }
+
+@media (forced-colors: active) {
+  x-segmented > [aria-checked="true"] { outline: 2px solid Highlight; }
+}

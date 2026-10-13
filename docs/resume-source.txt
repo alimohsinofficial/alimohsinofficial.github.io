@@ -1,0 +1,107 @@
+MOHSIN ALI  
+Chief Technology Officer  |  AI, ML & Quantum Systems  |  Deep-Tech R&D & Engineering 
+Leadership 
+Dhaka, Bangladesh   |   alimohsin.dev0@gmail.com   |   linkedin.com/in/imalimohsin   |   alimohsinofficial.github.io 
+EXECUTIVE SUMMARY  
+Technology executive and hands-on engineering leader with 10+ years building software, AI/ML, and 
+deep-tech products from research to production. As Chief Technology Officer at Quantonova, I lead 
+a portfolio of Innovate UK–funded innovation programmes spanning AI-driven industrial monitoring, 
+quantum sensing, edge inference, and agentic automation. Proven record of architecting production-
+grade systems, winning competitive R&D funding, publishing peer-reviewed research, and translating 
+emerging technologies — from quantum error correction to physics -informed machine learning — 
+into commercially viable, standards -compliant products. Equally fluent across the full stack and at 
+the executive table: strategy, delivery, team-building, and cross-functional partnership. 
+CORE COMPETENCIES  
+Technology Strategy & Roadmaps  •  AI / ML & Agentic Architecture  •  Innovate UK R&D Leadership  •  
+Full-Stack & Cloud Engineering  •  Quantum Sensing & Error Correction  •  Edge AI & Embedded 
+Inference  •  Data Engineering & Analytics  •  Product Commerc ialisation  •  Standards & Regulatory 
+Compliance  •  Team Leadership & Mentoring 
+PROFESSIONAL EXPERIENCE  
+Chief Technology Officer & Project Manager 2023 – Present 
+Quantonova Ltd  ·  Innovate UK R&D portfolio (AI, quantum sensing, advanced manufacturing)  
+– Lead technology strategy and delivery across a multi-project R&D portfolio, partnering with 
+academic and industry consortia (Nottingham Trent University, MHK Consulting, University of 
+Waterloo, Ocean Sonics). 
+– QuantAirSense — AI compressed-air monitoring: architected an ML platform detecting 
+compressed-air leaks, equipment degradation, and scheduling waste for UK SME manufacturers 
+— Random Forest classifier (F1 = 0.99, 1% false-positive, zero false-negative) with SHAP 
+explainability and forecasting over 15 engineered temporal features. 
+– Quantified ~£1,900/yr recoverable savings and ~2 t/yr CO₂ reduction per site; validated against 
+ISO 11011:2013, Carbon Trust CTV044, DOE CAC and IEC 60300-3-11; deployed a SCADA-style 
+monitoring dashboard on Google Cloud Run (europe-west2). 
+– AI-AFS — acoustic AI for aquaculture: led algorithm development for an underwater-sound 
+system detecting salmon feeding behaviour in recirculating-aquaculture systems; built 
+classifiers on 878 real hydrophone clips achieving 0.99 accuracy and AUC 0.999, owning the 
+core work-package deliverables. 
+– Developed physics-informed neural-network models for bioprocess yield optimisation (R² = 
+0.913, +29.7% optimisation gain) and federated graph-learning concepts for supply-chain 
+resilience. 
+– Authored and won competitive Innovate UK grant applications; produced FPGA / edge-inference 
+feasibility studies (PYNQ-Z2) to move trained ML models towards production deployment. 
+– Built an internal 48-module project-management platform (Laravel, Livewire, Tailwind CSS) to 
+coordinate delivery, documentation, and compliance across the portfolio. 
+Chief Technology Officer & Software Engineer 2020 – 2023 
+143Play  ·  Game & software studio 
+– Set and executed the company’s technical vision and architecture across game and software 
+products; led engineering direction, code standards, and toolchains. 
+– Drove product delivery from prototype to release, balancing long-term technical strategy with 
+hands-on engineering ownership. 
+Software Engineer & Game Developer 2016 – 2020 
+143Play 
+– Designed and shipped games and software across web, Android, and desktop, including 
+published Android titles featuring Bluetooth multiplayer and real-time gameplay. 
+Game & Web Developer 2014 – 2016 
+143Play 
+– Built web applications and game prototypes; co-developed a lightweight JavaScript-based 3D 
+game-rendering engine. 
+TECHNICAL SKILLS  
+Languages Python, JavaScript, TypeScript, PHP, Java, C / C++, SQL 
+AI / ML & Data Science 
+Exploratory Data Analysis (EDA), Random Forest, SHAP explainability, Physics-
+Informed Neural Networks (PINN), edge & embedded inference, prompt 
+engineering, scikit-learn, pandas / NumPy 
+AI Coding Agents & 
+Tools 
+Claude Code, OpenAI Codex, Google Gemini, NotebookLM, n8n (agentic / 
+workflow automation) 
+Frontend React, React Native, Vue, Web Components, Tailwind CSS, HTML5 / CSS3, 
+Figma 
+Backend, Cloud & 
+DevOps 
+Node.js, Laravel, Livewire, CodeIgniter, Flutter, Docker, Google Cloud Platform 
+(Cloud Run), REST APIs, CI/CD, Git 
+Databases PostgreSQL, MySQL, SQLite 
+WordPress & CMS WordPress theme & plugin development, Bricks Builder, Elementor 
+Data & BI Power BI, Jupyter, data visualisation & SCADA-style dashboards 
+Quantum & Edge 
+Hardware 
+Quantum Error Correction, NV-centre quantum magnetometry, quantum LiDAR 
+sensing, FPGA edge inference (PYNQ-Z2) 
+Design & Media Adobe Photoshop, Adobe Illustrator, DaVinci Resolve, Adobe Premiere Pro 
+Game Development Unity, Unreal Engine, Blender, World Creator, Gaea 
+Productivity & Tooling Obsidian, Notion, Chrome Extension development 
+EDUCATION  
+M.Sc. in Computer Science & Engineering 2017 
+Jahangirnagar University, Savar, Bangladesh 
+B.Sc. in Computer Science & Engineering 2016 
+Daffodil International University, Dhaka, Bangladesh 
+SELECTED PUBLICATIONS & RESEARCH  
+– QuantoTrace: Quantum Error Correction as a Service for Robust Quantum Computing  —  Co-
+author (3rd). IEEE Xplore 
+– A Novel Method to Predict Water Quality Resilience using Deep Reinforcement Learning in 
+São Paulo, Brazil  —  Co-author (2nd). IEEE Xplore 
+– ICCIT 2014 Student Conference (3 papers): UX-driven design methods; logo & GUI design 
+psychology for applications; lightweight JavaScript 3D game-rendering engine. 
+ACHIEVEMENTS & ACTIVITIES  
+– ACM ICPC Asia Regional (Dhaka Site) — 2014 (Rank 71) and 2015 (Rank 84), Team DIU_PEKKA. 
+– Published Android developer portfolio (2016) — multiple released titles spanning card games, 
+puzzles, and utility apps. 
+LANGUAGES  
+English — Reading: Advanced  |  Writing: Intermediate  |  Speaking: Intermediate  
+REFERENCES  
+Prof. Dr. Syed Akhter Hossain  —  Dean, Faculty of Science & IT, Daffodil International University, 
+Bangladesh aktarhossain@daffodilvarsity.edu.bd   |   linkedin.com/in/dr-syed-akhter-hossain 
+Narayan Ranjan Chakraborty  —  PhD Research Fellow, University of Agder (UiA); Associate Professor & 
+Associate Head, Daffodil International University narayan@daffodilvarsity.edu.bd   |   linkedin.com/in/narayan633 
+Dr. Mahmudul Hasan  —  COO & Lead Data Scientist, MediprospectsAI; Sr. Faculty, Anglia Ruskin University, 
+UK mahmudul.05@gmail.com   |   linkedin.com/in/mmhplus 

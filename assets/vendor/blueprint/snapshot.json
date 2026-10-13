@@ -1,0 +1,11 @@
+{
+  "source": "E:\\WorkSpace\\my\\projects\\blueprint_lib\\gemini-blueprint-ui",
+  "commit": "7d9a088f77b923f9600ffabe69a46940aed9d4f6",
+  "synced": "2026-10-13T22:05:14.559Z",
+  "components": [
+    "segmented",
+    "accordion",
+    "copy-button",
+    "theme-toggle"
+  ]
+}

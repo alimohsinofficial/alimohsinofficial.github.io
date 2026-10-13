@@ -1,0 +1,961 @@
+/**
+ * Blueprint UI — Global Classless CSS & Component Styles
+ * Dependency-free, offline-first, native-web styling system.
+ */
+
+/* =========================================================================
+   Design token contract
+   Colour scales (--gray-*, --accent-*, status) are the only thing a skin in
+   dist/skins/ remaps (under [skin="<name>"]). Every --color-* alias below is
+   derived from those scales, so skins and dark mode reach all components.
+   Light/dark: theme="light|dark|system" or data-theme="light|dark|system"
+   on <html>; no attribute follows the operating system.
+   ========================================================================= */
+
+/* 1. Scales — light (default: ContextBase — warm Notion-style ink, #2383e2 accent) */
+:root {
+  color-scheme: light;
+
+  --gray-1:#ffffff; --gray-2:#f7f7f5; --gray-3:#f1f1ef; --gray-4:#ebebea;
+  --gray-5:#e6e6e4; --gray-6:#e3e3e1; --gray-7:#e1e1df; --gray-8:#dfdfde;
+  --gray-9:#b4b3b0; --gray-10:#a5a4a1; --gray-11:#767571; --gray-12:#37352f;
+  --gray-a3:rgba(55,53,47,0.06); --gray-a4:rgba(55,53,47,0.09);
+  --gray-a5:rgba(55,53,47,0.10); --gray-a6:rgba(55,53,47,0.16);
+
+  --accent-1:#fcfdff; --accent-2:#f7fbfe; --accent-3:#eff6fd; --accent-4:#e5f0fc;
+  --accent-5:#d7e9fa; --accent-6:#c6dff7; --accent-7:#aed1f4; --accent-8:#86bbef;
+  --accent-9:#2383e2; --accent-10:#2076cb; --accent-11:#1f73c7; --accent-12:#0f375f;
+  --accent-a3:rgba(35,131,226,0.09); --accent-a5:rgba(35,131,226,0.14);
+
+  --success-surface:#dbeddb; --success-solid:#0f7b6c; --success-text:#1c3829; --success-border:#b6dbbd;
+  --warning-surface:#fdecc8; --warning-solid:#d9730d; --warning-text:#7a4511; --warning-border:#f4d7a3;
+  --error-surface:#fdeeee; --error-solid:#eb5757; --error-text:#b3261e; --error-border:#f7c9c9;
+  --info-surface:#d3e5ef; --info-solid:#2383e2; --info-text:#183347; --info-border:#b0d0e6;
+
+  --panel:#ffffff;
+  --overlay:rgba(15,15,15,0.3);
+
+  /* Tag palette (9 colours) for pills, dots, covers and events */
+  --tag-gray-bg:#e3e2e0; --tag-gray-fg:#32302c;
+  --tag-brown-bg:#eee0da; --tag-brown-fg:#442a1e;
+  --tag-orange-bg:#fadec9; --tag-orange-fg:#49290e;
+  --tag-yellow-bg:#fdecc8; --tag-yellow-fg:#402c1b;
+  --tag-green-bg:#dbeddb; --tag-green-fg:#1c3829;
+  --tag-blue-bg:#d3e5ef; --tag-blue-fg:#183347;
+  --tag-purple-bg:#e8deee; --tag-purple-fg:#412454;
+  --tag-pink-bg:#f5e0e9; --tag-pink-fg:#4c2337;
+  --tag-red-bg:#ffe2dd; --tag-red-fg:#5d1715;
+}
+
+/* 2. Scales — dark (explicit, or following the OS when no theme is chosen) */
+[theme="dark"], [data-theme="dark"] {
+  color-scheme: dark;
+
+  --gray-1:#191919; --gray-2:#202020; --gray-3:#252525; --gray-4:#2c2c2c;
+  --gray-5:#2e2e2e; --gray-6:#313131; --gray-7:#373737; --gray-8:#3e3e3e;
+  --gray-9:#5a5a5a; --gray-10:#707070; --gray-11:#979797; --gray-12:#d3d3d3;
+  --gray-a3:rgba(255,255,255,0.055); --gray-a4:rgba(255,255,255,0.094);
+  --gray-a5:rgba(255,255,255,0.10); --gray-a6:rgba(255,255,255,0.16);
+
+  --accent-1:#1a1e23; --accent-2:#1a2129; --accent-3:#1b2937; --accent-4:#1b2f43;
+  --accent-5:#1c364f; --accent-6:#1c3d5d; --accent-7:#1d4871; --accent-8:#1f5992;
+  --accent-9:#2383e2; --accent-10:#3d92e5; --accent-11:#7fb7ee; --accent-12:#d7e9fa;
+  --accent-a3:rgba(35,131,226,0.14); --accent-a5:rgba(35,131,226,0.22);
+
+  --success-surface:#1c3829; --success-solid:#2f9e7c; --success-text:#a6dcc0; --success-border:#2b5a40;
+  --warning-surface:#402c1b; --warning-solid:#e08a2e; --warning-text:#f6d5b8; --warning-border:#5e4126;
+  --error-surface:#432626; --error-solid:#eb5757; --error-text:#ff9a94; --error-border:#663333;
+  --info-surface:#183347; --info-solid:#2383e2; --info-text:#c2dcec; --info-border:#24496a;
+
+  --panel:#191919;
+  --overlay:rgba(0,0,0,0.5);
+
+  /* Tag palette (9 colours) for pills, dots, covers and events */
+  --tag-gray-bg:#373737; --tag-gray-fg:#d4d4d4;
+  --tag-brown-bg:#4a3228; --tag-brown-fg:#e0c9be;
+  --tag-orange-bg:#5a3a1c; --tag-orange-fg:#f6d5b8;
+  --tag-yellow-bg:#5a4a1c; --tag-yellow-fg:#f6e4b8;
+  --tag-green-bg:#1f3a2a; --tag-green-fg:#c4e3c9;
+  --tag-blue-bg:#1e3a4d; --tag-blue-fg:#c2dcec;
+  --tag-purple-bg:#3a2a4a; --tag-purple-fg:#dcc9ea;
+  --tag-pink-bg:#4a2a3a; --tag-pink-fg:#ecc9d9;
+  --tag-red-bg:#5a2a28; --tag-red-fg:#f6c9c4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([theme]):not([data-theme])), [theme="system"], [data-theme="system"] {
+    color-scheme: dark;
+
+    --gray-1:#191919; --gray-2:#202020; --gray-3:#252525; --gray-4:#2c2c2c;
+    --gray-5:#2e2e2e; --gray-6:#313131; --gray-7:#373737; --gray-8:#3e3e3e;
+    --gray-9:#5a5a5a; --gray-10:#707070; --gray-11:#979797; --gray-12:#d3d3d3;
+    --gray-a3:rgba(255,255,255,0.055); --gray-a4:rgba(255,255,255,0.094);
+    --gray-a5:rgba(255,255,255,0.10); --gray-a6:rgba(255,255,255,0.16);
+
+    --accent-1:#1a1e23; --accent-2:#1a2129; --accent-3:#1b2937; --accent-4:#1b2f43;
+    --accent-5:#1c364f; --accent-6:#1c3d5d; --accent-7:#1d4871; --accent-8:#1f5992;
+    --accent-9:#2383e2; --accent-10:#3d92e5; --accent-11:#7fb7ee; --accent-12:#d7e9fa;
+    --accent-a3:rgba(35,131,226,0.14); --accent-a5:rgba(35,131,226,0.22);
+
+    --success-surface:#1c3829; --success-solid:#2f9e7c; --success-text:#a6dcc0; --success-border:#2b5a40;
+    --warning-surface:#402c1b; --warning-solid:#e08a2e; --warning-text:#f6d5b8; --warning-border:#5e4126;
+    --error-surface:#432626; --error-solid:#eb5757; --error-text:#ff9a94; --error-border:#663333;
+    --info-surface:#183347; --info-solid:#2383e2; --info-text:#c2dcec; --info-border:#24496a;
+
+    --panel:#191919;
+    --overlay:rgba(0,0,0,0.5);
+
+    /* Tag palette (9 colours) for pills, dots, covers and events */
+    --tag-gray-bg:#373737; --tag-gray-fg:#d4d4d4;
+    --tag-brown-bg:#4a3228; --tag-brown-fg:#e0c9be;
+    --tag-orange-bg:#5a3a1c; --tag-orange-fg:#f6d5b8;
+    --tag-yellow-bg:#5a4a1c; --tag-yellow-fg:#f6e4b8;
+    --tag-green-bg:#1f3a2a; --tag-green-fg:#c4e3c9;
+    --tag-blue-bg:#1e3a4d; --tag-blue-fg:#c2dcec;
+    --tag-purple-bg:#3a2a4a; --tag-purple-fg:#dcc9ea;
+    --tag-pink-bg:#4a2a3a; --tag-pink-fg:#ecc9d9;
+    --tag-red-bg:#5a2a28; --tag-red-fg:#f6c9c4;
+  }
+}
+
+/* 3. Semantic colour aliases — also declared on [skin] so a themed subtree
+   re-evaluates them against its own scales. */
+:root, [skin] {
+  --color-background:     var(--gray-1);
+  --color-surface:        var(--gray-2);
+  --color-surface-2:      var(--gray-3);
+  --color-surface-elevated: var(--gray-3);
+  --color-border:         var(--gray-6);
+  --color-border-hover:   var(--gray-8);
+  --color-border-strong:  var(--gray-8);
+  --color-text:           var(--gray-12);
+  --color-text-muted:     var(--gray-11);
+  --color-text-subtle:    var(--gray-10);
+  --color-panel:          var(--panel);
+
+  --element:        var(--gray-3);
+  --element-hover:  var(--gray-4);
+  --element-active: var(--gray-5);
+
+  --color-primary:          var(--accent-9);
+  --color-primary-hover:    var(--accent-10);
+  --color-primary-active:   var(--accent-10);
+  --color-primary-light:    var(--accent-3);
+  --color-primary-contrast: #ffffff;
+  --color-accent-text:      var(--accent-11);
+  --color-accent-surface:   var(--accent-3);
+  --color-accent-border:    var(--accent-7);
+
+  --color-success: var(--success-solid);
+  --color-warning: var(--warning-solid);
+  --color-error:   var(--error-solid);
+  --color-info:    var(--info-solid);
+
+  --focus-ring: 0 0 0 1px var(--color-background), 0 0 0 3px var(--accent-9);
+}
+
+/* 4. Shape, space, type and motion */
+:root {
+  --font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+  --font-family: var(--font-sans);
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  --line-height: 1.5;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+  --letter-tight: -0.01em;
+
+  --space-1: 0.25rem; --space-2: 0.5rem;  --space-3: 0.75rem; --space-4: 1rem;
+  --space-5: 1.25rem; --space-6: 1.5rem;  --space-8: 2rem;    --space-12: 3rem;
+  --space-xs: var(--space-1);
+  --space-sm: var(--space-2);
+  --space: var(--space-4);
+  --space-md: var(--space-6);
+  --space-lg: var(--space-8);
+  --space-xl: var(--space-12);
+
+  /* Control and row sizing tokens live in the Density block below. */
+
+  --radius-1: 3px; --radius-2: 4px; --radius-3: 6px; --radius-4: 8px; --radius-5: 12px; --radius-6: 16px;
+  --radius-sm: var(--radius-2);
+  --radius: var(--radius-3);
+  --radius-lg: var(--radius-4);
+  --radius-full: 9999px;
+
+  --shadow-1: 0 0 0 1px rgba(15,15,15,0.05), 0 1px 2px rgba(15,15,15,0.04);
+  --shadow-2: 0 0 0 1px rgba(15,15,15,0.05), 0 2px 6px rgba(15,15,15,0.08);
+  --shadow-3: 0 4px 12px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.06);
+  --shadow-4: 0 12px 40px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.06);
+  --shadow-5: 0 20px 60px rgba(0,0,0,0.22), 0 0 0 1px rgba(0,0,0,0.06);
+  --shadow-sm: var(--shadow-1);
+  --shadow: var(--shadow-3);
+  --shadow-lg: var(--shadow-4);
+
+  --ease-1: ease;
+  --ease-out: ease;
+  --duration-1: 100ms; --duration-2: 120ms; --duration-3: 160ms;
+  --transition: var(--duration-2) var(--ease-1);
+  --transition-speed: var(--duration-2);
+}
+
+/* 5. Dark elevation (after section 4 so it wins at equal specificity) */
+[theme="dark"], [data-theme="dark"] {
+  --shadow-1:0 0 0 1px rgba(255,255,255,0.06), 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-2:0 0 0 1px rgba(255,255,255,0.06), 0 2px 6px rgba(0,0,0,0.45);
+  --shadow-3:0 4px 12px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.08);
+  --shadow-4:0 12px 40px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08);
+  --shadow-5:0 20px 60px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.08);
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([theme]):not([data-theme])), [theme="system"], [data-theme="system"] {
+    --shadow-1:0 0 0 1px rgba(255,255,255,0.06), 0 1px 2px rgba(0,0,0,0.4);
+    --shadow-2:0 0 0 1px rgba(255,255,255,0.06), 0 2px 6px rgba(0,0,0,0.45);
+    --shadow-3:0 4px 12px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.08);
+    --shadow-4:0 12px 40px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08);
+    --shadow-5:0 20px 60px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.08);
+  }
+}
+
+/* @icon-tokens:start */
+/* Icon tokens — Lucide v1.48.0 (ISC), GENERATED by scripts/build-icons.js.
+   Component CSS draws these with mask-image + currentColor. Override a token
+   (e.g. --icon-check: url(my-check.svg)) to use another icon library. */
+:root {
+  --icon-x: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 6 6 18'/%3E%3Cpath d='m6 6 12 12'/%3E%3C/svg%3E");
+  --icon-check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E");
+  --icon-plus: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14'/%3E%3Cpath d='M12 5v14'/%3E%3C/svg%3E");
+  --icon-minus: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14'/%3E%3C/svg%3E");
+  --icon-chevron-down: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  --icon-chevron-left: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m15 18-6-6 6-6'/%3E%3C/svg%3E");
+  --icon-chevron-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m9 18 6-6-6-6'/%3E%3C/svg%3E");
+  --icon-arrow-up: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 12 7-7 7 7'/%3E%3Cpath d='M12 19V5'/%3E%3C/svg%3E");
+  --icon-arrow-down: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 5v14'/%3E%3Cpath d='m19 12-7 7-7-7'/%3E%3C/svg%3E");
+  --icon-arrow-up-down: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m21 16-4 4-4-4'/%3E%3Cpath d='M17 20V4'/%3E%3Cpath d='m3 8 4-4 4 4'/%3E%3Cpath d='M7 4v16'/%3E%3C/svg%3E");
+  --icon-search: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m21 21-4.34-4.34'/%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3C/svg%3E");
+}
+/* @icon-tokens:end */
+
+/* =========================================================================
+   Density — global UI compactness
+   <html density="compact">       26px controls (ContextBase compact)
+   (no attribute) / "default"     28px controls (ContextBase)
+   <html density="comfortable">   32px controls (fileman; with skin="fileman")
+   <html density="touch">         44px controls for touch screens
+   Works on <html> or any subtree, like skins and theme. Components size
+   their controls, rows, cells and panels from these tokens only.
+     --control-height(-1…4)  single-line controls (input, button, select…);
+                             -4 is the standard size, -3/-2/-1 smaller ones
+     --control-pad-x/-y      inner padding of controls
+     --control-font-size     text inside controls, menus and lists
+     --control-gap           gap between a control's icon/text/chevron
+     --item-pad-x/-y         rows in menus, listboxes, trees, options
+     --cell-pad-x/-y         table and grid cells
+     --panel-pad             cards, dialogs, popovers, drawers
+   ========================================================================= */
+:root, [density] {
+  --control-height-1: 1.25rem;
+  --control-height-2: 1.375rem;
+  --control-height-3: 1.5rem;
+  --control-height-4: 1.75rem;
+  --control-height: var(--control-height-4);
+  --control-pad-x: 0.625rem;
+  --control-pad-y: 0.25rem;
+  --control-font-size: 0.8125rem;
+  --control-gap: 0.375rem;
+  --item-pad-x: 0.5rem;
+  --item-pad-y: 0.25rem;
+  --cell-pad-x: 0.5rem;
+  --cell-pad-y: 0.375rem;
+  --panel-pad: 0.75rem;
+}
+[density="compact"] {
+  --control-height-1: 1.125rem;
+  --control-height-2: 1.25rem;
+  --control-height-3: 1.375rem;
+  --control-height-4: 1.625rem;
+  --control-height: var(--control-height-4);
+  --control-pad-x: 0.5rem;
+  --control-pad-y: 0.1875rem;
+  --control-font-size: 0.8125rem;
+  --control-gap: 0.3125rem;
+  --item-pad-x: 0.5rem;
+  --item-pad-y: 0.1875rem;
+  --cell-pad-x: 0.5rem;
+  --cell-pad-y: 0.3125rem;
+  --panel-pad: 0.625rem;
+}
+[density="comfortable"] {
+  --control-height-1: 1.25rem;
+  --control-height-2: 1.5rem;
+  --control-height-3: 1.75rem;
+  --control-height-4: 2rem;
+  --control-height: var(--control-height-4);
+  --control-pad-x: 0.625rem;
+  --control-pad-y: 0.3125rem;
+  --control-font-size: 0.8125rem;
+  --control-gap: 0.4375rem;
+  --item-pad-x: 0.5625rem;
+  --item-pad-y: 0.375rem;
+  --cell-pad-x: 0.5rem;
+  --cell-pad-y: 0.5rem;
+  --panel-pad: 1rem;
+}
+[density="touch"] {
+  --control-height-1: 1.75rem;
+  --control-height-2: 2rem;
+  --control-height-3: 2.25rem;
+  --control-height-4: 2.75rem;
+  --control-height: var(--control-height-4);
+  --control-pad-x: 1rem;
+  --control-pad-y: 0.5rem;
+  --control-font-size: 1rem;
+  --control-gap: 0.625rem;
+  --item-pad-x: 0.875rem;
+  --item-pad-y: 0.5rem;
+  --cell-pad-x: 1rem;
+  --cell-pad-y: 0.75rem;
+  --panel-pad: 1.5rem;
+}
+
+/* =========================================================================
+   Scrollbars — one look for native scrollbars and <x-scroll-area>
+   Set on :root, a skin or any container. <x-scroll-area> uses every token;
+   native scrollbars use the colours (and Safari/old Chromium the size too).
+   ========================================================================= */
+:root {
+  --scrollbar-size: 6px;
+  --scrollbar-size-hover: 10px;
+  --scrollbar-inset: 2px;
+  --scrollbar-radius: 999px;
+  --scrollbar-min-thumb: 24px;
+  --scrollbar-thumb: color-mix(in srgb, var(--gray-9) 45%, transparent);
+  --scrollbar-thumb-hover: color-mix(in srgb, var(--gray-9) 70%, transparent);
+  --scrollbar-thumb-active: var(--gray-10);
+  --scrollbar-track: transparent;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+@supports not (scrollbar-color: auto) {
+  ::-webkit-scrollbar { width: calc(var(--scrollbar-size) + var(--scrollbar-inset) * 2); height: calc(var(--scrollbar-size) + var(--scrollbar-inset) * 2); background: var(--scrollbar-track); }
+  ::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border: var(--scrollbar-inset) solid transparent; border-radius: var(--scrollbar-radius); background-clip: padding-box; }
+  ::-webkit-scrollbar-thumb:hover { background-color: var(--scrollbar-thumb-hover); }
+  ::-webkit-scrollbar-corner { background: var(--scrollbar-track); }
+}
+
+:root {
+  --field-focus-ring: inset 0 0 0 1px var(--color-primary);
+  --field-invalid-ring: inset 0 0 0 1px var(--error-solid);
+}
+
+/* Base Reset & Foundation */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: 0.875rem;
+  line-height: var(--line-height);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Accessibility Focus Ring */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Semantic Elements */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: var(--space);
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--space);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-speed) ease;
+}
+a:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+
+/* Form Controls & Buttons */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: var(--control-font-size);
+  line-height: 1.25;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  /* Height = --control-height exactly: (height - line box - 2px border) / 2. No min-height, so the
+     small buttons components build (clear, close, toggles) keep their own size. */
+  padding: calc((var(--control-height) - 1.25em - 2px) / 2) var(--control-pad-x);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease, color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 500;
+  background-color: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+button:hover:not(:disabled) {
+  background-color: var(--color-surface-elevated);
+  border-color: var(--color-border-hover);
+}
+
+button:disabled, input:disabled, select:disabled, textarea:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button.primary, button[type="submit"] {
+  background-color: var(--color-primary);
+  color: var(--color-primary-contrast);
+  border-color: var(--color-primary);
+}
+button.primary:hover:not(:disabled), button[type="submit"]:hover:not(:disabled) {
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+}
+
+/* Fields focus with an accent border + 1px inset line (no halo); buttons keep --focus-ring. */
+input:focus, select:focus, textarea:focus {
+  border-color: var(--color-primary);
+  box-shadow: var(--field-focus-ring);
+  outline: none;
+}
+
+/* -------------------------------------------------------------------------
+   Native controls drawn the same in every browser (no JS).
+   Selectors are input:where(…) — the specificity of a bare `input` — so any
+   component class wins over them. Controls whose POPUP is browser UI (date,
+   time, color, select lists) have Blueprint components instead:
+   <x-date-picker>, <x-time-picker>, <x-datetime-picker>, <x-color-picker>, <x-select>.
+   ------------------------------------------------------------------------- */
+
+/* Checkbox & radio */
+input:where([type="checkbox"], [type="radio"]) {
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-grid;
+  place-content: center;
+  flex: none;
+  width: 1.125rem;
+  height: 1.125rem;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: -0.2em;
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--color-background);
+  cursor: pointer;
+}
+input:where([type="radio"]) { border-radius: 50%; }
+input:where([type="checkbox"], [type="radio"])::before {
+  content: "";
+  width: 0.75rem;
+  height: 0.75rem;
+  background: var(--color-primary-contrast);
+  transform: scale(0);
+  transition: transform 0.12s ease;
+}
+input:where([type="checkbox"])::before {
+  -webkit-mask: var(--icon-check) center / contain no-repeat;
+  mask: var(--icon-check) center / contain no-repeat;
+}
+input:where([type="radio"])::before { width: 0.5rem; height: 0.5rem; border-radius: 50%; }
+input:where([type="checkbox"], [type="radio"]):checked,
+input:where([type="checkbox"]):indeterminate { background: var(--color-primary); border-color: var(--color-primary); }
+input:where([type="checkbox"], [type="radio"]):checked::before,
+input:where([type="checkbox"]):indeterminate::before { transform: scale(1); }
+input:where([type="checkbox"]):indeterminate::before {
+  -webkit-mask-image: var(--icon-minus);
+  mask-image: var(--icon-minus);
+}
+input:where([type="checkbox"], [type="radio"]):hover:not(:disabled):not(:checked) { border-color: var(--color-border-hover); }
+input:where([type="checkbox"], [type="radio"]):focus { box-shadow: none; }
+input:where([type="checkbox"], [type="radio"]):focus-visible { box-shadow: var(--focus-ring); outline: none; }
+input:where([type="checkbox"], [type="radio"]):disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Range */
+input:where([type="range"]) {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10rem;
+  height: 1.25rem;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  vertical-align: middle;
+  cursor: pointer;
+}
+input:where([type="range"])::-webkit-slider-runnable-track { height: 4px; border-radius: 999px; background: var(--gray-5); }
+input:where([type="range"])::-moz-range-track { height: 4px; border-radius: 999px; background: var(--gray-5); }
+input:where([type="range"])::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  width: 1rem;
+  height: 1rem;
+  margin-top: calc(2px - 0.5rem);
+  border: 2px solid var(--color-primary);
+  border-radius: 50%;
+  background: var(--color-background);
+  box-shadow: var(--shadow-1);
+}
+input:where([type="range"])::-moz-range-thumb {
+  box-sizing: border-box;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid var(--color-primary);
+  border-radius: 50%;
+  background: var(--color-background);
+  box-shadow: var(--shadow-1);
+}
+input:where([type="range"]):focus { box-shadow: none; }
+input:where([type="range"]):focus-visible { outline: none; }
+input:where([type="range"]):focus-visible::-webkit-slider-thumb { box-shadow: var(--focus-ring); }
+input:where([type="range"]):focus-visible::-moz-range-thumb { box-shadow: var(--focus-ring); }
+input:where([type="range"]):disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Progress & meter */
+progress, meter {
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 10rem;
+  height: 0.5rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--gray-4);
+  overflow: hidden;
+  vertical-align: middle;
+}
+progress::-webkit-progress-bar { background: var(--gray-4); border-radius: 999px; }
+progress::-webkit-progress-value { background: var(--color-primary); border-radius: 999px; transition: width 0.2s ease; }
+progress::-moz-progress-bar { background: var(--color-primary); border-radius: 999px; }
+progress:indeterminate {
+  background: linear-gradient(90deg, var(--gray-4) 0 30%, var(--color-primary) 30% 60%, var(--gray-4) 60%) 0 0 / 250% 100%;
+  animation: progress-indeterminate 1.2s linear infinite;
+}
+progress:indeterminate::-webkit-progress-bar { background: transparent; }
+progress:indeterminate::-moz-progress-bar { background: transparent; }
+@keyframes progress-indeterminate { from { background-position: 100% 0; } to { background-position: -150% 0; } }
+@media (prefers-reduced-motion: reduce) { progress:indeterminate { animation-duration: 4s; } }
+meter::-webkit-meter-bar { height: 0.5rem; border: 0; border-radius: 999px; background: var(--gray-4); }
+meter::-webkit-meter-optimum-value { background: var(--color-success); border-radius: 999px; }
+meter::-webkit-meter-suboptimum-value { background: var(--color-warning); border-radius: 999px; }
+meter::-webkit-meter-even-less-good-value { background: var(--color-error); border-radius: 999px; }
+meter::-moz-meter-bar { background: var(--color-success); border-radius: 999px; }
+meter:-moz-meter-sub-optimum::-moz-meter-bar { background: var(--color-warning); }
+meter:-moz-meter-sub-sub-optimum::-moz-meter-bar { background: var(--color-error); }
+
+/* File: style the browse button itself */
+input:where([type="file"]) { padding: 0.25rem; font-size: 0.875rem; cursor: pointer; }
+input:where([type="file"])::file-selector-button {
+  margin: 0 0.75rem 0 0;
+  padding: 0.125rem var(--control-pad-x);
+  border: 1px solid var(--color-border);
+  border-radius: calc(var(--radius) - 2px);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+input:where([type="file"])::file-selector-button:hover { background: var(--color-surface-2); border-color: var(--color-border-hover); }
+
+/* Color: a plain swatch (the colour dialog is OS UI; use <x-color-picker>) */
+input:where([type="color"]) { width: var(--control-height); height: var(--control-height); padding: 0.25rem; cursor: pointer; }
+input:where([type="color"])::-webkit-color-swatch-wrapper { padding: 0; }
+input:where([type="color"])::-webkit-color-swatch { border: 0; border-radius: calc(var(--radius) - 3px); }
+input:where([type="color"])::-moz-color-swatch { border: 0; border-radius: calc(var(--radius) - 3px); }
+
+/* Text-like inputs: drop engine-specific chrome (search clear button, number spinners, iOS shading) */
+input:where(:not([type]), [type="text"], [type="search"], [type="email"], [type="url"], [type="tel"], [type="password"], [type="number"]), textarea {
+  -webkit-appearance: none;
+  appearance: none;
+}
+input:where([type="search"])::-webkit-search-cancel-button,
+input:where([type="search"])::-webkit-search-decoration { -webkit-appearance: none; appearance: none; }
+input:where([type="number"])::-webkit-inner-spin-button,
+input:where([type="number"])::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+input:where([type="number"]) { -moz-appearance: textfield; }
+
+/* Native <select> (closed state only — its list is browser UI; use <x-select>) */
+select:where(:not([multiple]):not([size])) {
+  -webkit-appearance: none;
+  appearance: none;
+  padding-right: 2.25rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a8d9c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+}
+
+/* Scrollbars: see the Scrollbars block near the top. */
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: var(--space);
+}
+table th, table td {
+  padding: var(--cell-pad-y) var(--cell-pad-x);
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+table th {
+  font-weight: 600;
+  background-color: var(--color-surface);
+}
+
+/* Articles & Cards */
+article, .card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--panel-pad);
+  margin-bottom: var(--space);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Code & Pre */
+code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background-color: var(--color-surface-elevated);
+  padding: 0.125rem 0.375rem;
+  border-radius: var(--radius-sm);
+}
+
+pre {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: var(--space);
+  border-radius: var(--radius);
+  overflow-x: auto;
+}
+pre code {
+  background: none;
+  padding: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: var(--space-lg) 0;
+}
+
+/* Utility Classes */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space);
+  padding-right: var(--space);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space);
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space);
+}
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small {
+  font-size: max(0.75rem, calc(var(--control-font-size) - 0.0625rem));
+  padding: calc(var(--control-pad-y) * 0.5) calc(var(--control-pad-x) * 0.75);
+}
+:is(button, input, select, textarea).small { padding-block: calc((var(--control-height-3) - 1.25em - 2px) / 2); }
+
+.large {
+  font-size: calc(var(--control-font-size) + 0.125rem);
+  padding: calc(var(--control-pad-y) * 1.5) calc(var(--control-pad-x) * 1.5);
+}
+:is(button, input, select, textarea).large { padding-block: calc((var(--control-height) + 0.5rem - 1.25em - 2px) / 2); }
+
+.sr-only,
+.visually-hidden {
+  white-space: nowrap;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+/* Component Styling Hooks */
+
+/* Accordion */
+x-accordion details {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  margin-bottom: var(--space-sm);
+  background-color: var(--color-surface);
+  overflow: hidden;
+  transition: border-color var(--transition-speed) ease;
+}
+x-accordion details[open] {
+  border-color: var(--color-primary);
+}
+x-accordion summary {
+  padding: calc(var(--item-pad-y) * 1.5) calc(var(--item-pad-x) * 1.5);
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+x-accordion summary::-webkit-details-marker {
+  display: none;
+}
+x-accordion summary::after {
+  content: "";
+  display: inline-block;
+  flex: none;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask: var(--icon-plus) center / contain no-repeat;
+  mask: var(--icon-plus) center / contain no-repeat;
+  font-size: 1.25rem;
+  transition: transform var(--transition-speed) ease;
+}
+x-accordion details[open] summary::after {
+  -webkit-mask-image: var(--icon-minus);
+  mask-image: var(--icon-minus);
+}
+x-accordion details > *:not(summary) {
+  padding: calc(var(--item-pad-y) * 1.5) calc(var(--item-pad-x) * 1.5);
+  border-top: 1px solid var(--color-border);
+}
+
+/* Tabs: styles live in components/tabs/tabs.css */
+
+/* Dialog & Modal */
+dialog {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: calc(var(--panel-pad) * 1.5);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  box-shadow: var(--shadow-lg);
+  max-width: 500px;
+  width: 90%;
+}
+dialog::backdrop {
+  background-color: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(2px);
+}
+
+/* Dropdown Menu */
+x-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + var(--space-xs));
+  left: 0;
+  z-index: 1000;
+  min-width: 200px;
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: var(--space-xs) 0;
+  display: none;
+}
+.dropdown-menu.active, x-dropdown[aria-expanded="true"] .dropdown-menu {
+  display: block;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  min-height: 0;
+  padding: var(--item-pad-y) var(--item-pad-x);
+  font-size: var(--control-font-size);
+  text-align: left;
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: var(--color-text);
+  cursor: pointer;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+}
+
+/* Tooltip: styles live in components/tooltip/tooltip.css */
+
+/* Toast */
+.toast-container {
+  position: fixed;
+  bottom: var(--space-lg);
+  right: var(--space-lg);
+  z-index: 3000;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  max-width: 380px;
+}
+.toast {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius);
+  padding: var(--panel-pad);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: toast-slide-in var(--transition-speed) ease;
+}
+.toast.success { border-left-color: var(--color-success); }
+.toast.error { border-left-color: var(--color-error); }
+.toast.warning { border-left-color: var(--color-warning); }
+@keyframes toast-slide-in {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Form Helper Classes */
+.form-group {
+  margin-bottom: var(--space);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+.form-group label {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.help-text {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 0.125rem;
+}
+.error-text {
+  font-size: 0.75rem;
+  color: var(--error-text);
+  margin-top: 0.125rem;
+}
+.error-text:empty { display: none; }
+
+/* Validation states — native, no JS.
+   :user-invalid / :user-valid only match after the user has changed the field
+   or tried to submit, so pristine forms never open covered in errors.
+   [aria-invalid="true"] covers fields flagged by scripts (e.g. form-validation). */
+:is(input, select, textarea):user-invalid,
+:is(input, select, textarea)[aria-invalid="true"] {
+  border-color: var(--error-solid);
+}
+:is(input, select, textarea):user-invalid:focus,
+:is(input, select, textarea)[aria-invalid="true"]:focus {
+  border-color: var(--error-solid);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--error-solid) 22%, transparent);
+}
+:is(input, select, textarea):user-valid:is([required], [pattern], [min], [max], [minlength], [maxlength], [type="email"], [type="url"]):not([aria-invalid="true"]) {
+  border-color: var(--success-solid);
+}
+input:is([type="checkbox"], [type="radio"]):user-invalid {
+  outline: 2px solid var(--error-solid);
+  outline-offset: 2px;
+}
+/* Opt-in CSS-only message: shown while a control in the same group is invalid */
+.error-text[when-invalid] { display: none; }
+:is(.form-group, label, fieldset):has(:user-invalid) > .error-text[when-invalid] { display: block; }
+
+/* Switch */
+.switch-label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  cursor: pointer;
+}
+.switch {
+  appearance: none;
+  width: 2.5rem;
+  height: 1.375rem;
+  background-color: var(--color-border);
+  border-radius: var(--radius-full);
+  position: relative;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-speed) ease;
+}
+.switch::after {
+  content: "";
+  position: absolute;
+  top: 0.125rem;
+  left: 0.125rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  background-color: #ffffff;
+  border-radius: var(--radius-full);
+  transition: transform var(--transition-speed) ease;
+}
+.switch:checked {
+  background-color: var(--color-primary);
+}
+.switch:checked::after {
+  transform: translateX(1.125rem);
+}
