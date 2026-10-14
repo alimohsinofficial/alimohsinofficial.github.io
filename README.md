@@ -55,3 +55,10 @@ The original site and local assets are preserved on `codex/legacy-portfolio-2026
 
 ### Contact provider
 Studio and Tactical use the standalone Blueprint `x-contact-form` component. Google Form endpoint and entry mappings are configured in HTML (and shared Tactical markup in assets/portfolio.js). No build, npm, backend, or per-page submission JavaScript is required. Native submission opens Google confirmation in a new tab; the component never claims delivery. Use the direct Google Form link if provider restrictions prevent a custom form handoff.
+
+### Creative scenes and motion
+Studio keeps its fixed identity column and full-width scrolling content. Its introduction uses a Three.js metal sculpture; research uses orbital geometry; the acoustic project and contact field use PixiJS WebGL graphics. Tactical overview uses a Three.js topology model and a PixiJS radar illustration, separate from the existing amCharts geographic globe.
+
+Libraries are pinned, locally hosted classic browser scripts: Three.js 0.160.1 (the classic distribution preserves direct-file operation) and PixiJS 8.6.6. MIT licenses are included. No npm, TypeScript, compilation, API key or external rendering service is required. Actual text, links, contact controls and navigation remain HTML. The radar and acoustic art are illustrations, not live measurements.
+
+`assets/visual-scenes.js` lazily initializes visible scenes, caps pixel density at 1.5 and drawing at approximately 30 fps, stops continuous rendering offscreen or when the page is hidden, disposes detached Tactical views, and repaints on theme changes. Reduced-motion mode renders a static frame. A WebGL failure retains a CSS illustration. `assets/creative.css` controls the six distinct section compositions, while `assets/studio.js` owns GSAP scroll choreography and fine-pointer tilt/magnet interactions.
