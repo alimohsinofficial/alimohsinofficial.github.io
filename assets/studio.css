@@ -21,5 +21,17 @@ html[data-experience="studio"] body{height:100dvh;margin:0;display:flex;flex-dir
 @media(max-width:900px){.studio-detail .detail-wrap .project-card{grid-template-columns:1fr}}
 @media print{html[data-experience="studio"],html[data-experience="studio"] body{height:auto;display:block;overflow:visible;padding:0}.studio-layout{display:block;width:100%;height:auto}.studio-profile-card,.studio-bottom-nav,.studio-header,.studio-footer{display:none}.studio-scroll{height:auto;overflow:visible}.studio-detail .detail-wrap{padding:0}}
 
-/* Studio controls: soft geometry, flat content surfaces. */
-.studio-header nav{gap:4px;padding:4px;border:1px solid var(--line);border-radius:30px}.studio-header nav a{padding:9px 15px;border-radius:22px;text-decoration:none;transition:background .2s,color .2s}.studio-header nav a:hover,.studio-header nav a[aria-current]{background:var(--ink);color:var(--bg)}.experience-link,.pill-link,.button,.profile-card-actions a{border-radius:12px}.profile-card-socials a{border-radius:50%}.studio-contact x-contact-form{margin-top:35px}.studio-scroll x-contact-form{--radius:10px;--control-height:48px;--panel-pad:20px;--color-background:var(--bg);--color-text:var(--ink);--color-text-muted:var(--muted);--color-border:var(--line);--accent-9:var(--accent);font-size:16px}.form-provider{font-size:13px;line-height:1.7;color:var(--muted);margin-top:12px}.form-provider a{color:var(--accent)}@media(max-width:1100px){.studio-header nav a{padding:9px 10px;font-size:13px}}
+/* Compact Studio controls; profile actions retain their original flat treatment. */
+.studio-header nav{gap:6px;padding:0;border:0;border-radius:0}
+.studio-header nav a{padding:6px 11px;border:1px solid var(--line);border-radius:6px;font-size:13px;line-height:1.5;text-decoration:none;transition:background .2s,color .2s,border-color .2s}
+.studio-header nav a::after{content:none}
+.studio-header nav a:hover,.studio-header nav a[aria-current]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.experience-controls{gap:12px}.experience-link{padding:7px 11px;border-radius:6px;line-height:1.5}
+.pill-link,.studio-detail .detail-wrap .button{padding:8px 13px;border-radius:6px;gap:10px;font-size:13px;line-height:1.5}
+.studio-contact x-contact-form{margin-top:24px}
+.studio-scroll x-contact-form{--radius:6px;--control-height:38px;--control-pad-y:7px;--control-pad-x:11px;--panel-pad:14px;--color-background:var(--bg);--color-text:var(--ink);--color-text-muted:var(--muted);--color-border:var(--line);--accent-9:var(--accent);font-size:16px}
+.studio-scroll x-contact-form .contact-submit{font-size:14px}
+.form-provider{font-size:13px;line-height:1.7;color:var(--muted);margin-top:10px}.form-provider a{color:var(--accent)}
+@media(min-width:901px){.studio-header{height:64px}.studio-layout{min-height:0}}
+@media(min-width:901px) and (max-width:1100px){.studio-header nav{gap:4px}.studio-header nav a{padding:6px 8px}}
+@media(max-width:900px){.experience-link,.pill-link,.studio-detail .detail-wrap .button{min-height:44px;display:inline-flex;align-items:center}.studio-scroll x-contact-form{--control-height:44px}}
