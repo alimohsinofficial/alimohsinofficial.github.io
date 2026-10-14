@@ -10,3 +10,8 @@ x-theme-toggle.switch x-icon{display:flex!important;align-items:center;justify-c
 x-theme-toggle.switch svg{display:block;width:14px!important;height:14px!important;overflow:visible;color:inherit!important;stroke:currentColor;fill:none}
 x-theme-toggle.switch .theme-toggle-label{display:none!important}
 x-theme-toggle.switch .theme-toggle-switch:focus-visible{outline:2px solid var(--accent)!important;outline-offset:4px}
+
+/* Navigation between experiences is a button-shaped link in every state. */
+a.experience-link,a.studio-switch,a.experience-link:hover,a.studio-switch:hover,a.experience-link:focus-visible,a.studio-switch:focus-visible,a.experience-link:active,a.studio-switch:active,a.experience-link:visited,a.studio-switch:visited{text-decoration:none;}
+a.experience-link,a.studio-switch{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);color:var(--ink);font-weight:500;}
+a.experience-link:hover,a.studio-switch:hover{background:var(--surface);border-color:var(--accent);color:var(--accent);}
