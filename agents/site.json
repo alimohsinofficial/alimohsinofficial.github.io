@@ -1,0 +1,119 @@
+{
+  "name": "Mohsin Ali",
+  "canonicalSite": "https://alimohsinofficial.github.io/",
+  "updated": "2026-10-14",
+  "directory": "https://alimohsinofficial.github.io/llms.txt",
+  "fullText": "https://alimohsinofficial.github.io/llms-full.txt",
+  "pages": [
+    {
+      "title": "About Mohsin Ali",
+      "url": "https://alimohsinofficial.github.io/about/",
+      "markdown": "https://alimohsinofficial.github.io/about/index.md",
+      "path": "/about/",
+      "type": "ProfilePage"
+    },
+    {
+      "title": "Content for AI agents",
+      "url": "https://alimohsinofficial.github.io/agents/",
+      "markdown": "https://alimohsinofficial.github.io/agents/index.md",
+      "path": "/agents/",
+      "type": "CollectionPage"
+    },
+    {
+      "title": "A new home for the work, and the thinking behind it",
+      "url": "https://alimohsinofficial.github.io/blog/a-new-home/",
+      "markdown": "https://alimohsinofficial.github.io/blog/a-new-home/index.md",
+      "path": "/blog/a-new-home/",
+      "type": "WebPage"
+    },
+    {
+      "title": "The field notebook",
+      "url": "https://alimohsinofficial.github.io/blog/",
+      "markdown": "https://alimohsinofficial.github.io/blog/index.md",
+      "path": "/blog/",
+      "type": "CollectionPage"
+    },
+    {
+      "title": "Contact",
+      "url": "https://alimohsinofficial.github.io/contact/",
+      "markdown": "https://alimohsinofficial.github.io/contact/index.md",
+      "path": "/contact/",
+      "type": "ContactPage"
+    },
+    {
+      "title": "Portfolio, engineering & field notes",
+      "url": "https://alimohsinofficial.github.io/",
+      "markdown": "https://alimohsinofficial.github.io/index.md",
+      "path": "/",
+      "type": "WebPage"
+    },
+    {
+      "title": "Privacy and site data",
+      "url": "https://alimohsinofficial.github.io/privacy/",
+      "markdown": "https://alimohsinofficial.github.io/privacy/index.md",
+      "path": "/privacy/",
+      "type": "WebPage"
+    },
+    {
+      "title": "AI-AFS",
+      "url": "https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/",
+      "markdown": "https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/index.md",
+      "path": "/projects/acoustic-ai-aquaculture/",
+      "type": "WebPage"
+    },
+    {
+      "title": "Selected work",
+      "url": "https://alimohsinofficial.github.io/projects/",
+      "markdown": "https://alimohsinofficial.github.io/projects/index.md",
+      "path": "/projects/",
+      "type": "CollectionPage"
+    },
+    {
+      "title": "Physics-informed modelling",
+      "url": "https://alimohsinofficial.github.io/projects/physics-informed-modelling/",
+      "markdown": "https://alimohsinofficial.github.io/projects/physics-informed-modelling/index.md",
+      "path": "/projects/physics-informed-modelling/",
+      "type": "WebPage"
+    },
+    {
+      "title": "R&D delivery platform",
+      "url": "https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/",
+      "markdown": "https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/index.md",
+      "path": "/projects/portfolio-delivery-platform/",
+      "type": "WebPage"
+    },
+    {
+      "title": "QuantAirSense",
+      "url": "https://alimohsinofficial.github.io/projects/quantairsense/",
+      "markdown": "https://alimohsinofficial.github.io/projects/quantairsense/index.md",
+      "path": "/projects/quantairsense/",
+      "type": "WebPage"
+    },
+    {
+      "title": "Research & publications",
+      "url": "https://alimohsinofficial.github.io/research/",
+      "markdown": "https://alimohsinofficial.github.io/research/index.md",
+      "path": "/research/",
+      "type": "CollectionPage"
+    },
+    {
+      "title": "Web resume",
+      "url": "https://alimohsinofficial.github.io/resume/",
+      "markdown": "https://alimohsinofficial.github.io/resume/index.md",
+      "path": "/resume/",
+      "type": "ProfilePage"
+    }
+  ],
+  "contact": {
+    "page": "https://alimohsinofficial.github.io/contact/",
+    "provider": "Google Forms",
+    "publicForm": "https://docs.google.com/forms/d/e/1FAIpQLSfTnbNq_cn2CfGCwQTtUNxg5z5Db9USCzMUQllkSMwnDvtIzg/viewform",
+    "fields": [
+      "Full name",
+      "Email address",
+      "Subject",
+      "Message"
+    ],
+    "confirmation": "Google confirms submission in a new tab."
+  }
+}

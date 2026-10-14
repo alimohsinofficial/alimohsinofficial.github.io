@@ -1,0 +1,787 @@
+# Mohsin Ali — complete public content
+
+# About Mohsin Ali
+
+Canonical page: https://alimohsinofficial.github.io/about/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+ABOUT
+
+## A builder with *a research mindset.*
+
+CTO, engineer & research collaborator
+
+![Mohsin Ali](https://alimohsinofficial.github.io/assets/images/profile.png)
+
+## Ideas into systems.
+
+Technology executive and hands-on engineering leader with 10+ years building software, AI/ML, and deep-tech products from research to production. At Quantonova, my work spans AI-driven industrial monitoring, quantum sensing, edge inference, and agentic automation. I connect technical strategy with hands-on delivery, team leadership, and research collaboration.
+
+My background spans game development, web and mobile software, engineering leadership, and applied research. That range connects the details of implementation to the broader goals of a project.
+
+Today, the work at Quantonova brings together industrial AI, acoustic monitoring, quantum sensing, and tools for managing R&D delivery.
+
+[Read the full resume ↗](https://alimohsinofficial.github.io/resume/)
+
+## Where I can contribute.
+
+01
+
+### AI & intelligent systems
+
+Interpretable machine learning, AI workflows, agentic architecture, and edge inference.
+
+02
+
+### Software & platforms
+
+Full-stack systems, cloud deployment, dashboards, and developer tooling.
+
+03
+
+### R&D & technical leadership
+
+Technology strategy, research delivery, team mentoring, and translating emerging ideas into products.
+
+## The toolkit
+
+AI, ML & data
+
+Python scikit-learn pandas / NumPy Random Forest SHAP Physics-informed neural networks Edge inference Power BI Jupyter
+
+Software & cloud
+
+JavaScript / TypeScript PHP Java C / C++ SQL React / React Native Vue Web Components Node.js Laravel / Livewire Docker Google Cloud Run PostgreSQL MySQL SQLite WordPress REST APIs Git / CI/CD HTML5 / CSS3 Tailwind CSS CodeIgniter Flutter
+
+Research & hardware
+
+Quantum error correction NV-centre magnetometry Quantum LiDAR FPGA / PYNQ-Z2 Data engineering
+
+Leadership & delivery
+
+Technology strategy R&D roadmaps Project management Team mentoring Grant applications Product commercialisation Cross-functional partnerships
+
+Creative & agent tools
+
+Claude Code OpenAI Codex Google Gemini NotebookLM n8n Figma Unity Unreal Engine Blender Photoshop / Illustrator DaVinci Resolve Obsidian Notion Adobe Premiere Pro World Creator Gaea Chrome extension development
+
+## Good work starts with a conversation.
+
+[Say hello ↗](https://alimohsinofficial.github.io/contact/)
+
+
+---
+
+# Content for AI agents
+
+Canonical page: https://alimohsinofficial.github.io/agents/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+The same portfolio facts and writing, available as Markdown without rendering JavaScript or WebGL.
+
+## Start here
+
+[Markdown content directory](https://alimohsinofficial.github.io/llms.txt) · [Complete text collection](https://alimohsinofficial.github.io/llms-full.txt) · [JSON page manifest](https://alimohsinofficial.github.io/agents/site.json)
+
+Studio HTML pages are the canonical public content. Tactical is an alternate interactive view of the same material. Project figures retain their source and validation caveats.
+
+## Portfolio content
+
+- [About Mohsin Ali](https://alimohsinofficial.github.io/about/) · [Markdown](https://alimohsinofficial.github.io/about/index.md)
+- [A new home for the work, and the thinking behind it](https://alimohsinofficial.github.io/blog/a-new-home/) · [Markdown](https://alimohsinofficial.github.io/blog/a-new-home/index.md)
+- [The field notebook](https://alimohsinofficial.github.io/blog/) · [Markdown](https://alimohsinofficial.github.io/blog/index.md)
+- [Contact](https://alimohsinofficial.github.io/contact/) · [Markdown](https://alimohsinofficial.github.io/contact/index.md)
+- [Portfolio, engineering & field notes](https://alimohsinofficial.github.io/) · [Markdown](https://alimohsinofficial.github.io/index.md)
+- [Privacy and site data](https://alimohsinofficial.github.io/privacy/) · [Markdown](https://alimohsinofficial.github.io/privacy/index.md)
+- [AI-AFS](https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/) · [Markdown](https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/index.md)
+- [Selected work](https://alimohsinofficial.github.io/projects/) · [Markdown](https://alimohsinofficial.github.io/projects/index.md)
+- [Physics-informed modelling](https://alimohsinofficial.github.io/projects/physics-informed-modelling/) · [Markdown](https://alimohsinofficial.github.io/projects/physics-informed-modelling/index.md)
+- [R&D delivery platform](https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/) · [Markdown](https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/index.md)
+- [QuantAirSense](https://alimohsinofficial.github.io/projects/quantairsense/) · [Markdown](https://alimohsinofficial.github.io/projects/quantairsense/index.md)
+- [Research & publications](https://alimohsinofficial.github.io/research/) · [Markdown](https://alimohsinofficial.github.io/research/index.md)
+- [Web resume](https://alimohsinofficial.github.io/resume/) · [Markdown](https://alimohsinofficial.github.io/resume/index.md)
+
+## Contact
+
+[Open the contact page](https://alimohsinofficial.github.io/contact/) or [use the public Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfTnbNq_cn2CfGCwQTtUNxg5z5Db9USCzMUQllkSMwnDvtIzg/viewform). It contains Full name, Email address, Subject, and Message fields. Submission opens Google’s confirmation; the portfolio does not report delivery.
+
+Browser location lookup and device geolocation are optional visitor controls. They are unrelated to the portfolio facts and are not needed to read the site.
+
+
+---
+
+# A new home for the work, and the thinking behind it
+
+Canonical page: https://alimohsinofficial.github.io/blog/a-new-home/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+Field notes / Site note
+
+A portfolio rebuild that makes space for writing, while keeping the engineering work in view.
+
+Mohsin Ali 14 Oct 20262 min read AI-assisted
+
+## A portfolio that leaves room for thinking
+
+This site brings together Mohsin Ali's engineering work, research, and professional background. The rebuild also gives writing a permanent home: a field notebook for AI, software systems, deep-tech research, and the process of building things.
+
+The notebook is intended to grow alongside the work. Project pages provide the practical context; the resume brings the career history together; research pages connect to the original publications.
+
+## Two ways to explore
+
+Studio keeps a fixed profile area on the left and scrolling content on the right, with flat sections and GSAP motion. Tactical is a separate full-screen military HUD: content changes in place, details open in dialogs, and the spherical globe is a small optional widget alongside the clock and visitor readouts. Mobile navigation sits at the bottom. Switching experiences retains the selected section or detail. Both have light and dark appearances. Public IP and approximate location lookup are visitor-initiated.
+
+## Built to stay simple
+
+The site is static. Pages use folder-based URLs, and the interface uses the local Blueprint UI web component library. Articles are directly editable HTML pages. Writing can be prepared with AI, reviewed, and added without a compiler, package manager, server, or database.
+
+## What comes next
+
+Planned topics include interpretable industrial AI, agent-assisted software development, research moving into production, and lessons from game and web development. Future articles will distinguish measured results from hypotheses and include useful source links where available.
+
+This opening note was prepared with AI assistance from the portfolio brief. Project figures and career details elsewhere on the site are based on the supplied resume and are pending the owner's next update.
+
+[More from the notebook ↗](https://alimohsinofficial.github.io/blog/)
+
+
+---
+
+# The field notebook
+
+Canonical page: https://alimohsinofficial.github.io/blog/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+THE FIELD NOTEBOOK
+
+## Ideas, observations, *and working notes.*
+
+A place for the thinking behind the work. AI, software systems, deep-tech research, and the lessons learned along the way.
+
+Search the notebook
+
+1 note
+
+Field notes Site note
+
+### [A new home for the work, and the thinking behind it](https://alimohsinofficial.github.io/blog/a-new-home/)
+
+A portfolio rebuild that makes space for writing, while keeping the engineering work in view.
+
+14 Oct 2026 · 2 min read ↗
+
+No notes match this search. Try another phrase or category.
+
+A GROWING NOTEBOOK
+
+## Curiosity is the through-line.
+
+Upcoming themes include interpretable industrial AI, agent-assisted development, quantum systems, and research in production. Articles prepared with AI assistance are labelled individually.
+
+
+---
+
+# Contact
+
+Canonical page: https://alimohsinofficial.github.io/contact/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+START A CONVERSATION
+
+## An idea. A challenge. *A good place to start.*
+
+For engineering work, research collaboration, or a conversation about turning an idea into a working system.
+
+Contact form fields: Full name (required), Email address (required, email format), Subject (General Inquiry / Project Proposal / Support / Feedback / Other), Message (required). Submit sends a native POST to Google Forms in a new tab; check Google’s confirmation. The direct Google Form link below works without portfolio JavaScript.
+
+Google Forms handles this message. Confirmation opens in a new tab. [Open Google form directly ↗](https://docs.google.com/forms/d/e/1FAIpQLSfTnbNq_cn2CfGCwQTtUNxg5z5Db9USCzMUQllkSMwnDvtIzg/viewform)
+
+Based in Dhaka, Bangladesh · UTC +06:00
+
+[LinkedIn ↗](https://www.linkedin.com/in/imalimohsin/)[GitHub ↗](https://github.com/alimohsinofficial)
+
+
+---
+
+# Portfolio, engineering & field notes
+
+Canonical page: https://alimohsinofficial.github.io/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+INTRODUCTION / MOHSIN ALI
+
+## I build what’s *next.*
+
+I’m a technology leader and hands-on engineer based in Dhaka. I work across **software, AI, and deep-tech research** , connecting the first prototype to the systems people actually use.
+
+Currently CTO at Quantonova. Building since 2014.
+
+**10+** years of engineering
+
+**04** featured projects
+
+**02** CS degrees
+
+[More about my background ↗](https://alimohsinofficial.github.io/about/)
+
+01 / THE FIELD NOTEBOOK
+
+## Work in progress. *Thinking out loud.*
+
+Notes on AI, engineering, research, and the process of building. Written with AI assistance, grounded in my own work.
+
+[View all writing ↗](https://alimohsinofficial.github.io/blog/)
+
+LATEST ENTRY / FIELD NOTES
+
+01 / NOTES FROM THE DESK 
+
+### [A new home for the work, and the thinking behind it](https://alimohsinofficial.github.io/blog/a-new-home/)
+
+14 OCT 2026 · AI-ASSISTED READ NOTE ↗
+
+02 / SELECTED WORK
+
+## From questions to *working systems.*
+
+[View all projects ↗](https://alimohsinofficial.github.io/projects/)
+
+INDUSTRIAL AI
+
+### [QuantAirSense](https://alimohsinofficial.github.io/projects/quantairsense/)
+
+Interpretable machine learning for compressed-air monitoring.
+
+ML / SENSING / INDUSTRIAL SYSTEMS VIEW PROJECT ↗
+
+ACOUSTIC INTELLIGENCE
+
+### [AI-AFS](https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/)
+
+Understanding salmon feeding behaviour through underwater acoustics.
+
+ACOUSTICS / ML / AQUACULTURE VIEW PROJECT ↗
+
+03 / A LITTLE CONTEXT
+
+## Hands-on engineer. Long-term thinker. Team builder.
+
+[View full profile ↗](https://alimohsinofficial.github.io/about/)
+
+Over a decade across games, software, and applied research. Today I lead technology at Quantonova, connecting research prototypes with the architecture and teams needed to deliver them.
+
+**2014** Game & web
+
+**2016** Software
+
+**2020** CTO / 143Play
+
+**2023** CTO / Quantonova
+
+[Explore my resume ↗](https://alimohsinofficial.github.io/resume/)
+
+04 / RESEARCH
+
+## Stay curious. *Follow the evidence.*
+
+[View all research ↗](https://alimohsinofficial.github.io/research/)
+
+01
+
+### [QuantoTrace](https://alimohsinofficial.github.io/research/)
+
+Quantum error correction / Published research
+
+↗
+
+02
+
+### [Water quality resilience](https://alimohsinofficial.github.io/research/)
+
+Deep reinforcement learning / Published research
+
+↗
+
+05 / NEXT CONVERSATION
+
+## Let’s build *something that matters.*
+
+Contact form fields: Full name (required), Email address (required, email format), Subject (General Inquiry / Project Proposal / Support / Feedback / Other), Message (required). Submit sends a native POST to Google Forms in a new tab; check Google’s confirmation. The direct Google Form link below works without portfolio JavaScript.
+
+Google Forms handles this message. Confirmation opens in a new tab. [Open Google form directly ↗](https://docs.google.com/forms/d/e/1FAIpQLSfTnbNq_cn2CfGCwQTtUNxg5z5Db9USCzMUQllkSMwnDvtIzg/viewform)
+
+
+---
+
+# Privacy and site data
+
+Canonical page: https://alimohsinofficial.github.io/privacy/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+This is a static portfolio. It has no account system, analytics script, advertising tracker, or portfolio-operated backend.
+
+## Preferences and browser details
+
+Light/dark preferences are stored in your browser’s local storage. Studio and Tactical keep separate preferences. Tactical displays browser, viewport, language, time-zone, and device information locally. The site does not send those readouts to a portfolio server.
+
+## Optional location lookup
+
+Public-IP lookup runs only when you choose its button. It contacts [GeoJS](https://www.geojs.io/privacy/), which receives your IP address and returns an approximate location. Device location runs only after a separate action and your browser’s permission. Coordinates are used for the current globe display and are not saved by the portfolio.
+
+## Contact form
+
+The contact form sends your name, email address, subject, and message directly to Google Forms. The form owner can access submitted responses through Google Forms. Google handles processing, verification, and confirmation under [its privacy policy](https://policies.google.com/privacy). Do not include passwords, payment information, or other secrets in a message.
+
+## Hosting and links
+
+GitHub Pages serves the public files and may process requests, including IP addresses, under [GitHub’s privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). External sites have their own policies. The visualization libraries are hosted with this site.
+
+## Questions or security reports
+
+Use the [contact form](https://alimohsinofficial.github.io/contact/) for privacy questions or security reports. See the [security contact record](https://alimohsinofficial.github.io/.well-known/security.txt).
+
+Updated 14 October 2026.
+
+
+---
+
+# AI-AFS
+
+Canonical page: https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+Acoustic intelligence / PROJECT 02
+
+Listening underwater to understand salmon feeding behaviour.
+
+ACOUSTIC / SIGNAL
+
+CONTRIBUTION
+
+Algorithm development & work-package delivery
+
+TECHNOLOGIES
+
+Python Acoustic classification Machine learning
+
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+
+## Context
+
+An underwater-sound system for detecting feeding behaviour in recirculating-aquaculture systems.
+
+## The work
+
+- Lead algorithm development and core work-package deliverables.
+- Build and evaluate classifiers using 878 real hydrophone clips.
+- Connect acoustic research to an applied aquaculture monitoring system.
+
+## Reported outcomes
+
+**878** Hydrophone clips
+
+**0.99** Reported accuracy
+
+**0.999** Reported AUC
+
+Evaluation figures come from the supplied resume; they describe the reported dataset evaluation and are not a claim of universal field performance.
+
+
+---
+
+# Selected work
+
+Canonical page: https://alimohsinofficial.github.io/projects/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+SELECTED WORK
+
+## Research meets *real-world engineering.*
+
+A selection of systems and research developed across industrial AI, acoustic intelligence, and software delivery.
+
+PRESSURE / FLOW
+
+Industrial AI 01 / ↗
+
+### [QuantAirSense](https://alimohsinofficial.github.io/projects/quantairsense/)
+
+Making compressed-air waste visible with interpretable machine learning.
+
+Python Random Forest SHAP
+
+ACOUSTIC / SIGNAL
+
+Acoustic intelligence 02 / ↗
+
+### [AI-AFS](https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/)
+
+Listening underwater to understand salmon feeding behaviour.
+
+Python Acoustic classification Machine learning
+
+PHYSICS / MODEL
+
+Applied research 03 / ↗
+
+### [Physics-informed modelling](https://alimohsinofficial.github.io/projects/physics-informed-modelling/)
+
+Bringing physical constraints into bioprocess yield optimisation.
+
+Python PINN Optimisation
+
+SYSTEM / DELIVERY
+
+Full-stack systems 04 / ↗
+
+### [R&D delivery platform](https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/)
+
+A shared system for delivery, documentation, and compliance.
+
+Laravel Livewire Tailwind CSS
+
+Project descriptions and reported results are based on the supplied resume. Visuals are conceptual illustrations, rather than screenshots of private systems.
+
+## Have a complex problem?
+
+Let's discuss the research, the architecture, and the path to delivery.
+
+[Get in touch ↗](https://alimohsinofficial.github.io/contact/)
+
+
+---
+
+# Physics-informed modelling
+
+Canonical page: https://alimohsinofficial.github.io/projects/physics-informed-modelling/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+Applied research / PROJECT 03
+
+Bringing physical constraints into bioprocess yield optimisation.
+
+PHYSICS / MODEL
+
+CONTRIBUTION
+
+Modelling & R&D leadership
+
+TECHNOLOGIES
+
+Python PINN Optimisation Edge AI
+
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+
+## Context
+
+Physics-informed neural-network models for bioprocess yield optimisation, alongside exploration of federated graph learning for supply-chain resilience.
+
+## The work
+
+- Develop physics-informed models that connect domain constraints to learning.
+- Explore model-driven yield optimisation.
+- Investigate feasibility of moving trained models toward edge deployment.
+
+## Reported outcomes
+
+**0.913** Reported R²
+
+**29.7%** Reported optimisation gain
+
+These are the results described in the supplied resume. A detailed experimental report is not included in the source materials.
+
+
+---
+
+# R&D delivery platform
+
+Canonical page: https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+Full-stack systems / PROJECT 04
+
+A shared system for delivery, documentation, and compliance.
+
+SYSTEM / DELIVERY
+
+CONTRIBUTION
+
+Platform development
+
+TECHNOLOGIES
+
+Laravel Livewire Tailwind CSS Project management
+
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+
+## Context
+
+An internal project-management platform for coordinating Quantonova's multi-project R&D portfolio.
+
+## The work
+
+- Build 48 modules supporting delivery and portfolio coordination.
+- Bring project documentation and compliance workflows into a shared platform.
+- Use Laravel and Livewire for the application foundation.
+
+## Reported outcomes
+
+**48** Platform modules
+
+This is an internal system; source code and a public demo are not supplied.
+
+
+---
+
+# QuantAirSense
+
+Canonical page: https://alimohsinofficial.github.io/projects/quantairsense/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+Industrial AI / PROJECT 01
+
+Making compressed-air waste visible with interpretable machine learning.
+
+PRESSURE / FLOW
+
+CONTRIBUTION
+
+Architecture & engineering leadership
+
+TECHNOLOGIES
+
+Python Random Forest SHAP Google Cloud Run
+
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+
+## Context
+
+An AI compressed-air monitoring platform for UK SME manufacturers, developed within Quantonova's R&D portfolio.
+
+## The work
+
+- Detect compressed-air leaks, equipment degradation, and scheduling waste using a Random Forest classifier.
+- Engineer 15 temporal features, with SHAP explainability and forecasting.
+- Deliver a SCADA-style dashboard on Google Cloud Run in europe-west2.
+
+## Reported outcomes
+
+**0.99** Classifier F1
+
+**15** Temporal features
+
+**~£1,900** Estimated annual recoverable savings / site
+
+Figures are reported in the supplied resume and describe project validation, rather than guarantees for a new installation. The resume also reports 1% false positives, zero false negatives, and approximately 2 tonnes of annual CO₂ reduction per site.
+
+
+---
+
+# Research & publications
+
+Canonical page: https://alimohsinofficial.github.io/research/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+RESEARCH & PUBLICATIONS
+
+## Following the *interesting questions.*
+
+Selected publications and research across quantum computing, reinforcement learning, and software design.
+
+01
+
+Quantum computing
+
+### QuantoTrace: Quantum Error Correction as a Service for Robust Quantum Computing
+
+Co-author · 3rd author
+
+[Read publication ↗](https://ieeexplore.ieee.org/document/10534391)
+
+02
+
+Reinforcement learning
+
+### A Novel Method to Predict Water Quality Resilience using Deep Reinforcement Learning in São Paulo, Brazil
+
+Co-author · 2nd author
+
+[Read publication ↗](https://ieeexplore.ieee.org/document/9290601)
+
+03
+
+UX-driven design, application logo and GUI psychology, and lightweight JavaScript 3D rendering.
+
+### ICCIT 2014 Student Conference
+
+Three student conference papers
+
+[Read publication ↗](https://web.archive.org/web/20160630202306/http:/www.iccit.org.bd/2014/student-conference-iccit-2014/)
+
+## Current areas of practice
+
+### Quantum & edge
+
+Quantum sensing, error correction, NV-centre magnetometry, quantum LiDAR, and FPGA feasibility.
+
+### Applied intelligence
+
+Industrial monitoring, acoustic classification, physics-informed learning, and interpretable models.
+
+### Research into production
+
+Architecture, portfolio delivery, academic partnerships, and commercially useful systems.
+
+Publication credits and links were carried forward from the existing portfolio and supplied resume.
+
+
+---
+
+# Web resume
+
+Canonical page: https://alimohsinofficial.github.io/resume/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+THE WEB RESUME
+
+## Mohsin Ali.
+
+Chief Technology Officer · AI, ML & Quantum Systems · Deep-Tech R&D & Engineering Leadership
+
+Career details are based on the supplied resume (June 2026 version); the web resume is ready for your next update.
+
+## Profile
+
+Technology executive and hands-on engineering leader with 10+ years building software, AI/ML, and deep-tech products from research to production. At Quantonova, my work spans AI-driven industrial monitoring, quantum sensing, edge inference, and agentic automation. I connect technical strategy with hands-on delivery, team leadership, and research collaboration.
+
+## Professional experience
+
+2023 — Present
+
+### Chief Technology Officer & Project Manager
+
+Quantonova Ltd
+
+Technology strategy and delivery across an Innovate UK R&D portfolio in AI, quantum sensing, and advanced manufacturing.
+
+- Lead delivery with academic and industry partners, including Nottingham Trent University, MHK Consulting, University of Waterloo, and Ocean Sonics.
+- Architect industrial monitoring and acoustic AI platforms, interpretable ML pipelines, and SCADA-style dashboards.
+- Develop physics-informed modelling, grant applications, and FPGA / edge-inference feasibility studies.
+- Build an internal 48-module platform for project delivery, documentation, and compliance.
+
+2020 — 2023
+
+### Chief Technology Officer & Software Engineer
+
+143Play
+
+Technical vision, architecture, engineering standards, and delivery across game and software products.
+
+- Lead products from prototype to release while maintaining hands-on engineering ownership.
+
+2016 — 2020
+
+### Software Engineer & Game Developer
+
+143Play
+
+Games and software across web, Android, and desktop, including published Android titles with Bluetooth multiplayer and real-time gameplay.
+
+2014 — 2016
+
+### Game & Web Developer
+
+143Play
+
+Web applications, game prototypes, and a lightweight JavaScript 3D game-rendering engine.
+
+## Technical skills & capabilities
+
+AI, ML & data
+
+Python scikit-learn pandas / NumPy Random Forest SHAP Physics-informed neural networks Edge inference Power BI Jupyter
+
+Software & cloud
+
+JavaScript / TypeScript PHP Java C / C++ SQL React / React Native Vue Web Components Node.js Laravel / Livewire Docker Google Cloud Run PostgreSQL MySQL SQLite WordPress REST APIs Git / CI/CD HTML5 / CSS3 Tailwind CSS CodeIgniter Flutter
+
+Research & hardware
+
+Quantum error correction NV-centre magnetometry Quantum LiDAR FPGA / PYNQ-Z2 Data engineering
+
+Leadership & delivery
+
+Technology strategy R&D roadmaps Project management Team mentoring Grant applications Product commercialisation Cross-functional partnerships
+
+Creative & agent tools
+
+Claude Code OpenAI Codex Google Gemini NotebookLM n8n Figma Unity Unreal Engine Blender Photoshop / Illustrator DaVinci Resolve Obsidian Notion Adobe Premiere Pro World Creator Gaea Chrome extension development
+
+## Education
+
+2017
+
+### M.Sc. in Computer Science & Engineering
+
+Jahangirnagar University · Savar, Bangladesh
+
+2016
+
+### B.Sc. in Computer Science & Engineering
+
+Daffodil International University · Dhaka, Bangladesh
+
+## Selected publications
+
+01
+
+Quantum computing
+
+### QuantoTrace: Quantum Error Correction as a Service for Robust Quantum Computing
+
+Co-author · 3rd author
+
+[Read publication ↗](https://ieeexplore.ieee.org/document/10534391)
+
+02
+
+Reinforcement learning
+
+### A Novel Method to Predict Water Quality Resilience using Deep Reinforcement Learning in São Paulo, Brazil
+
+Co-author · 2nd author
+
+[Read publication ↗](https://ieeexplore.ieee.org/document/9290601)
+
+03
+
+UX-driven design, application logo and GUI psychology, and lightweight JavaScript 3D rendering.
+
+### ICCIT 2014 Student Conference
+
+Three student conference papers
+
+[Read publication ↗](https://web.archive.org/web/20160630202306/http:/www.iccit.org.bd/2014/student-conference-iccit-2014/)
+
+## Achievements & activities
+
+- ACM ICPC Asia Regional, Dhaka · 2014 · Rank 71 · DIU\_PEKKA
+- ACM ICPC Asia Regional, Dhaka · 2015 · Rank 84 · DIU\_PEKKA
+- Published Android developer portfolio · 2016 · Card games, puzzles, and utility apps
+
+### Languages
+
+Bangla; English — advanced reading, intermediate writing and speaking.

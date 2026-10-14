@@ -1,0 +1,31 @@
+# Mohsin Ali — portfolio and field notebook
+
+> Engineer, researcher, and CTO at Quantonova, based in Dhaka, Bangladesh. Public content is available in static HTML and Markdown.
+
+Canonical site: https://alimohsinofficial.github.io/
+
+## Content
+
+- [About Mohsin Ali](https://alimohsinofficial.github.io/about/index.md): ProfilePage; [HTML](https://alimohsinofficial.github.io/about/).
+- [Content for AI agents](https://alimohsinofficial.github.io/agents/index.md): CollectionPage; [HTML](https://alimohsinofficial.github.io/agents/).
+- [A new home for the work, and the thinking behind it](https://alimohsinofficial.github.io/blog/a-new-home/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/blog/a-new-home/).
+- [The field notebook](https://alimohsinofficial.github.io/blog/index.md): CollectionPage; [HTML](https://alimohsinofficial.github.io/blog/).
+- [Contact](https://alimohsinofficial.github.io/contact/index.md): ContactPage; [HTML](https://alimohsinofficial.github.io/contact/).
+- [Portfolio, engineering & field notes](https://alimohsinofficial.github.io/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/).
+- [Privacy and site data](https://alimohsinofficial.github.io/privacy/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/privacy/).
+- [AI-AFS](https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/).
+- [Selected work](https://alimohsinofficial.github.io/projects/index.md): CollectionPage; [HTML](https://alimohsinofficial.github.io/projects/).
+- [Physics-informed modelling](https://alimohsinofficial.github.io/projects/physics-informed-modelling/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/projects/physics-informed-modelling/).
+- [R&D delivery platform](https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/).
+- [QuantAirSense](https://alimohsinofficial.github.io/projects/quantairsense/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/projects/quantairsense/).
+- [Research & publications](https://alimohsinofficial.github.io/research/index.md): CollectionPage; [HTML](https://alimohsinofficial.github.io/research/).
+- [Web resume](https://alimohsinofficial.github.io/resume/index.md): ProfilePage; [HTML](https://alimohsinofficial.github.io/resume/).
+
+## Complete collection
+
+- [Full text](https://alimohsinofficial.github.io/llms-full.txt)
+- [JSON manifest](https://alimohsinofficial.github.io/agents/site.json)
+
+## Content context
+
+The Markdown files mirror the public HTML pages. Tactical is a presentation of the same portfolio; its hash routes are not separate canonical pages. Keep stated project-validation and resume-source caveats when describing results. Contact uses the public Google Form linked from the contact page. Local browser/location widgets and decorative signal graphics are not portfolio facts or live project measurements.

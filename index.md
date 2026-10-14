@@ -1,0 +1,107 @@
+# Portfolio, engineering & field notes
+
+Canonical page: https://alimohsinofficial.github.io/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-14.
+
+INTRODUCTION / MOHSIN ALI
+
+## I build what’s *next.*
+
+I’m a technology leader and hands-on engineer based in Dhaka. I work across **software, AI, and deep-tech research** , connecting the first prototype to the systems people actually use.
+
+Currently CTO at Quantonova. Building since 2014.
+
+**10+** years of engineering
+
+**04** featured projects
+
+**02** CS degrees
+
+[More about my background ↗](https://alimohsinofficial.github.io/about/)
+
+01 / THE FIELD NOTEBOOK
+
+## Work in progress. *Thinking out loud.*
+
+Notes on AI, engineering, research, and the process of building. Written with AI assistance, grounded in my own work.
+
+[View all writing ↗](https://alimohsinofficial.github.io/blog/)
+
+LATEST ENTRY / FIELD NOTES
+
+01 / NOTES FROM THE DESK 
+
+### [A new home for the work, and the thinking behind it](https://alimohsinofficial.github.io/blog/a-new-home/)
+
+14 OCT 2026 · AI-ASSISTED READ NOTE ↗
+
+02 / SELECTED WORK
+
+## From questions to *working systems.*
+
+[View all projects ↗](https://alimohsinofficial.github.io/projects/)
+
+INDUSTRIAL AI
+
+### [QuantAirSense](https://alimohsinofficial.github.io/projects/quantairsense/)
+
+Interpretable machine learning for compressed-air monitoring.
+
+ML / SENSING / INDUSTRIAL SYSTEMS VIEW PROJECT ↗
+
+ACOUSTIC INTELLIGENCE
+
+### [AI-AFS](https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/)
+
+Understanding salmon feeding behaviour through underwater acoustics.
+
+ACOUSTICS / ML / AQUACULTURE VIEW PROJECT ↗
+
+03 / A LITTLE CONTEXT
+
+## Hands-on engineer. Long-term thinker. Team builder.
+
+[View full profile ↗](https://alimohsinofficial.github.io/about/)
+
+Over a decade across games, software, and applied research. Today I lead technology at Quantonova, connecting research prototypes with the architecture and teams needed to deliver them.
+
+**2014** Game & web
+
+**2016** Software
+
+**2020** CTO / 143Play
+
+**2023** CTO / Quantonova
+
+[Explore my resume ↗](https://alimohsinofficial.github.io/resume/)
+
+04 / RESEARCH
+
+## Stay curious. *Follow the evidence.*
+
+[View all research ↗](https://alimohsinofficial.github.io/research/)
+
+01
+
+### [QuantoTrace](https://alimohsinofficial.github.io/research/)
+
+Quantum error correction / Published research
+
+↗
+
+02
+
+### [Water quality resilience](https://alimohsinofficial.github.io/research/)
+
+Deep reinforcement learning / Published research
+
+↗
+
+05 / NEXT CONVERSATION
+
+## Let’s build *something that matters.*
+
+Contact form fields: Full name (required), Email address (required, email format), Subject (General Inquiry / Project Proposal / Support / Feedback / Other), Message (required). Submit sends a native POST to Google Forms in a new tab; check Google’s confirmation. The direct Google Form link below works without portfolio JavaScript.
+
+Google Forms handles this message. Confirmation opens in a new tab. [Open Google form directly ↗](https://docs.google.com/forms/d/e/1FAIpQLSfTnbNq_cn2CfGCwQTtUNxg5z5Db9USCzMUQllkSMwnDvtIzg/viewform)

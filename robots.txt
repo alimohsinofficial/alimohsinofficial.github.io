@@ -1,3 +1,4 @@
+# Public HTML and agent content are open to search and AI crawlers.
 User-agent: *
 Allow: /
 Sitemap: https://alimohsinofficial.github.io/sitemap.xml

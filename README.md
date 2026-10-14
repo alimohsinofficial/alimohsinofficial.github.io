@@ -5,7 +5,7 @@ Plain HTML, CSS, and browser JavaScript. No npm, Node.js, TypeScript, compiler, 
 ## Two independent experiences
 
 - `/` — **Studio**: full-width portfolio with a fixed identity/profile area on the left and an independently scrolling content area on the right. Flat sections, social SVG icons, concise summaries, and View All links to static detail pages. GSAP handles heading reveals, content entrances, experience counters, the career timeline, acoustic waveform reveal, and reading progress. Motion is disabled for reduced-motion preferences. On mobile, content scrolls naturally with fixed bottom tabs.
-- `/tactical/` — **Tactical**: full-screen military HUD. QType Square headings, Consolas/Courier console text, dot/cross grids, profile, live local/Dhaka clocks, visitor information, and a small optional spherical globe. Hash navigation changes content in place; article/project/full-resume details open in native dialogs. Only individual content panels/dialogs may scroll; the dashboard page stays fixed. Mobile uses five bottom tabs and a More menu for resume, research, contact, and widgets.
+- `/tactical/` — **Tactical**: full-screen military HUD. QType Square headings, Consolas/Courier console text, dot/cross grids, profile, live local/Dhaka clocks, visitor information, and a small spherical globe shown by default. Hash navigation changes content in place; article/project/full-resume details open in native dialogs. Only individual content panels/dialogs may scroll; the dashboard page stays fixed. Mobile uses five bottom tabs and a More menu for resume, research, contact, and widgets.
 - Switching experiences preserves the selected section or detail. Each experience remembers its light/dark preference independently.
 
 ## Edit content directly
@@ -19,7 +19,7 @@ Plain HTML, CSS, and browser JavaScript. No npm, Node.js, TypeScript, compiler, 
 | `assets/studio.css`, `assets/studio.js`, `assets/experience.css` | Studio layout, responsive shell, and GSAP motion |
 | `assets/tactical.css`, `assets/tactical.js` | Independent HUD layout and in-place navigation |
 | `assets/controls.css` | Site-specific theme-toggle fix: suppresses the generic `.switch` skin's extra pseudo-element knob |
-| `assets/location-map.js` | Optional amCharts globe, owner/visitor markers, drag rotation, and recenter controls |
+| `assets/location-map.js` | amCharts globe shown by default, owner/visitor markers, drag rotation, and recenter controls |
 | `assets/visitor-info.js` | Local browser readouts and visitor-initiated location requests |
 | `assets/images/profile.png` | The current portrait, used by both experiences |
 
@@ -31,7 +31,7 @@ Tactical dossiers are ordinary JavaScript strings containing HTML, not compiled 
 2. Edit the title, description, canonical/Open Graph URLs, Article JSON-LD, heading, byline, date, and body. Preserve the shell and relative asset paths at this folder depth.
 3. Add a card to `blog/index.html` and an article summary to `assets/portfolio.js`.
 4. Add `/blog/your-slug/` to `assets/documents.js`, with its title and article HTML. Use root-relative internal links/images in that HTML; Tactical resolves them for hosted and local-file viewing.
-5. Update `feed.xml`, `sitemap.xml`, and the landing page's featured note if appropriate. Disclose AI assistance and review the final text.
+5. Update the article’s `index.md`, `llms.txt`, `llms-full.txt`, `agents/site.json`, `sitemap.xml`, and the landing page's featured note if appropriate. Disclose AI assistance and review the final text.
 
 Save the files. Nothing needs to be compiled or generated.
 
@@ -62,3 +62,12 @@ Studio keeps its fixed identity column and full-width scrolling content. Its int
 Libraries are pinned, locally hosted classic browser scripts: Three.js 0.160.1 (the classic distribution preserves direct-file operation) and PixiJS 8.6.6. MIT licenses are included. No npm, TypeScript, compilation, API key or external rendering service is required. Actual text, links, contact controls and navigation remain HTML. The radar and acoustic art are illustrations, not live measurements.
 
 `assets/visual-scenes.js` lazily initializes visible scenes, caps pixel density at 1.5 and drawing at approximately 30 fps, stops continuous rendering offscreen or when the page is hidden, disposes detached Tactical views, and repaints on theme changes. Reduced-motion mode renders a static frame. A WebGL failure retains a CSS illustration. `assets/creative.css` controls the six distinct section compositions, while `assets/studio.js` owns GSAP scroll choreography and fine-pointer tilt/magnet interactions.
+
+## AI access, search and security
+- `/agents/` is the human-readable directory; `/llms.txt` indexes per-page `index.md` files; `/llms-full.txt` contains the public content; `/agents/site.json` provides canonical and Markdown URL mappings. These are plain files, not a required build system. Markdown mirrors the HTML facts, citations, and project caveats. Keep all representations synchronized when editing.
+- Google indexes the static HTML. Titles, descriptions, HTTPS canonicals, social PNG previews, WebSite/Person/ProfilePage/BlogPosting/WebPage and breadcrumb graphs are present. Tactical shares the home canonical; its in-place hash views point to the corresponding static content. The sitemap lists canonical HTML pages only; 404 is noindex.
+- HTML Content Security Policy restricts scripts to local files and the specific inline JSON-LD hash, restricts network requests to this origin and optional GeoJS, restricts forms to Google Forms, and disables embeds, objects, and base URL overrides. Inline styles remain allowed because native component styling and GSAP use them. PixiJS’s official `unsafe-eval` compatibility bundle **removes the renderer’s need for eval**; the policy does not grant `unsafe-eval`.
+- `/.well-known/security.txt` points to the contact form for reports. `/privacy/` explains local preferences, optional location access, Google Forms and GitHub hosting. `.nojekyll` preserves static publication of the well-known file without a compilation step.
+- GitHub Pages does not apply this repository’s `_headers` template. The template is provided for a compatible static host/proxy. Do not claim HSTS, nosniff, Permissions-Policy or frame-ancestors are configured by this file on GitHub Pages. Meta CSP cannot enforce frame-ancestors. See `docs/security-seo.md` for deployment checks and maintenance.
+
+No Search Console ownership token, indexing submission, DNS change, deployment, or live penetration test has been performed in this task.

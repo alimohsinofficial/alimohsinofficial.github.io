@@ -1,0 +1,8 @@
+# Optional Cloudflare Pages / Netlify header template. GitHub Pages ignores this file.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=(self), payment=(), usb=(), serial=(), bluetooth=(), browsing-topics=()
+  Strict-Transport-Security: max-age=31536000
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-4C6+6VDwbEhAXxuPQedkjrwGQQYfQhoQC4AdNSQRW4Y=' 'sha256-4M4nGtx+ofZ9t0AgJo0fHF0OS43cPVZOUqq/E0+iOnI=' 'sha256-8o3lzlSXjKpV7oMSgImTDavvPsbLqK1+JNm4il6zqLM=' 'sha256-CliwDA9R+AGGDQuQRQq1NYqTwMcHzgSM6ev8SN3yyzU=' 'sha256-D4Ex6+8L/kaSCGqX9QAWHjxNayWWZa84DZuDexWqR+8=' 'sha256-Drnqg2z6Q8N1f+WtzGJpVC4MaBrUdseB7GTHB2FDzDc=' 'sha256-QRDC/msqFxXhg7O8gk/mB8nDQ0JEl6vQzpu76hhVK7s=' 'sha256-R0HAbLdCmOyLOWncJJ+g68oihTO1UvUO6fI6EfdnviU=' 'sha256-SY69l7PhCznW1SaPvxK9yc/NJwLg7wmFiSyVxyzRSpU=' 'sha256-Tr6IlwNizXCTiEpQfiuJ+XtFtn/X3bSLlgw68o+sZsk=' 'sha256-b4zXjMTn4OC3RYs57CdGL/BHgYvb7zbS84rSTHq1ZR0=' 'sha256-m5IPGc388XO7tY1NUWLSzMZKACVPm2FoOQK9fUsF7Dc=' 'sha256-s9jiMsX2S45Q1ORqLgoYXdazq/iN1Zokgb3/iaM/f4s=' 'sha256-tc3my6ebUQuIC3DmVRJzFha7iYlKlx0rml5buNuhq+g=' 'sha256-tqwOG+cvB1787AanzixdFGqqeB2Uo+wsd6AFpdpFKbc=' 'sha256-yggOCrioZ3hd6XGGTKEE2/Wlqv2nnPweSJwc2py+jfY='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://get.geojs.io; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-src 'none'; form-action https://docs.google.com; frame-ancestors 'none'
