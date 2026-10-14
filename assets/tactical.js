@@ -42,7 +42,7 @@
     document.querySelector('.studio-switch').href=P.url(studioPaths[view]);
     document.getElementById('hud-more-toggle').classList.toggle('current',['resume','research','contact','widgets'].includes(view));
     const index=nav.indexOf(view);document.getElementById('view-code').textContent='03 / '+names[index];document.getElementById('view-status').textContent='VIEW 0'+(index+1)+' / '+names[index];
-    const heading=(label,title,description='')=>`<div class="view-heading"><p class="hud-label">${label}</p><h2>${title}</h2>${description?'<p>'+description+'</p>':''}</div>`;
+    const heading=(label,title,description='')=>`<div class="view-heading"><span class="release-stamp" aria-hidden="true">PUBLIC RECORD<br>RELEASED</span><p class="hud-label">${label}</p><h2>${title}</h2>${description?'<p>'+description+'</p>':''}</div>`;
     if(view==='overview')panel.innerHTML=`${heading('ENGINEERING / AI / DEEP TECH','IDEAS INTO<br><em>WORKING SYSTEMS.</em>','I build software, lead engineering teams, and work on applied research.')}<div class="hud-visual-stage"><div class="visual-scene" data-three-scene="pipeline" aria-hidden="true"><span class="visual-fallback"><i></i><i></i><i></i></span></div><div class="visual-scene" data-pixi-scene="acoustic" aria-hidden="true"><span class="visual-fallback acoustic-fallback"><svg viewBox="0 0 400 160" aria-hidden="true"><path d="M0 80H40q10-18 20 0t20 0h20q10-48 20 0t20 0h20q10-65 20 0t20 0h20q10-35 20 0t20 0h20q10-16 20 0t20 0h40" fill="none" stroke="currentColor" stroke-width="2"/><path d="M0 110H70q10-12 20 0t20 0h35q10-28 20 0t20 0h35q10-20 20 0t20 0h35q10-10 20 0t20 0h35" fill="none" stroke="currentColor" stroke-width="1" opacity=".4"/></svg></span></div><div class="hud-visual-caption"><span>INPUTS → MODEL → PRODUCT / CONCEPT</span><span>AI-AFS / ACOUSTIC SIGNAL CONCEPT</span></div></div><div class="overview-stats"><div><b>10+</b><span>YEARS BUILDING</span></div><div><b>04</b><span>PROJECT DOSSIERS</span></div><div><b>02</b><span>CS DEGREES</span></div></div><div class="view-section-title"><span>FIELD NOTEBOOK / LATEST</span><a href="#blog">VIEW ALL ↗</a></div><div class="overview-note">${notes()}</div><div class="view-section-title"><span>SELECTED WORK</span><a href="#projects">VIEW ALL ↗</a></div><div class="overview-projects">${P.projects.slice(0,2).map(p=>`<a href="#${p.path.slice(1,-1)}"><span>${escape(p.category.toUpperCase())}</span><b>${escape(p.title)}</b><i>↗</i></a>`).join('')}</div>`;
     if(view==='projects')panel.innerHTML=`${heading('ENGINEERING / PROJECT INDEX','SELECTED WORK.','Industrial AI, acoustic intelligence, physical modelling, and research delivery.')}<div class="hud-record-grid">${projects()}</div>`;
     if(view==='blog')panel.innerHTML=`${heading('WRITING / FIELD NOTES','THE NOTEBOOK.','AI, engineering, research, and the process of building. AI assistance is disclosed on each note.')}<label class="hud-search">SEARCH NOTES<input type="search" id="hud-note-search" placeholder="Title or topic…"></label><div class="hud-note-list">${notes()}</div><p class="hud-empty" hidden>No notes match your search.</p>`;
@@ -52,7 +52,7 @@
     if(view==='contact')panel.innerHTML=`${heading('CONTACT / OPEN CHANNEL','START A CONVERSATION.','Engineering, research collaboration, or turning an idea into a working system.')}${P.contactForm}<div class="hud-contact-links"><a href="https://www.linkedin.com/in/imalimohsin/"><span>LINKEDIN</span><b>/in/imalimohsin</b><i>↗</i></a></div><p class="contact-location">DHAKA, BANGLADESH / UTC +06</p>`;
     if(view==='widgets')panel.innerHTML=heading('SESSION / LOCAL READOUT','SESSION WIDGETS.','The globe and visitor instruments show available browser details and optional location information. IP positions are approximate.');
     panel.querySelector('#hud-note-search')?.addEventListener('input',e=>{let count=0;panel.querySelectorAll('.hud-note-list .hud-record').forEach(card=>{card.hidden=!card.textContent.toLowerCase().includes(e.target.value.toLowerCase());if(!card.hidden)count++;});panel.querySelector('.hud-empty').hidden=count>0;});
-    panel.scrollTop=0;revealText(panel);
+    panel.scrollTop=0;revealText(panel);window.PortfolioTacticalReveals?.reveal(panel);
   }
   function openDocument(path){
     const doc=D[path];if(!doc)return;lastFocus=document.activeElement;
@@ -66,7 +66,7 @@
     body.querySelectorAll('x-copy-button[copy-current-url]').forEach(el=>el.setAttribute('text',location.href));
     body.querySelector('.resume-toolbar')?.remove();
     body.querySelector('.filter-row')?.remove();
-    placeDossier();modal.showModal();document.getElementById('dossier-close').focus();body.scrollTop=0;revealText(modal);
+    placeDossier();modal.showModal();document.getElementById('dossier-close').focus();body.scrollTop=0;revealText(modal);window.PortfolioTacticalReveals?.reveal(body);
   }
   function route(){
     let key;try{key=decodeURIComponent(location.hash.slice(1)).replace(/\/$/,'')||'overview';}catch{key='overview';}
@@ -82,6 +82,7 @@
   });
   const close=()=>{modal.close();if(location.hash.slice(1).includes('/'))location.hash=currentView;if(lastFocus?.isConnected)lastFocus.focus();else document.getElementById('view-panel').focus();};
   document.getElementById('dossier-close').addEventListener('click',close);
+  modal.addEventListener('close',()=>window.PortfolioTacticalReveals?.clear(modal));
   modal.addEventListener('cancel',e=>{e.preventDefault();close();});
   modal.addEventListener('click',e=>{if(e.target===modal){const r=modal.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)close();}});
   const more=document.getElementById('hud-more-modal'),moreButton=document.getElementById('hud-more-toggle');
