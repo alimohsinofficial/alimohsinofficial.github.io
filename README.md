@@ -52,3 +52,6 @@ The portfolio does not persist visitor IP/location data. Tactical tab changes re
 - The user's `site_html` grid, crosshair, ruler, border, font experiments, and `143play_site_mockup.pptx` were inspected for visual direction. Reference boilerplate was not imported as portfolio content.
 
 The original site and local assets are preserved on `codex/legacy-portfolio-2026-10-14`. Original content inventory and resume decisions remain under `docs/`. This local revision does not publish remotely or alter GitHub Pages settings.
+
+### Contact provider
+Studio and Tactical use the standalone Blueprint `x-contact-form` component. Google Form endpoint and entry mappings are configured in HTML (and shared Tactical markup in assets/portfolio.js). No build, npm, backend, or per-page submission JavaScript is required. Native submission opens Google confirmation in a new tab; the component never claims delivery. Use the direct Google Form link if provider restrictions prevent a custom form handoff.

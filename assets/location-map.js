@@ -8,6 +8,7 @@
       this.innerHTML='<div class="globe-chart" aria-label="Interactive spherical globe. Drag to rotate; hover a country for its name."></div><div class="globe-legend"><span>● DHAKA</span><span class="visitor-globe-state">● VISITOR / UNKNOWN</span></div><div class="globe-actions"><button type="button" data-location="owner">DHAKA</button><button type="button" data-location="visitor" disabled>VISITOR</button><small>DRAG TO ROTATE</small></div>';
       this.onVisitor=e=>this.setVisitor(e.detail);document.addEventListener('portfolio:visitor-location',this.onVisitor);
       this.addEventListener('click',e=>{const b=e.target.closest('[data-location]');if(!b||!this.chart)return;const p=b.dataset.location==='visitor'?this.visitor:{latitude:23.8103,longitude:90.4125};if(p)this.chart.setAll({rotationX:-p.longitude,rotationY:-p.latitude});});
+      this.resizeObserver=new ResizeObserver(entries=>{if(entries.some(e=>e.contentRect.width>0&&e.contentRect.height>0))this.open();});this.resizeObserver.observe(this);
       this.themeObserver=new MutationObserver(()=>this.paint());this.themeObserver.observe(document.documentElement,{attributes:true,attributeFilter:['theme']});
     }
     async open(){
@@ -32,7 +33,7 @@
       this.querySelector('.visitor-globe-state').textContent=this.visitor?'● VISITOR / '+(this.visitor.source==='device'?'DEVICE':'IP ESTIMATE'):'● VISITOR / UNKNOWN';this.querySelector('[data-location="visitor"]').disabled=!this.visitor;this.updatePoints();
     }
     updatePoints(){if(!this.points)return;const data=[{longitude:90.4125,latitude:23.8103,title:'Mohsin Ali / Dhaka city centre',color:0xdcb653}];if(this.visitor)data.push({longitude:this.visitor.longitude,latitude:this.visitor.latitude,title:'Visitor / '+(this.visitor.source==='device'?'device position':'approximate IP location'),color:0xad80de});this.points.data.setAll(data);}
-    disconnectedCallback(){this.root?.dispose();this.themeObserver?.disconnect();document.removeEventListener('portfolio:visitor-location',this.onVisitor);}
+    disconnectedCallback(){this.resizeObserver?.disconnect();this.root?.dispose();this.root=null;this.ready=false;this.loading=false;this.themeObserver?.disconnect();document.removeEventListener('portfolio:visitor-location',this.onVisitor);}
   }
   customElements.define('x-location-map',LocationGlobe);
 })();

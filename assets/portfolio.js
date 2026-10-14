@@ -10,7 +10,7 @@
     url,
     name: 'Mohsin Ali',
     role: 'CTO · AI & deep-tech engineering',
-    email: 'alimohsin.dev0@gmail.com',
+    contactForm: "<x-contact-form action=\"https://docs.google.com/forms/d/e/1FAIpQLSfTnbNq_cn2CfGCwQTtUNxg5z5Db9USCzMUQllkSMwnDvtIzg/formResponse\" name-field=\"entry.145432747\" email-field=\"entry.1970826621\" subject-field=\"entry.550228167\" message-field=\"entry.2081825816\" subjects=\"General Inquiry|Project Proposal|Support|Feedback|Other\" submit-label=\"Send message \u2197\"></x-contact-form><p class=\"form-provider\">Google Forms handles this message. Confirmation opens in a new tab. <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfTnbNq_cn2CfGCwQTtUNxg5z5Db9USCzMUQllkSMwnDvtIzg/viewform\" target=\"_blank\" rel=\"noopener\">Open Google form directly \u2197</a></p>",
     portrait: url('/assets/images/profile.png'),
     nav: [
       ['overview', '/', 'Overview', 'dashboard'],
