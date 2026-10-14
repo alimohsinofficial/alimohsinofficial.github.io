@@ -28,14 +28,14 @@
         this.points=chart.series.push(am5map.MapPointSeries.new(root,{}));this.points.bullets.push((root,series,item)=>am5.Bullet.new(root,{sprite:am5.Circle.new(root,{radius:4,fill:am5.color(item.dataContext.color),stroke:am5.color(0xffffff),strokeWidth:1,tooltipText:item.dataContext.title})}));
         this.paint();this.updatePoints();
         this.motion=matchMedia('(prefers-reduced-motion: reduce)');
-        if(!this.motion.matches){chart.appear(700);this.startDrift();}
-        this.onMotion=()=>{this.drift?.stop();if(!this.motion.matches)this.startDrift();};this.motion.addEventListener('change',this.onMotion);
+        if(!this.motion.matches&&window.PortfolioMotion?.enabled!==false){chart.appear(700);this.startDrift();}
+        this.onMotion=()=>{this.drift?.stop();if(!this.motion.matches&&window.PortfolioMotion?.enabled!==false)this.startDrift();};this.motion.addEventListener('change',this.onMotion);document.addEventListener('portfolio:motion',this.onMotion);
         this.onInteract=()=>{this.drift?.stop();};this.addEventListener('pointerdown',this.onInteract);
 
       }catch{this.querySelector('.globe-chart').textContent='Globe unavailable. Portfolio content remains accessible.';this.loading=false;}
     }
     startDrift(){
-      if(!this.chart||this.motion?.matches)return;
+      if(!this.chart||this.motion?.matches||window.PortfolioMotion?.enabled===false)return;
       // Small azimuth sweep keeps the owner marker in view. Drag or locate stops it.
       this.drift=this.chart.animate({key:'rotationX',from:this.chart.get('rotationX'),to:-78.4125,duration:18000,easing:am5.ease.inOut(am5.ease.sine)});
     }
@@ -48,7 +48,7 @@
       this.querySelector('.visitor-globe-state').textContent=this.visitor?'● VISITOR / '+(this.visitor.source==='device'?'DEVICE':'IP ESTIMATE'):'● VISITOR / UNKNOWN';this.querySelector('[data-location="visitor"]').disabled=!this.visitor;this.updatePoints();
     }
     updatePoints(){if(!this.points)return;const data=[{longitude:90.4125,latitude:23.8103,title:'Mohsin Ali / Dhaka city centre',color:0xdcb653}];if(this.visitor)data.push({longitude:this.visitor.longitude,latitude:this.visitor.latitude,title:'Visitor / '+(this.visitor.source==='device'?'device position':'approximate IP location'),color:0xad80de});this.points.data.setAll(data);}
-    disconnectedCallback(){this.drift?.stop();this.motion?.removeEventListener('change',this.onMotion);this.removeEventListener('pointerdown',this.onInteract);this.resizeObserver?.disconnect();this.root?.dispose();this.root=null;this.ready=false;this.loading=false;this.themeObserver?.disconnect();document.removeEventListener('portfolio:visitor-location',this.onVisitor);}
+    disconnectedCallback(){document.removeEventListener('portfolio:motion',this.onMotion);this.drift?.stop();this.motion?.removeEventListener('change',this.onMotion);this.removeEventListener('pointerdown',this.onInteract);this.resizeObserver?.disconnect();this.root?.dispose();this.root=null;this.ready=false;this.loading=false;this.themeObserver?.disconnect();document.removeEventListener('portfolio:visitor-location',this.onVisitor);}
   }
   customElements.define('x-location-map',LocationGlobe);
 })();

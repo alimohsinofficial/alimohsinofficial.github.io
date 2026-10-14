@@ -1,9 +1,12 @@
 /* GSAP is progressive enhancement. No hidden content or required build step. */
 (() => {
   if(!document.body.classList.contains('studio-landing'))return;
+  const counterText=new Map([...document.querySelectorAll('.intro-facts b')].map(el=>[el,el.textContent]));
+  let scrollMotion;
+  const setupMotion=()=>{scrollMotion?.revert();counterText.forEach((text,el)=>el.textContent=text);if(window.PortfolioMotion?.enabled===false)return;
   if(window.gsap&&window.ScrollTrigger){
   gsap.registerPlugin(ScrollTrigger);
-  gsap.matchMedia().add({desktop:'(min-width: 901px)',mobile:'(max-width: 900px)',motion:'(prefers-reduced-motion: no-preference)'},context=>{
+  scrollMotion=gsap.matchMedia();scrollMotion.add({desktop:'(min-width: 901px)',mobile:'(max-width: 900px)',motion:'(prefers-reduced-motion: no-preference)'},context=>{
     if(!context.conditions.motion)return;
     ScrollTrigger.defaults({scroller:context.conditions.desktop?'.studio-scroll':window});
     gsap.timeline({defaults:{ease:'power3.out'}})
@@ -33,16 +36,17 @@
     gsap.to('.scroll-progress' ,{scaleX:1,ease:'none',scrollTrigger:{start:0,end:'max',scrub:true}});
   });
   }
+  };setupMotion();document.addEventListener('portfolio:motion',setupMotion);
   const pointerEffects=matchMedia('(pointer: fine) and (prefers-reduced-motion: no-preference)');
   const interactive=[...document.querySelectorAll('.portrait-sculpture,.notebook-object,.studio-landing .text-link,.studio-landing .pill-link')];
   interactive.forEach(el=>{
     const tilt=el.matches('.portrait-sculpture,.notebook-object');
-    el.addEventListener('pointermove',e=>{if(!pointerEffects.matches)return;const r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+    el.addEventListener('pointermove',e=>{if(!pointerEffects.matches||window.PortfolioMotion?.enabled===false)return;const r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
       if(tilt){el.style.setProperty('--tilt-x',(-y*4)+'deg');el.style.setProperty('--tilt-y',(x*5)+'deg');}
       else{el.style.setProperty('--mouse-x',(x*7)+'px');el.style.setProperty('--mouse-y',(y*5)+'px');}
     },{passive:true});
     const reset=()=>{['--tilt-x','--tilt-y','--mouse-x','--mouse-y'].forEach(name=>el.style.removeProperty(name));};
-    el.addEventListener('pointerleave',reset);pointerEffects.addEventListener('change',reset);
+    el.addEventListener('pointerleave',reset);pointerEffects.addEventListener('change',reset);document.addEventListener('portfolio:motion',reset);
   });
   const links=[...document.querySelectorAll('.studio-header nav a[href^="#"],.studio-bottom-nav a[href^="#"]')];
   const views={intro:'overview',notebook:'blog',work:'projects',profile:'about',research:'research',contact:'contact'};

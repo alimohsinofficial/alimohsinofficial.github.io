@@ -9,7 +9,7 @@
   const motion=matchMedia('(prefers-reduced-motion: reduce)');
   // Decode only newly opened headings. Accessible labels retain the final wording.
   function revealText(scope){
-    if(motion.matches)return;
+    if(motion.matches||window.PortfolioMotion?.enabled===false)return;
     scope.querySelectorAll('.view-heading h2,.view-heading .hud-label,#dossier-title').forEach(el=>{
       const label=el.textContent;el.setAttribute('aria-label',label);
       const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),nodes=[];let node;
@@ -17,7 +17,7 @@
       const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/+#_';let start,last=0;
       function frame(now){
         if(!el.isConnected)return;
-        if(start===undefined)start=now;const progress=Math.min(1,(now-start)/640);
+        if(start===undefined)start=now;const progress=motion.matches||window.PortfolioMotion?.enabled===false?1:Math.min(1,(now-start)/640);
         if(now-last>40||progress===1){last=now;for(const [node,text] of nodes){const end=Math.ceil(text.length*progress);node.nodeValue=Array.from(text,(c,i)=>i<end||/\s/.test(c)?c:chars[Math.floor(Math.random()*chars.length)]).join('');}}
         if(progress<1)requestAnimationFrame(frame);else el.removeAttribute('aria-label');
       }
@@ -43,7 +43,7 @@
     document.getElementById('hud-more-toggle').classList.toggle('current',['resume','research','contact','widgets'].includes(view));
     const index=nav.indexOf(view);document.getElementById('view-code').textContent='03 / '+names[index];document.getElementById('view-status').textContent='VIEW 0'+(index+1)+' / '+names[index];
     const heading=(label,title,description='')=>`<div class="view-heading"><p class="hud-label">${label}</p><h2>${title}</h2>${description?'<p>'+description+'</p>':''}</div>`;
-    if(view==='overview')panel.innerHTML=`${heading('ENGINEERING / AI / DEEP TECH','IDEAS INTO<br><em>WORKING SYSTEMS.</em>','I build software, lead engineering teams, and work on applied research.')}<div class="hud-visual-stage"><div class="visual-scene" data-three-scene="topology" aria-hidden="true"><span class="visual-fallback"><i></i><i></i><i></i></span></div><div class="visual-scene" data-pixi-scene="radar" aria-hidden="true"><span class="visual-fallback"><i></i><i></i><i></i></span></div><div class="hud-visual-caption"><span>SYSTEM TOPOLOGY / INTERACTIVE STUDY</span><span>ILLUSTRATIVE SIGNAL FIELD</span></div></div><div class="overview-stats"><div><b>10+</b><span>YEARS BUILDING</span></div><div><b>04</b><span>PROJECT DOSSIERS</span></div><div><b>02</b><span>CS DEGREES</span></div></div><div class="view-section-title"><span>FIELD NOTEBOOK / LATEST</span><a href="#blog">VIEW ALL ↗</a></div><div class="overview-note">${notes()}</div><div class="view-section-title"><span>SELECTED WORK</span><a href="#projects">VIEW ALL ↗</a></div><div class="overview-projects">${P.projects.slice(0,2).map(p=>`<a href="#${p.path.slice(1,-1)}"><span>${escape(p.category.toUpperCase())}</span><b>${escape(p.title)}</b><i>↗</i></a>`).join('')}</div>`;
+    if(view==='overview')panel.innerHTML=`${heading('ENGINEERING / AI / DEEP TECH','IDEAS INTO<br><em>WORKING SYSTEMS.</em>','I build software, lead engineering teams, and work on applied research.')}<div class="hud-visual-stage"><div class="visual-scene" data-three-scene="pipeline" aria-hidden="true"><span class="visual-fallback"><i></i><i></i><i></i></span></div><div class="visual-scene" data-pixi-scene="acoustic" aria-hidden="true"><span class="visual-fallback acoustic-fallback"><svg viewBox="0 0 400 160" aria-hidden="true"><path d="M0 80H40q10-18 20 0t20 0h20q10-48 20 0t20 0h20q10-65 20 0t20 0h20q10-35 20 0t20 0h20q10-16 20 0t20 0h40" fill="none" stroke="currentColor" stroke-width="2"/><path d="M0 110H70q10-12 20 0t20 0h35q10-28 20 0t20 0h35q10-20 20 0t20 0h35q10-10 20 0t20 0h35" fill="none" stroke="currentColor" stroke-width="1" opacity=".4"/></svg></span></div><div class="hud-visual-caption"><span>INPUTS → MODEL → PRODUCT / CONCEPT</span><span>AI-AFS / ACOUSTIC SIGNAL CONCEPT</span></div></div><div class="overview-stats"><div><b>10+</b><span>YEARS BUILDING</span></div><div><b>04</b><span>PROJECT DOSSIERS</span></div><div><b>02</b><span>CS DEGREES</span></div></div><div class="view-section-title"><span>FIELD NOTEBOOK / LATEST</span><a href="#blog">VIEW ALL ↗</a></div><div class="overview-note">${notes()}</div><div class="view-section-title"><span>SELECTED WORK</span><a href="#projects">VIEW ALL ↗</a></div><div class="overview-projects">${P.projects.slice(0,2).map(p=>`<a href="#${p.path.slice(1,-1)}"><span>${escape(p.category.toUpperCase())}</span><b>${escape(p.title)}</b><i>↗</i></a>`).join('')}</div>`;
     if(view==='projects')panel.innerHTML=`${heading('ENGINEERING / PROJECT INDEX','SELECTED WORK.','Industrial AI, acoustic intelligence, physical modelling, and research delivery.')}<div class="hud-record-grid">${projects()}</div>`;
     if(view==='blog')panel.innerHTML=`${heading('WRITING / FIELD NOTES','THE NOTEBOOK.','AI, engineering, research, and the process of building. AI assistance is disclosed on each note.')}<label class="hud-search">SEARCH NOTES<input type="search" id="hud-note-search" placeholder="Title or topic…"></label><div class="hud-note-list">${notes()}</div><p class="hud-empty" hidden>No notes match your search.</p>`;
     if(view==='about')panel.innerHTML=`${heading('OWNER / BACKGROUND','ENGINEER.<br>RESEARCHER. LEADER.','Based in Dhaka, Bangladesh. Working across software, AI, and deep-tech research.')}<div class="hud-summary"><p>I started in game and web development in 2014. My work now spans technology strategy, full-stack systems, interpretable machine learning, and research delivery.</p><div class="capability-grid"><div><b>BUILD</b><span>Software architecture<br>Cloud & full-stack systems</span></div><div><b>RESEARCH</b><span>AI & machine learning<br>Quantum systems</span></div><div><b>LEAD</b><span>Technical direction<br>Engineering teams</span></div></div><button class="hud-button" data-document="/about/">READ FULL PROFILE ↗</button></div>`;
@@ -60,7 +60,8 @@
     document.getElementById('dossier-studio-link').href=P.url(path);
     const body=document.getElementById('dossier-content');body.innerHTML=doc.html;
     body.querySelector('h1')?.remove();
-    body.querySelectorAll('[id]').forEach(el=>{el.id='dossier-'+el.id;});
+    const ids=new Map();body.querySelectorAll('[id]').forEach(el=>{const old=el.id;el.id='dossier-'+old;ids.set(old,el.id);});
+    body.querySelectorAll('[for],[aria-labelledby],[aria-describedby],[aria-controls]').forEach(el=>{for(const attr of ['for','aria-labelledby','aria-describedby','aria-controls'])if(el.hasAttribute(attr))el.setAttribute(attr,el.getAttribute(attr).split(/\s+/).map(id=>ids.get(id)||id).join(' '));});
     body.querySelectorAll('a[href],img[src]').forEach(el=>{const attr=el.tagName==='IMG'?'src':'href';const value=el.getAttribute(attr);if(value.startsWith('/'))el.setAttribute(attr,P.url(value));});
     body.querySelectorAll('x-copy-button[copy-current-url]').forEach(el=>el.setAttribute('text',location.href));
     body.querySelector('.resume-toolbar')?.remove();

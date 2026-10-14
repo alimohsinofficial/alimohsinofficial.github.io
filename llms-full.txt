@@ -328,7 +328,7 @@ This is a static portfolio. It has no account system, analytics script, advertis
 
 ## Preferences and browser details
 
-Light/dark preferences are stored in your browser’s local storage. Studio and Tactical keep separate preferences. Tactical displays browser, viewport, language, time-zone, and device information locally. The site does not send those readouts to a portfolio server.
+Light/dark and decorative-motion preferences are stored in your browser’s local storage. Studio and Tactical keep separate preferences. Tactical displays browser, viewport, language, time-zone, and device information locally. The site does not send those readouts to a portfolio server.
 
 ## Optional location lookup
 
