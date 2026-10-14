@@ -1,0 +1,4 @@
+# Custom globe
+The globe renderer is original native JavaScript/Canvas code. It projects spherical longitude/latitude coordinates into an orthographic view, clips the hidden hemisphere, and draws country boundaries, graticules and owner/visitor markers. It does not load amCharts, Three.js, textures or external APIs. It redraws only on resize, rotation, location updates or appearance changes; there is no idle animation loop.
+
+World contours in `assets/world-contours.js` come from Natural Earth's 110m country boundaries, rounded to two decimal places and stripped of unused metadata. Natural Earth data is public domain: https://www.naturalearthdata.com/about/terms-of-use/ . Source: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson . No amCharts renderer or data is used. Dhaka is a city-centre marker, not a home address. Visitor positions are optional and approximate.

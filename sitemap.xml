@@ -2,58 +2,258 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alimohsinofficial.github.io/about/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/agents/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/blog/a-new-home/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/blog/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/contact/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/privacy/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/projects/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/projects/physics-informed-modelling/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/projects/quantairsense/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/research/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
   </url>
   <url>
     <loc>https://alimohsinofficial.github.io/resume/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/agentforge/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/incodetechnology-uk/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/quantidiumai/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/taka-digital/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/cambridgeflair-co-uk/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/quantonova/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/nextaifusion-com/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/intellicreate-co-uk/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/bellacet/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/livingstone/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/oceanlink/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/smartroundabout-co-uk/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/trackgenesis/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/alimohsinofficial-github-io/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/ai4multigis/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/nanorail/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/adsync360/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/canvas-of-hope/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/mediprospects-co-uk/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/canvas-of-life-by-anny/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/pqcshift/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/urban-taste-travels/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/ai360degree/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/143play/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/microinvestica-com/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/arise/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/safetechnologia-com/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/impactofwe-com/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/quantotrace/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/net0chain/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/imchartered-co-uk/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/medihis/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/open-world-gaming/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/bdunicompare-com/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/elite/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/bdnationalsurvey-com/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/xrtes/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/itgov-xyz/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/geit/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/mediprospects-ai/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/itknowledgeltd-com/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/qater/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/supportbd/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/buyzooba/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/incorelab/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/anchorbd/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/englishsociety/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/setmylife/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/design/logos/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://alimohsinofficial.github.io/projects/android-apps/</loc>
+    <lastmod>2026-10-15</lastmod>
   </url>
 </urlset>

@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/privacy/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 This is a static portfolio. It has no account system, analytics script, advertising tracker, or portfolio-operated backend.
 

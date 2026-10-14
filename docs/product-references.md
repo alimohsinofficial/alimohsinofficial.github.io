@@ -1,0 +1,2 @@
+# Product references
+`assets/products.json` records software/library names, official reference URLs, local SVG paths and source URLs. Locally stored icons are from Devicon (MIT) and Simple Icons (CC0); their license files are beside the icons. Product marks identify referenced tools and remain their owners' property. Missing verified icons use readable names and reference links rather than fabricated brand marks. The website makes no runtime requests to icon CDNs.

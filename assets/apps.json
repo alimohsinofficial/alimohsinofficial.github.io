@@ -1,0 +1,81 @@
+{
+  "source": "Earlier resume supplied by Mohsin Ali",
+  "archive": "https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI",
+  "apps": [
+    {
+      "name": "7 Card Game",
+      "category": "Card game",
+      "id": "7-card-game",
+      "image": "/assets/images/apps/7-card-game.webp",
+      "source": "https://cdn.browsercam.com/img/com.onefourthreeplay.sevencard-logo.png",
+      "reference": "https://www.browsercam.com/7-card-game-pc/",
+      "artwork": "Archived app icon"
+    },
+    {
+      "name": "29 Card Game Challenge",
+      "category": "Card game",
+      "id": "29-card-game-challenge",
+      "image": "/assets/images/apps/29-card-game-challenge.webp",
+      "source": "https://i.iinfo.cz/s/product-icons/android/45/50/29-card-game-challenge.png",
+      "reference": "https://www.slunecnice.cz/android/sw/29-card-game-challenge/",
+      "artwork": "Archived app icon"
+    },
+    {
+      "name": "USA Election 2016",
+      "category": "Android app",
+      "id": "usa-election-2016",
+      "image": "/assets/images/apps/usa-election-2016.svg",
+      "reference": "https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI",
+      "artwork": "Portfolio illustration · original icon unavailable"
+    },
+    {
+      "name": "29 Card Game Pro",
+      "category": "Card game",
+      "id": "29-card-game-pro",
+      "image": "/assets/images/apps/29-card-game-pro.svg",
+      "reference": "https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI",
+      "artwork": "Portfolio illustration · original icon unavailable"
+    },
+    {
+      "name": "29 Card",
+      "category": "Card game",
+      "id": "29-card",
+      "image": "/assets/images/apps/29-card.svg",
+      "reference": "https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI",
+      "artwork": "Portfolio illustration · original icon unavailable"
+    },
+    {
+      "name": "SmartBluetooth Tracker",
+      "category": "Bluetooth utility",
+      "id": "smartbluetooth-tracker",
+      "image": "/assets/images/apps/smartbluetooth-tracker.webp",
+      "source": "https://i.iinfo.cz/s/product-icons/android/91/59/smartbluetooth-tracker.png",
+      "reference": "https://www.slunecnice.cz/android/sw/smartbluetooth-tracker/",
+      "artwork": "Archived app icon"
+    },
+    {
+      "name": "2048 Ultimate",
+      "category": "Puzzle game",
+      "id": "2048-ultimate",
+      "image": "/assets/images/apps/2048-ultimate.svg",
+      "reference": "https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI",
+      "artwork": "Portfolio illustration · original icon unavailable"
+    },
+    {
+      "name": "EU Referendum 2016",
+      "category": "Android app",
+      "id": "eu-referendum-2016",
+      "image": "/assets/images/apps/eu-referendum-2016.svg",
+      "reference": "https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI",
+      "artwork": "Portfolio illustration · original icon unavailable"
+    },
+    {
+      "name": "Tasbeeh",
+      "category": "Android app",
+      "id": "tasbeeh",
+      "image": "/assets/images/apps/tasbeeh.svg",
+      "reference": "https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI",
+      "artwork": "Portfolio illustration · original icon unavailable"
+    }
+  ]
+}

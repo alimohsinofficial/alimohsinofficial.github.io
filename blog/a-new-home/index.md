@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/blog/a-new-home/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 Field notes / Site note
 
@@ -18,7 +18,7 @@ The notebook is intended to grow alongside the work. Project pages provide the p
 
 ## Two ways to explore
 
-Studio keeps a fixed profile area on the left and scrolling content on the right, with flat sections and GSAP motion. Tactical is a separate full-screen military HUD: content changes in place, details open in dialogs, and the spherical globe is a small optional widget alongside the clock and visitor readouts. Mobile navigation sits at the bottom. Switching experiences retains the selected section or detail. Both have light and dark appearances. Public IP and approximate location lookup are visitor-initiated.
+Studio keeps a fixed profile area on the left and scrolling content on the right, with flat sections and [![](https://alimohsinofficial.github.io/assets/images/products/greensock.svg)GSAP](https://gsap.com/) motion. Tactical is a separate full-screen military HUD: content changes in place, details open in dialogs, and the spherical globe is a small optional widget alongside the clock and visitor readouts. Mobile navigation sits at the bottom. Switching experiences retains the selected section or detail. Both have light and dark appearances. Public IP and approximate location lookup are visitor-initiated.
 
 ## Built to stay simple
 

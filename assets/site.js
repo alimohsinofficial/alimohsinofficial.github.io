@@ -1,6 +1,13 @@
 /* Shared static-page utilities. Layout controllers are separate. */
 (() => {
+  // Apply to static pages and newly inserted Tactical dossiers alike.
+  const externalLinks=root=>root.querySelectorAll('a[href]').forEach(a=>{const href=a.getAttribute('href');if(!/^https?:\/\//.test(href))return;const u=new URL(href);if(u.origin===location.origin)return;a.target='_blank';a.rel='noopener noreferrer';});
+  externalLinks(document);
+  new MutationObserver(records=>records.forEach(record=>record.addedNodes.forEach(node=>{if(node.nodeType===1){if(node.matches('a[href]'))externalLinks(node.parentElement);else externalLinks(node);}}))).observe(document.body,{childList:true,subtree:true});
   if(location.protocol==='file:')document.querySelectorAll('a[href]').forEach(link=>{const u=new URL(link.getAttribute('href'),location.href);if(u.protocol==='file:'&&u.pathname.endsWith('/')){u.pathname+='index.html';link.href=u.href;}});
+  const warmed=new Set();
+  const warmPage=e=>{if(navigator.connection?.saveData||location.protocol==='file:')return;const a=e.target.closest('a[href]');if(!a||a.hasAttribute('download'))return;const u=new URL(a.href);if(u.origin!==location.origin||u.pathname===location.pathname||warmed.has(u.pathname))return;warmed.add(u.pathname);const hint=document.createElement('link');hint.rel='prefetch';hint.href=u.href;document.head.append(hint);};
+  document.addEventListener('pointerover',warmPage,{passive:true});document.addEventListener('focusin',warmPage);
   const themeKey='portfolio-theme-'+(document.documentElement.dataset.experience||'studio');
   const appearance=window.PortfolioAppearance||{value:document.documentElement.getAttribute('theme')||'light'};
   let restoring=false;

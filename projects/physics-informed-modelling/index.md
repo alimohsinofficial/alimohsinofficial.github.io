@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/projects/physics-informed-modelling/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 Applied research / PROJECT 03
 
@@ -16,9 +16,9 @@ Modelling & R&D leadership
 
 TECHNOLOGIES
 
-Python PINN Optimisation Edge AI
+[![](https://alimohsinofficial.github.io/assets/images/products/python.svg)Python](https://www.python.org/) PINN Optimisation Edge AI
 
-[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/)
 
 ## Context
 

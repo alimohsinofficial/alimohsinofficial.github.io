@@ -4,7 +4,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/about/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 ABOUT
 
@@ -12,7 +12,7 @@ ABOUT
 
 CTO, engineer & research collaborator
 
-![Mohsin Ali](https://alimohsinofficial.github.io/assets/images/profile.png)
+![Mohsin Ali](https://alimohsinofficial.github.io/assets/images/profile-640.webp)
 
 ## Ideas into systems.
 
@@ -48,11 +48,11 @@ Technology strategy, research delivery, team mentoring, and translating emerging
 
 AI, ML & data
 
-Python scikit-learn pandas / NumPy Random Forest SHAP Physics-informed neural networks Edge inference Power BI Jupyter
+[![](https://alimohsinofficial.github.io/assets/images/products/python.svg)Python](https://www.python.org/) [![](https://alimohsinofficial.github.io/assets/images/products/scikitlearn.svg)scikit-learn](https://scikit-learn.org/) [![](https://alimohsinofficial.github.io/assets/images/products/pandas.svg)pandas](https://pandas.pydata.org/) / [![](https://alimohsinofficial.github.io/assets/images/products/numpy.svg)NumPy](https://numpy.org/) Random Forest [SHAP](https://shap.readthedocs.io/) Physics-informed neural networks Edge inference [Power BI](https://www.microsoft.com/power-platform/products/power-bi) [![](https://alimohsinofficial.github.io/assets/images/products/jupyter.svg)Jupyter](https://jupyter.org/)
 
 Software & cloud
 
-JavaScript / TypeScript PHP Java C / C++ SQL React / React Native Vue Web Components Node.js Laravel / Livewire Docker Google Cloud Run PostgreSQL MySQL SQLite WordPress REST APIs Git / CI/CD HTML5 / CSS3 Tailwind CSS CodeIgniter Flutter
+[![](https://alimohsinofficial.github.io/assets/images/products/javascript.svg)JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) / [![](https://alimohsinofficial.github.io/assets/images/products/typescript.svg)TypeScript](https://www.typescriptlang.org/) [![](https://alimohsinofficial.github.io/assets/images/products/php.svg)PHP](https://www.php.net/) [![](https://alimohsinofficial.github.io/assets/images/products/java.svg)Java](https://www.java.com/) C / [![](https://alimohsinofficial.github.io/assets/images/products/cplusplus.svg)C++](https://isocpp.org/) SQL [![](https://alimohsinofficial.github.io/assets/images/products/react.svg)React](https://react.dev/) / [![](https://alimohsinofficial.github.io/assets/images/products/react.svg)React Native](https://reactnative.dev/) [![](https://alimohsinofficial.github.io/assets/images/products/vuejs.svg)Vue](https://vuejs.org/) Web Components [![](https://alimohsinofficial.github.io/assets/images/products/nodejs.svg)Node.js](https://nodejs.org/) [![](https://alimohsinofficial.github.io/assets/images/products/laravel.svg)Laravel](https://laravel.com/) / [![](https://alimohsinofficial.github.io/assets/images/products/livewire.svg)Livewire](https://livewire.laravel.com/) [![](https://alimohsinofficial.github.io/assets/images/products/docker.svg)Docker](https://www.docker.com/) [![](https://alimohsinofficial.github.io/assets/images/products/googlecloud.svg)Google Cloud Run](https://cloud.google.com/run) [![](https://alimohsinofficial.github.io/assets/images/products/postgresql.svg)PostgreSQL](https://www.postgresql.org/) [![](https://alimohsinofficial.github.io/assets/images/products/mysql.svg)MySQL](https://www.mysql.com/) [![](https://alimohsinofficial.github.io/assets/images/products/sqlite.svg)SQLite](https://www.sqlite.org/) [![](https://alimohsinofficial.github.io/assets/images/products/wordpress.svg)WordPress](https://wordpress.org/) REST APIs [![](https://alimohsinofficial.github.io/assets/images/products/git.svg)Git](https://git-scm.com/) / CI/CD [![](https://alimohsinofficial.github.io/assets/images/products/html5.svg)HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) / [![](https://alimohsinofficial.github.io/assets/images/products/css3.svg)CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) [![](https://alimohsinofficial.github.io/assets/images/products/tailwindcss.svg)Tailwind CSS](https://tailwindcss.com/) [![](https://alimohsinofficial.github.io/assets/images/products/codeigniter.svg)CodeIgniter](https://codeigniter.com/) [![](https://alimohsinofficial.github.io/assets/images/products/flutter.svg)Flutter](https://flutter.dev/)
 
 Research & hardware
 
@@ -64,7 +64,7 @@ Technology strategy R&D roadmaps Project management Team mentoring Grant applica
 
 Creative & agent tools
 
-Claude Code OpenAI Codex Google Gemini NotebookLM n8n Figma Unity Unreal Engine Blender Photoshop / Illustrator DaVinci Resolve Obsidian Notion Adobe Premiere Pro World Creator Gaea Chrome extension development
+[![](https://alimohsinofficial.github.io/assets/images/products/claude.svg)Claude Code](https://code.claude.com/docs/) [OpenAI Codex](https://openai.com/codex/) [![](https://alimohsinofficial.github.io/assets/images/products/googlegemini.svg)Google Gemini](https://gemini.google.com/) [![](https://alimohsinofficial.github.io/assets/images/products/notebooklm.svg)NotebookLM](https://notebooklm.google.com/) [![](https://alimohsinofficial.github.io/assets/images/products/n8n.svg)n8n](https://n8n.io/) [![](https://alimohsinofficial.github.io/assets/images/products/figma.svg)Figma](https://www.figma.com/) [![](https://alimohsinofficial.github.io/assets/images/products/unity.svg)Unity](https://unity.com/) [![](https://alimohsinofficial.github.io/assets/images/products/unrealengine.svg)Unreal Engine](https://www.unrealengine.com/) [![](https://alimohsinofficial.github.io/assets/images/products/blender.svg)Blender](https://www.blender.org/) [![](https://alimohsinofficial.github.io/assets/images/products/photoshop.svg)Photoshop](https://www.adobe.com/products/photoshop.html) / [![](https://alimohsinofficial.github.io/assets/images/products/illustrator.svg)Illustrator](https://www.adobe.com/products/illustrator.html) [![](https://alimohsinofficial.github.io/assets/images/products/davinciresolve.svg)DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) [![](https://alimohsinofficial.github.io/assets/images/products/obsidian.svg)Obsidian](https://obsidian.md/) [![](https://alimohsinofficial.github.io/assets/images/products/notion.svg)Notion](https://www.notion.com/) [![](https://alimohsinofficial.github.io/assets/images/products/premierepro.svg)Adobe Premiere Pro](https://www.adobe.com/products/premiere.html) [World Creator](https://www.world-creator.com/) [Gaea](https://quadspinner.com/) Chrome extension development
 
 ## Good work starts with a conversation.
 
@@ -77,9 +77,9 @@ Claude Code OpenAI Codex Google Gemini NotebookLM n8n Figma Unity Unreal Engine 
 
 Canonical page: https://alimohsinofficial.github.io/agents/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
-The same portfolio facts and writing, available as Markdown without rendering JavaScript or WebGL.
+The same portfolio facts and writing, available as Markdown without rendering [![](https://alimohsinofficial.github.io/assets/images/products/javascript.svg)JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) or WebGL.
 
 ## Start here
 
@@ -102,6 +102,56 @@ Studio HTML pages are the canonical public content. Tactical is an alternate int
 - [QuantAirSense](https://alimohsinofficial.github.io/projects/quantairsense/) · [Markdown](https://alimohsinofficial.github.io/projects/quantairsense/index.md)
 - [Research & publications](https://alimohsinofficial.github.io/research/) · [Markdown](https://alimohsinofficial.github.io/research/index.md)
 - [Web resume](https://alimohsinofficial.github.io/resume/) · [Markdown](https://alimohsinofficial.github.io/resume/index.md)
+- [AgentForge — logo design](https://alimohsinofficial.github.io/design/logos/agentforge/) · [Markdown](https://alimohsinofficial.github.io/design/logos/agentforge/index.md)
+- [incodetechnology.uk — logo design](https://alimohsinofficial.github.io/design/logos/incodetechnology-uk/) · [Markdown](https://alimohsinofficial.github.io/design/logos/incodetechnology-uk/index.md)
+- [quantidiumai — logo design](https://alimohsinofficial.github.io/design/logos/quantidiumai/) · [Markdown](https://alimohsinofficial.github.io/design/logos/quantidiumai/index.md)
+- [taka.digital — logo design](https://alimohsinofficial.github.io/design/logos/taka-digital/) · [Markdown](https://alimohsinofficial.github.io/design/logos/taka-digital/index.md)
+- [cambridgeflair.co.uk — logo design](https://alimohsinofficial.github.io/design/logos/cambridgeflair-co-uk/) · [Markdown](https://alimohsinofficial.github.io/design/logos/cambridgeflair-co-uk/index.md)
+- [Quantonova — logo design](https://alimohsinofficial.github.io/design/logos/quantonova/) · [Markdown](https://alimohsinofficial.github.io/design/logos/quantonova/index.md)
+- [nextaifusion.com — logo design](https://alimohsinofficial.github.io/design/logos/nextaifusion-com/) · [Markdown](https://alimohsinofficial.github.io/design/logos/nextaifusion-com/index.md)
+- [intellicreate.co.uk — logo design](https://alimohsinofficial.github.io/design/logos/intellicreate-co-uk/) · [Markdown](https://alimohsinofficial.github.io/design/logos/intellicreate-co-uk/index.md)
+- [bellacet — logo design](https://alimohsinofficial.github.io/design/logos/bellacet/) · [Markdown](https://alimohsinofficial.github.io/design/logos/bellacet/index.md)
+- [livingstone — logo design](https://alimohsinofficial.github.io/design/logos/livingstone/) · [Markdown](https://alimohsinofficial.github.io/design/logos/livingstone/index.md)
+- [OceanLink — logo design](https://alimohsinofficial.github.io/design/logos/oceanlink/) · [Markdown](https://alimohsinofficial.github.io/design/logos/oceanlink/index.md)
+- [smartroundabout.co.uk — logo design](https://alimohsinofficial.github.io/design/logos/smartroundabout-co-uk/) · [Markdown](https://alimohsinofficial.github.io/design/logos/smartroundabout-co-uk/index.md)
+- [trackgenesis — logo design](https://alimohsinofficial.github.io/design/logos/trackgenesis/) · [Markdown](https://alimohsinofficial.github.io/design/logos/trackgenesis/index.md)
+- [alimohsinofficial.github.io — logo design](https://alimohsinofficial.github.io/design/logos/alimohsinofficial-github-io/) · [Markdown](https://alimohsinofficial.github.io/design/logos/alimohsinofficial-github-io/index.md)
+- [AI4MultiGIS — logo design](https://alimohsinofficial.github.io/design/logos/ai4multigis/) · [Markdown](https://alimohsinofficial.github.io/design/logos/ai4multigis/index.md)
+- [nanoRail — logo design](https://alimohsinofficial.github.io/design/logos/nanorail/) · [Markdown](https://alimohsinofficial.github.io/design/logos/nanorail/index.md)
+- [adsync360 — logo design](https://alimohsinofficial.github.io/design/logos/adsync360/) · [Markdown](https://alimohsinofficial.github.io/design/logos/adsync360/index.md)
+- [Canvas of hope — logo design](https://alimohsinofficial.github.io/design/logos/canvas-of-hope/) · [Markdown](https://alimohsinofficial.github.io/design/logos/canvas-of-hope/index.md)
+- [Mediprospects.co.uk — logo design](https://alimohsinofficial.github.io/design/logos/mediprospects-co-uk/) · [Markdown](https://alimohsinofficial.github.io/design/logos/mediprospects-co-uk/index.md)
+- [canvas of life by anny — logo design](https://alimohsinofficial.github.io/design/logos/canvas-of-life-by-anny/) · [Markdown](https://alimohsinofficial.github.io/design/logos/canvas-of-life-by-anny/index.md)
+- [PQCshift — logo design](https://alimohsinofficial.github.io/design/logos/pqcshift/) · [Markdown](https://alimohsinofficial.github.io/design/logos/pqcshift/index.md)
+- [Urban Taste Travels — logo design](https://alimohsinofficial.github.io/design/logos/urban-taste-travels/) · [Markdown](https://alimohsinofficial.github.io/design/logos/urban-taste-travels/index.md)
+- [AI360Degree — logo design](https://alimohsinofficial.github.io/design/logos/ai360degree/) · [Markdown](https://alimohsinofficial.github.io/design/logos/ai360degree/index.md)
+- [143play — logo design](https://alimohsinofficial.github.io/design/logos/143play/) · [Markdown](https://alimohsinofficial.github.io/design/logos/143play/index.md)
+- [microinvestica.com — logo design](https://alimohsinofficial.github.io/design/logos/microinvestica-com/) · [Markdown](https://alimohsinofficial.github.io/design/logos/microinvestica-com/index.md)
+- [arise — logo design](https://alimohsinofficial.github.io/design/logos/arise/) · [Markdown](https://alimohsinofficial.github.io/design/logos/arise/index.md)
+- [safetechnologia.com — logo design](https://alimohsinofficial.github.io/design/logos/safetechnologia-com/) · [Markdown](https://alimohsinofficial.github.io/design/logos/safetechnologia-com/index.md)
+- [impactofwe.com — logo design](https://alimohsinofficial.github.io/design/logos/impactofwe-com/) · [Markdown](https://alimohsinofficial.github.io/design/logos/impactofwe-com/index.md)
+- [QuantoTrace — logo design](https://alimohsinofficial.github.io/design/logos/quantotrace/) · [Markdown](https://alimohsinofficial.github.io/design/logos/quantotrace/index.md)
+- [net0chain — logo design](https://alimohsinofficial.github.io/design/logos/net0chain/) · [Markdown](https://alimohsinofficial.github.io/design/logos/net0chain/index.md)
+- [imchartered.co.uk — logo design](https://alimohsinofficial.github.io/design/logos/imchartered-co-uk/) · [Markdown](https://alimohsinofficial.github.io/design/logos/imchartered-co-uk/index.md)
+- [mediHIS — logo design](https://alimohsinofficial.github.io/design/logos/medihis/) · [Markdown](https://alimohsinofficial.github.io/design/logos/medihis/index.md)
+- [open world gaming — logo design](https://alimohsinofficial.github.io/design/logos/open-world-gaming/) · [Markdown](https://alimohsinofficial.github.io/design/logos/open-world-gaming/index.md)
+- [bdunicompare.com — logo design](https://alimohsinofficial.github.io/design/logos/bdunicompare-com/) · [Markdown](https://alimohsinofficial.github.io/design/logos/bdunicompare-com/index.md)
+- [elite — logo design](https://alimohsinofficial.github.io/design/logos/elite/) · [Markdown](https://alimohsinofficial.github.io/design/logos/elite/index.md)
+- [bdnationalsurvey.com — logo design](https://alimohsinofficial.github.io/design/logos/bdnationalsurvey-com/) · [Markdown](https://alimohsinofficial.github.io/design/logos/bdnationalsurvey-com/index.md)
+- [xRTES — logo design](https://alimohsinofficial.github.io/design/logos/xrtes/) · [Markdown](https://alimohsinofficial.github.io/design/logos/xrtes/index.md)
+- [itgov.xyz — logo design](https://alimohsinofficial.github.io/design/logos/itgov-xyz/) · [Markdown](https://alimohsinofficial.github.io/design/logos/itgov-xyz/index.md)
+- [GEIT — logo design](https://alimohsinofficial.github.io/design/logos/geit/) · [Markdown](https://alimohsinofficial.github.io/design/logos/geit/index.md)
+- [mediprospects.ai — logo design](https://alimohsinofficial.github.io/design/logos/mediprospects-ai/) · [Markdown](https://alimohsinofficial.github.io/design/logos/mediprospects-ai/index.md)
+- [itknowledgeltd.com — logo design](https://alimohsinofficial.github.io/design/logos/itknowledgeltd-com/) · [Markdown](https://alimohsinofficial.github.io/design/logos/itknowledgeltd-com/index.md)
+- [qater — logo design](https://alimohsinofficial.github.io/design/logos/qater/) · [Markdown](https://alimohsinofficial.github.io/design/logos/qater/index.md)
+- [supportbd — logo design](https://alimohsinofficial.github.io/design/logos/supportbd/) · [Markdown](https://alimohsinofficial.github.io/design/logos/supportbd/index.md)
+- [buyzooba — logo design](https://alimohsinofficial.github.io/design/logos/buyzooba/) · [Markdown](https://alimohsinofficial.github.io/design/logos/buyzooba/index.md)
+- [incorelab — logo design](https://alimohsinofficial.github.io/design/logos/incorelab/) · [Markdown](https://alimohsinofficial.github.io/design/logos/incorelab/index.md)
+- [anchorbd — logo design](https://alimohsinofficial.github.io/design/logos/anchorbd/) · [Markdown](https://alimohsinofficial.github.io/design/logos/anchorbd/index.md)
+- [EnglishSociety — logo design](https://alimohsinofficial.github.io/design/logos/englishsociety/) · [Markdown](https://alimohsinofficial.github.io/design/logos/englishsociety/index.md)
+- [SetMyLife — logo design](https://alimohsinofficial.github.io/design/logos/setmylife/) · [Markdown](https://alimohsinofficial.github.io/design/logos/setmylife/index.md)
+- [Logo design archive](https://alimohsinofficial.github.io/design/logos/) · [Markdown](https://alimohsinofficial.github.io/design/logos/index.md)
+- [Android apps & games](https://alimohsinofficial.github.io/projects/android-apps/) · [Markdown](https://alimohsinofficial.github.io/projects/android-apps/index.md)
 
 ## Contact
 
@@ -116,7 +166,7 @@ Browser location lookup and device geolocation are optional visitor controls. Th
 
 Canonical page: https://alimohsinofficial.github.io/blog/a-new-home/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 Field notes / Site note
 
@@ -132,7 +182,7 @@ The notebook is intended to grow alongside the work. Project pages provide the p
 
 ## Two ways to explore
 
-Studio keeps a fixed profile area on the left and scrolling content on the right, with flat sections and GSAP motion. Tactical is a separate full-screen military HUD: content changes in place, details open in dialogs, and the spherical globe is a small optional widget alongside the clock and visitor readouts. Mobile navigation sits at the bottom. Switching experiences retains the selected section or detail. Both have light and dark appearances. Public IP and approximate location lookup are visitor-initiated.
+Studio keeps a fixed profile area on the left and scrolling content on the right, with flat sections and [![](https://alimohsinofficial.github.io/assets/images/products/greensock.svg)GSAP](https://gsap.com/) motion. Tactical is a separate full-screen military HUD: content changes in place, details open in dialogs, and the spherical globe is a small optional widget alongside the clock and visitor readouts. Mobile navigation sits at the bottom. Switching experiences retains the selected section or detail. Both have light and dark appearances. Public IP and approximate location lookup are visitor-initiated.
 
 ## Built to stay simple
 
@@ -153,7 +203,7 @@ This opening note was prepared with AI assistance from the portfolio brief. Proj
 
 Canonical page: https://alimohsinofficial.github.io/blog/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 THE FIELD NOTEBOOK
 
@@ -188,7 +238,7 @@ Upcoming themes include interpretable industrial AI, agent-assisted development,
 
 Canonical page: https://alimohsinofficial.github.io/contact/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 START A CONVERSATION
 
@@ -211,7 +261,7 @@ Based in Dhaka, Bangladesh · UTC +06:00
 
 Canonical page: https://alimohsinofficial.github.io/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 INTRODUCTION / MOHSIN ALI
 
@@ -239,7 +289,7 @@ Notes on AI, engineering, research, and the process of building. Written with AI
 
 LATEST ENTRY / FIELD NOTES
 
-01 / NOTES FROM THE DESK 
+01 / NOTES FROM THE DESK
 
 ### [A new home for the work, and the thinking behind it](https://alimohsinofficial.github.io/blog/a-new-home/)
 
@@ -266,6 +316,24 @@ ACOUSTIC INTELLIGENCE
 Understanding salmon feeding behaviour through underwater acoustics.
 
 ACOUSTICS / ML / AQUACULTURE VIEW PROJECT ↗
+
+ANDROID / 09 TITLES [Games & pocket tools ↗](https://alimohsinofficial.github.io/projects/android-apps/)
+
+VISUAL IDENTITY / LOGO DESIGN
+
+### Marks with a history.
+
+[Browse 48 logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+[![AgentForge logo](https://alimohsinofficial.github.io/assets/images/logos/agentforge/cover.webp)
+
+AgentForge](https://alimohsinofficial.github.io/design/logos/agentforge/)[![incodetechnology.uk logo](https://alimohsinofficial.github.io/assets/images/logos/incodetechnology-uk/cover.webp)
+
+incodetechnology.uk](https://alimohsinofficial.github.io/design/logos/incodetechnology-uk/)[![quantidiumai logo](https://alimohsinofficial.github.io/assets/images/logos/quantidiumai/cover.webp)
+
+quantidiumai](https://alimohsinofficial.github.io/design/logos/quantidiumai/)[![taka.digital logo](https://alimohsinofficial.github.io/assets/images/logos/taka-digital/cover.webp)
+
+taka.digital](https://alimohsinofficial.github.io/design/logos/taka-digital/)
 
 03 / A LITTLE CONTEXT
 
@@ -322,7 +390,7 @@ Google Forms handles this message. Confirmation opens in a new tab. [Open Google
 
 Canonical page: https://alimohsinofficial.github.io/privacy/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 This is a static portfolio. It has no account system, analytics script, advertising tracker, or portfolio-operated backend.
 
@@ -355,7 +423,7 @@ Updated 14 October 2026.
 
 Canonical page: https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 Acoustic intelligence / PROJECT 02
 
@@ -369,9 +437,9 @@ Algorithm development & work-package delivery
 
 TECHNOLOGIES
 
-Python Acoustic classification Machine learning
+[![](https://alimohsinofficial.github.io/assets/images/products/python.svg)Python](https://www.python.org/) Acoustic classification Machine learning
 
-[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/)
 
 ## Context
 
@@ -400,7 +468,7 @@ Evaluation figures come from the supplied resume; they describe the reported dat
 
 Canonical page: https://alimohsinofficial.github.io/projects/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 SELECTED WORK
 
@@ -456,6 +524,22 @@ Let's discuss the research, the architecture, and the path to delivery.
 
 [Get in touch ↗](https://alimohsinofficial.github.io/contact/)
 
+ALSO IN MY WORK
+
+## Logo design & visual identity
+
+48 projects with searchable versions and source-file dates.
+
+[Explore logo design ↗](https://alimohsinofficial.github.io/design/logos/)
+
+EARLIER WORK / ANDROID
+
+## Games & pocket tools.
+
+Nine mobile titles, from card games to Bluetooth utilities.
+
+[Explore Android work ↗](https://alimohsinofficial.github.io/projects/android-apps/)
+
 
 ---
 
@@ -463,7 +547,7 @@ Let's discuss the research, the architecture, and the path to delivery.
 
 Canonical page: https://alimohsinofficial.github.io/projects/physics-informed-modelling/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 Applied research / PROJECT 03
 
@@ -477,9 +561,9 @@ Modelling & R&D leadership
 
 TECHNOLOGIES
 
-Python PINN Optimisation Edge AI
+[![](https://alimohsinofficial.github.io/assets/images/products/python.svg)Python](https://www.python.org/) PINN Optimisation Edge AI
 
-[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/)
 
 ## Context
 
@@ -506,7 +590,7 @@ These are the results described in the supplied resume. A detailed experimental 
 
 Canonical page: https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 Full-stack systems / PROJECT 04
 
@@ -520,9 +604,9 @@ Platform development
 
 TECHNOLOGIES
 
-Laravel Livewire Tailwind CSS Project management
+[![](https://alimohsinofficial.github.io/assets/images/products/laravel.svg)Laravel](https://laravel.com/) [![](https://alimohsinofficial.github.io/assets/images/products/livewire.svg)Livewire](https://livewire.laravel.com/) [![](https://alimohsinofficial.github.io/assets/images/products/tailwindcss.svg)Tailwind CSS](https://tailwindcss.com/) Project management
 
-[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/)
 
 ## Context
 
@@ -532,7 +616,7 @@ An internal project-management platform for coordinating Quantonova's multi-proj
 
 - Build 48 modules supporting delivery and portfolio coordination.
 - Bring project documentation and compliance workflows into a shared platform.
-- Use Laravel and Livewire for the application foundation.
+- Use [![](https://alimohsinofficial.github.io/assets/images/products/laravel.svg)Laravel](https://laravel.com/) and [![](https://alimohsinofficial.github.io/assets/images/products/livewire.svg)Livewire](https://livewire.laravel.com/) for the application foundation.
 
 ## Reported outcomes
 
@@ -547,7 +631,7 @@ This is an internal system; source code and a public demo are not supplied.
 
 Canonical page: https://alimohsinofficial.github.io/projects/quantairsense/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 Industrial AI / PROJECT 01
 
@@ -561,9 +645,9 @@ Architecture & engineering leadership
 
 TECHNOLOGIES
 
-Python Random Forest SHAP Google Cloud Run
+[![](https://alimohsinofficial.github.io/assets/images/products/python.svg)Python](https://www.python.org/) Random Forest [SHAP](https://shap.readthedocs.io/) [![](https://alimohsinofficial.github.io/assets/images/products/googlecloud.svg)Google Cloud Run](https://cloud.google.com/run)
 
-[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/)
 
 ## Context
 
@@ -572,8 +656,8 @@ An AI compressed-air monitoring platform for UK SME manufacturers, developed wit
 ## The work
 
 - Detect compressed-air leaks, equipment degradation, and scheduling waste using a Random Forest classifier.
-- Engineer 15 temporal features, with SHAP explainability and forecasting.
-- Deliver a SCADA-style dashboard on Google Cloud Run in europe-west2.
+- Engineer 15 temporal features, with [SHAP](https://shap.readthedocs.io/) explainability and forecasting.
+- Deliver a SCADA-style dashboard on [![](https://alimohsinofficial.github.io/assets/images/products/googlecloud.svg)Google Cloud Run](https://cloud.google.com/run) in europe-west2.
 
 ## Reported outcomes
 
@@ -592,7 +676,7 @@ Figures are reported in the supplied resume and describe project validation, rat
 
 Canonical page: https://alimohsinofficial.github.io/research/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 RESEARCH & PUBLICATIONS
 
@@ -622,7 +706,7 @@ Co-author · 2nd author
 
 03
 
-UX-driven design, application logo and GUI psychology, and lightweight JavaScript 3D rendering.
+UX-driven design, application logo and GUI psychology, and lightweight [![](https://alimohsinofficial.github.io/assets/images/products/javascript.svg)JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 3D rendering.
 
 ### ICCIT 2014 Student Conference
 
@@ -653,7 +737,7 @@ Publication credits and links were carried forward from the existing portfolio a
 
 Canonical page: https://alimohsinofficial.github.io/resume/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 THE WEB RESUME
 
@@ -706,17 +790,17 @@ Games and software across web, Android, and desktop, including published Android
 
 143Play
 
-Web applications, game prototypes, and a lightweight JavaScript 3D game-rendering engine.
+Web applications, game prototypes, and a lightweight [![](https://alimohsinofficial.github.io/assets/images/products/javascript.svg)JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 3D game-rendering engine.
 
 ## Technical skills & capabilities
 
 AI, ML & data
 
-Python scikit-learn pandas / NumPy Random Forest SHAP Physics-informed neural networks Edge inference Power BI Jupyter
+[![](https://alimohsinofficial.github.io/assets/images/products/python.svg)Python](https://www.python.org/) [![](https://alimohsinofficial.github.io/assets/images/products/scikitlearn.svg)scikit-learn](https://scikit-learn.org/) [![](https://alimohsinofficial.github.io/assets/images/products/pandas.svg)pandas](https://pandas.pydata.org/) / [![](https://alimohsinofficial.github.io/assets/images/products/numpy.svg)NumPy](https://numpy.org/) Random Forest [SHAP](https://shap.readthedocs.io/) Physics-informed neural networks Edge inference [Power BI](https://www.microsoft.com/power-platform/products/power-bi) [![](https://alimohsinofficial.github.io/assets/images/products/jupyter.svg)Jupyter](https://jupyter.org/)
 
 Software & cloud
 
-JavaScript / TypeScript PHP Java C / C++ SQL React / React Native Vue Web Components Node.js Laravel / Livewire Docker Google Cloud Run PostgreSQL MySQL SQLite WordPress REST APIs Git / CI/CD HTML5 / CSS3 Tailwind CSS CodeIgniter Flutter
+[![](https://alimohsinofficial.github.io/assets/images/products/javascript.svg)JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) / [![](https://alimohsinofficial.github.io/assets/images/products/typescript.svg)TypeScript](https://www.typescriptlang.org/) [![](https://alimohsinofficial.github.io/assets/images/products/php.svg)PHP](https://www.php.net/) [![](https://alimohsinofficial.github.io/assets/images/products/java.svg)Java](https://www.java.com/) C / [![](https://alimohsinofficial.github.io/assets/images/products/cplusplus.svg)C++](https://isocpp.org/) SQL [![](https://alimohsinofficial.github.io/assets/images/products/react.svg)React](https://react.dev/) / [![](https://alimohsinofficial.github.io/assets/images/products/react.svg)React Native](https://reactnative.dev/) [![](https://alimohsinofficial.github.io/assets/images/products/vuejs.svg)Vue](https://vuejs.org/) Web Components [![](https://alimohsinofficial.github.io/assets/images/products/nodejs.svg)Node.js](https://nodejs.org/) [![](https://alimohsinofficial.github.io/assets/images/products/laravel.svg)Laravel](https://laravel.com/) / [![](https://alimohsinofficial.github.io/assets/images/products/livewire.svg)Livewire](https://livewire.laravel.com/) [![](https://alimohsinofficial.github.io/assets/images/products/docker.svg)Docker](https://www.docker.com/) [![](https://alimohsinofficial.github.io/assets/images/products/googlecloud.svg)Google Cloud Run](https://cloud.google.com/run) [![](https://alimohsinofficial.github.io/assets/images/products/postgresql.svg)PostgreSQL](https://www.postgresql.org/) [![](https://alimohsinofficial.github.io/assets/images/products/mysql.svg)MySQL](https://www.mysql.com/) [![](https://alimohsinofficial.github.io/assets/images/products/sqlite.svg)SQLite](https://www.sqlite.org/) [![](https://alimohsinofficial.github.io/assets/images/products/wordpress.svg)WordPress](https://wordpress.org/) REST APIs [![](https://alimohsinofficial.github.io/assets/images/products/git.svg)Git](https://git-scm.com/) / CI/CD [![](https://alimohsinofficial.github.io/assets/images/products/html5.svg)HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) / [![](https://alimohsinofficial.github.io/assets/images/products/css3.svg)CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) [![](https://alimohsinofficial.github.io/assets/images/products/tailwindcss.svg)Tailwind CSS](https://tailwindcss.com/) [![](https://alimohsinofficial.github.io/assets/images/products/codeigniter.svg)CodeIgniter](https://codeigniter.com/) [![](https://alimohsinofficial.github.io/assets/images/products/flutter.svg)Flutter](https://flutter.dev/)
 
 Research & hardware
 
@@ -728,7 +812,7 @@ Technology strategy R&D roadmaps Project management Team mentoring Grant applica
 
 Creative & agent tools
 
-Claude Code OpenAI Codex Google Gemini NotebookLM n8n Figma Unity Unreal Engine Blender Photoshop / Illustrator DaVinci Resolve Obsidian Notion Adobe Premiere Pro World Creator Gaea Chrome extension development
+[![](https://alimohsinofficial.github.io/assets/images/products/claude.svg)Claude Code](https://code.claude.com/docs/) [OpenAI Codex](https://openai.com/codex/) [![](https://alimohsinofficial.github.io/assets/images/products/googlegemini.svg)Google Gemini](https://gemini.google.com/) [![](https://alimohsinofficial.github.io/assets/images/products/notebooklm.svg)NotebookLM](https://notebooklm.google.com/) [![](https://alimohsinofficial.github.io/assets/images/products/n8n.svg)n8n](https://n8n.io/) [![](https://alimohsinofficial.github.io/assets/images/products/figma.svg)Figma](https://www.figma.com/) [![](https://alimohsinofficial.github.io/assets/images/products/unity.svg)Unity](https://unity.com/) [![](https://alimohsinofficial.github.io/assets/images/products/unrealengine.svg)Unreal Engine](https://www.unrealengine.com/) [![](https://alimohsinofficial.github.io/assets/images/products/blender.svg)Blender](https://www.blender.org/) [![](https://alimohsinofficial.github.io/assets/images/products/photoshop.svg)Photoshop](https://www.adobe.com/products/photoshop.html) / [![](https://alimohsinofficial.github.io/assets/images/products/illustrator.svg)Illustrator](https://www.adobe.com/products/illustrator.html) [![](https://alimohsinofficial.github.io/assets/images/products/davinciresolve.svg)DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) [![](https://alimohsinofficial.github.io/assets/images/products/obsidian.svg)Obsidian](https://obsidian.md/) [![](https://alimohsinofficial.github.io/assets/images/products/notion.svg)Notion](https://www.notion.com/) [![](https://alimohsinofficial.github.io/assets/images/products/premierepro.svg)Adobe Premiere Pro](https://www.adobe.com/products/premiere.html) [World Creator](https://www.world-creator.com/) [Gaea](https://quadspinner.com/) Chrome extension development
 
 ## Education
 
@@ -768,7 +852,7 @@ Co-author · 2nd author
 
 03
 
-UX-driven design, application logo and GUI psychology, and lightweight JavaScript 3D rendering.
+UX-driven design, application logo and GUI psychology, and lightweight [![](https://alimohsinofficial.github.io/assets/images/products/javascript.svg)JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 3D rendering.
 
 ### ICCIT 2014 Student Conference
 
@@ -785,3 +869,3678 @@ Three student conference papers
 ### Languages
 
 Bangla; English — advanced reading, intermediate writing and speaking.
+
+
+---
+
+# AgentForge — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/agentforge/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## AgentForge
+
+8 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![AgentForge — V1](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-themes-8e2079d844.webp)
+
+V1
+
+## logo-themes.png
+
+Representative file created 10 Oct 2026
+File modified 10 Oct 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-themes-8e2079d844.webp)8 indexed source exports / one preview
+
+- `AgentForge-cleanup-backup-20261010/v1/logo-light.png`
+- `AgentForge-cleanup-backup-20261010/v1/logo-dark.png`
+- `AgentForge-cleanup-backup-20261010/v1/af-spacing-refined/logo-themes.png`
+- `AgentForge-cleanup-backup-20261010/v1/alternative/logo-themes.png`
+- `AgentForge/AgentForge-v1/logo-light-transparent-4k.png`
+- `AgentForge/AgentForge-v1/logo-dark-transparent-4k.png`
+- `AgentForge/AgentForge-v1/logo-light-transparent-4k (2).png`
+- `AgentForge/AgentForge-v1/logo-dark-transparent-4k (2).png`
+
+![AgentForge — V2](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-344201f40a.webp)
+
+V2
+
+## logo-light-dark-preview.png
+
+Representative file created 10 Oct 2026
+File modified 10 Oct 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-344201f40a.webp)1 indexed source exports / one preview
+
+- `AgentForge-cleanup-backup-20261010/v2/logo-light-dark-preview.png`
+
+![AgentForge — V3](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-c8a6c91e9d.webp)
+
+V3
+
+## logo-light-dark-preview.png
+
+Representative file created 10 Oct 2026
+File modified 10 Oct 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-c8a6c91e9d.webp)1 indexed source exports / one preview
+
+- `AgentForge-cleanup-backup-20261010/v3/logo-light-dark-preview.png`
+
+![AgentForge — V4](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-61d5c231e0.webp)
+
+V4
+
+## logo-light-dark-preview.png
+
+Representative file created 10 Oct 2026
+File modified 10 Oct 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-61d5c231e0.webp)2 indexed source exports / one preview
+
+- `AgentForge-cleanup-backup-20261010/archived-versions/original-v4/logo-light-dark-preview.png`
+- `AgentForge-cleanup-backup-20261010/v4/logo-light-dark-preview.png`
+
+![AgentForge — V5](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-bf472a9b43.webp)
+
+V5
+
+## logo-light-dark-preview.png
+
+Representative file created 10 Oct 2026
+File modified 10 Oct 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-bf472a9b43.webp)6 indexed source exports / one preview
+
+- `AgentForge-cleanup-backup-20261010/archived-versions/original-v5/logo-light-dark-preview.png`
+- `AgentForge-cleanup-backup-20261010/archived-versions/retired-v5-agent-sectors/logo-light-dark-preview.png`
+- `AgentForge-cleanup-backup-20261010/archived-versions/retired-before-selected-monogram-v5/logo-light-dark-preview.png`
+- `AgentForge-cleanup-backup-20261010/v5/logo-light-dark-preview.png`
+- `AgentForge-cleanup-backup-20261010/v5/exports/logo-light-transparent-4k.png`
+- `AgentForge-cleanup-backup-20261010/v5/exports/logo-dark-transparent-4k.png`
+
+![AgentForge — V6](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-61d6b8bf76.webp)
+
+V6
+
+## logo-light-dark-preview.png
+
+Representative file created 10 Oct 2026
+File modified 10 Oct 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-61d6b8bf76.webp)4 indexed source exports / one preview
+
+- `AgentForge-cleanup-backup-20261010/archived-versions/original-v6/logo-light-dark-preview.png`
+- `AgentForge-cleanup-backup-20261010/v6/logo-light-dark-preview.png`
+- `AgentForge-cleanup-backup-20261010/v6/exports/logo-light-transparent-4k.png`
+- `AgentForge-cleanup-backup-20261010/v6/exports/logo-dark-transparent-4k.png`
+
+![AgentForge — V7](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-ed8f350fb0.webp)
+
+V7
+
+## logo-light-dark-preview.png
+
+Representative file created 10 Oct 2026
+File modified 10 Oct 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/agentforge/logo-light-dark-preview-ed8f350fb0.webp)3 indexed source exports / one preview
+
+- `AgentForge-cleanup-backup-20261010/archived-versions/retired-before-selected-monogram-v7/option-09-refined/logo-light-dark-preview.png`
+- `AgentForge-cleanup-backup-20261010/archived-versions/retired-before-selected-monogram-v7/option-09-refined/logo-a-corrected-preview.png`
+- `AgentForge-cleanup-backup-20261010/archived-versions/retired-before-selected-monogram-v7/option-09-refined/logo-pixel-triangular-a-preview.png`
+
+![AgentForge — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/agentforge/all-logo-versions-preview-310b5d10f4.webp)
+
+Unversioned archive
+
+## all-logo-versions-preview.png
+
+Representative file created 10 Oct 2026
+File modified 10 Oct 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/agentforge/all-logo-versions-preview-310b5d10f4.webp)6 indexed source exports / one preview
+
+- `AgentForge/normal/assets/logo-light-transparent-4k.png`
+- `AgentForge/normal/assets/logo-dark-transparent-4k.png`
+- `AgentForge/pixel/assets/logo-light-transparent-4k.png`
+- `AgentForge/pixel/assets/logo-dark-transparent-4k.png`
+- `AgentForge/ChatGPT Image Oct 10, 2026, 05_18_23 PM.png`
+- `AgentForge/all-logo-versions-preview.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (1)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `AgentForge-cleanup-backup-20261010/AgentForge-final.pdf`
+  File created 10 Oct 2026 · modified 21 Jul 2026
+
+
+---
+
+# incodetechnology.uk — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/incodetechnology-uk/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## incodetechnology.uk
+
+2 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![incodetechnology.uk — V0](https://alimohsinofficial.github.io/assets/images/logos/incodetechnology-uk/logo-top-text-dark-v0-57117da0d4.webp)
+
+V0
+
+## logo-top-text-dark.v0.png
+
+Representative file created 05 Jan 2025
+File modified 05 Jan 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/incodetechnology-uk/logo-top-text-dark-v0-57117da0d4.webp)17 indexed source exports / one preview
+
+- `incodetechnology.uk/v0/logo.png`
+- `incodetechnology.uk/v0/png/icon-light.v0.png`
+- `incodetechnology.uk/v0/webp/icon-light.v0.webp`
+- `incodetechnology.uk/v0/png/logo-top-text-light.v0.png`
+- `incodetechnology.uk/v0/webp/logo-top-text-light.v0.webp`
+- `incodetechnology.uk/v0/png/logo-text-light.v0.png`
+- `incodetechnology.uk/v0/webp/logo-text-light.v0.webp`
+- `incodetechnology.uk/v0/png/logo-top-text-dark.v0.png`
+- `incodetechnology.uk/v0/webp/logo-top-text-dark.v0.webp`
+- `incodetechnology.uk/v0/png/logo-text-dark.v0.png`
+- `incodetechnology.uk/v0/webp/logo-text-dark.v0.webp`
+- `incodetechnology.uk/v0/png/icon_1024.png`
+- `incodetechnology.uk/v0/png/icon-dark.v0.png`
+- `incodetechnology.uk/v0/webp/icon_1024.webp`
+- `incodetechnology.uk/v0/webp/icon-dark.v0.webp`
+- `incodetechnology.uk/v0/png/icon_1024 - Copy.png`
+- `incodetechnology.uk/v0/png/icon_1024 - Copy - Copy.png`
+
+![incodetechnology.uk — V1](https://alimohsinofficial.github.io/assets/images/logos/incodetechnology-uk/logo-0000-logo-top-text-84e6847ce3.webp)
+
+V1
+
+## logo\_0000\_logo-top-text.png
+
+Representative file created 29 Dec 2024
+File modified 29 Dec 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/incodetechnology-uk/logo-0000-logo-top-text-84e6847ce3.webp)8 indexed source exports / one preview
+
+- `incodetechnology.uk/v1/png/icon.png`
+- `incodetechnology.uk/v1/webp/icon.webp`
+- `incodetechnology.uk/v1/png/logo_0000_logo-top-text.png`
+- `incodetechnology.uk/v1/webp/logo-top-text.webp`
+- `incodetechnology.uk/v1/png/logo_0001_logo-text-copy.png`
+- `incodetechnology.uk/v1/webp/logo-text.webp`
+- `incodetechnology.uk/v1/png/logo_0002_logo-text.png`
+- `incodetechnology.uk/v1/webp/logo-text-copy.webp`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (4)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `incodetechnology.uk/v0/icon_1024 - Copy.psd`
+  File created 10 Jul 2026 · modified 10 Jul 2026
+- `incodetechnology.uk/v0/icon.psd`
+  File created 05 Jan 2025 · modified 05 Jan 2025
+- `incodetechnology.uk/v0/logo.psd`
+  File created 05 Jan 2025 · modified 05 Jan 2025
+- `incodetechnology.uk/v1/logo.psd`
+  File created 29 Dec 2024 · modified 29 Dec 2024
+
+
+---
+
+# quantidiumai — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/quantidiumai/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## quantidiumai
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![quantidiumai — V0](https://alimohsinofficial.github.io/assets/images/logos/quantidiumai/quantidiumai-logo-light-vert-6a20cb48cf.webp)
+
+V0
+
+## quantidiumai\_logo\_light\_vert.webp
+
+Representative file created 30 Jun 2026
+File modified 30 Jun 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/quantidiumai/quantidiumai-logo-light-vert-6a20cb48cf.webp)7 indexed source exports / one preview
+
+- `quantidiumai/v0/Gemini_Generated_Image_ksg9doksg9doksg9.png`
+- `quantidiumai/v0/Gemini_Generated_Image_xejeloxejeloxeje.png`
+- `quantidiumai/v0/quantidiumai logo.png`
+- `quantidiumai/v0/quantidiumai logo/webp/quantidiumai_logo_dark_vert.webp`
+- `quantidiumai/v0/quantidiumai logo/webp/quantidiumai_logo_dark_horz.webp`
+- `quantidiumai/v0/quantidiumai logo/webp/quantidiumai_logo_light_horz.webp`
+- `quantidiumai/v0/quantidiumai logo/webp/quantidiumai_logo_light_vert.webp`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (2)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `quantidiumai/v0/quantidiumai logo - Copy.psd`
+  File created 30 Jun 2026 · modified 30 Jun 2026
+- `quantidiumai/v0/quantidiumai logo.psd`
+  File created 30 Jun 2026 · modified 30 Jun 2026
+
+
+---
+
+# taka.digital — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/taka-digital/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## taka.digital
+
+2 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![taka.digital — V1](https://alimohsinofficial.github.io/assets/images/logos/taka-digital/takadigital-logo-68a4c332a2.webp)
+
+V1
+
+## takadigital-logo.png
+
+Representative file created 02 Feb 2026
+File modified 02 Feb 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/taka-digital/takadigital-logo-68a4c332a2.webp)2 indexed source exports / one preview
+
+- `taka.digital/v1/original.jpg`
+- `taka.digital/v1/takadigital-logo.png`
+
+![taka.digital — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/taka-digital/gemini-generated-image-rjiug8rjiug8rjiu-7e3bf8f0ad.webp)
+
+Unversioned archive
+
+## Gemini\_Generated\_Image\_rjiug8rjiug8rjiu.png
+
+Representative file created 02 Feb 2026
+File modified 02 Feb 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/taka-digital/gemini-generated-image-rjiug8rjiug8rjiu-7e3bf8f0ad.webp)5 indexed source exports / one preview
+
+- `taka.digital/taka_digital.png`
+- `taka.digital/ai/Gemini_Generated_Image_rjiug8rjiug8rjiu.png`
+- `taka.digital/ai/Gemini_Generated_Image_isxyfisxyfisxyfi.png`
+- `taka.digital/ai/parts/taka.png`
+- `taka.digital/ai/Gemini_Generated_Image_dt11fudt11fudt11.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+
+---
+
+# cambridgeflair.co.uk — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/cambridgeflair-co-uk/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## cambridgeflair.co.uk
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![cambridgeflair.co.uk — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/cambridgeflair-co-uk/cambridgeflair-logo-black-bc0bf3bc47.webp)
+
+Unversioned archive
+
+## cambridgeflair-logo-black.png
+
+Representative file created 31 Jan 2026
+File modified 31 Jan 2026
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/cambridgeflair-co-uk/cambridgeflair-logo-black-bc0bf3bc47.webp)2 indexed source exports / one preview
+
+- `cambridgeflair.co.uk/cambridgeflair-logo-white.png`
+- `cambridgeflair.co.uk/cambridgeflair-logo-black.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+
+---
+
+# Quantonova — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/quantonova/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## Quantonova
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![Quantonova — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/quantonova/quantonova-0000-logo-text-dark-2-1ef2dd8ad2.webp)
+
+Unversioned archive
+
+## Quantonova\_0000\_logo-text-dark (2).png
+
+Representative file created 18 Oct 2025
+File modified 18 Oct 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/quantonova/quantonova-0000-logo-text-dark-2-1ef2dd8ad2.webp)10 indexed source exports / one preview
+
+- `Quantonova/Quantonova copy.png`
+- `Quantonova/not Quantonova_0002_Group-1-copy.png`
+- `Quantonova/Quantonova_0000_logo-text-dark.png`
+- `Quantonova/Quantonova-black.png`
+- `Quantonova/Quantonova_0001_logo-text-light.png`
+- `Quantonova/Quantonova-white.png`
+- `Quantonova/Quantonova-black-bg.png`
+- `Quantonova/Quantonova_0000_logo-text-dark - Copyss.jpg`
+- `Quantonova/Quantonova_0000_logo-text-dark (2).png`
+- `Quantonova/Quantonova copy - Copy.jpg`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (2)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `Quantonova/Quantonova copy.psd`
+  File created 17 Feb 2024 · modified 17 Feb 2024
+- `Quantonova/Quantonova.psd`
+  File created 07 Jan 2025 · modified 07 Jan 2025
+
+
+---
+
+# nextaifusion.com — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/nextaifusion-com/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## nextaifusion.com
+
+2 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![nextaifusion.com — V0](https://alimohsinofficial.github.io/assets/images/logos/nextaifusion-com/gemini-generated-image-bwzkdabwzkdabwzk-4553b2adeb.webp)
+
+V0
+
+## Gemini\_Generated\_Image\_bwzkdabwzkdabwzk.png
+
+Representative file created 05 Dec 2025
+File modified 05 Dec 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/nextaifusion-com/gemini-generated-image-bwzkdabwzkdabwzk-4553b2adeb.webp)4 indexed source exports / one preview
+
+- `nextaifusion.com/v0/ai/Gemini_Generated_Image_6578hl6578hl6578.png`
+- `nextaifusion.com/v0/ai/Gemini_Generated_Image_bwzkdabwzkdabwzk.png`
+- `nextaifusion.com/v0/ai/Gemini_Generated_Image_4wcvd44wcvd44wcv.png`
+- `nextaifusion.com/v0/ai/Gemini_Generated_Image_h263jnh263jnh263.png`
+
+![nextaifusion.com — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/nextaifusion-com/gemini-generated-image-7zb3jw7zb3jw7zb3-145bbd8ea0.webp)
+
+Unversioned archive
+
+## Gemini\_Generated\_Image\_7zb3jw7zb3jw7zb3.png
+
+Representative file created 05 Dec 2025
+File modified 05 Dec 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/nextaifusion-com/gemini-generated-image-7zb3jw7zb3jw7zb3-145bbd8ea0.webp)5 indexed source exports / one preview
+
+- `nextaifusion.com/ai/Gemini_Generated_Image_n5x5vmn5x5vmn5x5.png`
+- `nextaifusion.com/ai/Gemini_Generated_Image_7tmsh97tmsh97tms.png`
+- `nextaifusion.com/ai/Gemini_Generated_Image_vg743pvg743pvg74.png`
+- `nextaifusion.com/ai/Gemini_Generated_Image_7zb3jw7zb3jw7zb3.png`
+- `nextaifusion.com/ai/Gemini_Generated_Image_38nulr38nulr38nu.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (1)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `nextaifusion.com/v0/logo.psd`
+  File created 05 Dec 2025 · modified 05 Dec 2025
+
+
+---
+
+# intellicreate.co.uk — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/intellicreate-co-uk/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## intellicreate.co.uk
+
+3 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![intellicreate.co.uk — V1](https://alimohsinofficial.github.io/assets/images/logos/intellicreate-co-uk/intellicreate-logo-e1689228238660-cdfb6396d3.webp)
+
+V1
+
+## Intellicreate-Logo-e1689228238660.png
+
+Representative file created 30 Oct 2025
+File modified 30 Oct 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/intellicreate-co-uk/intellicreate-logo-e1689228238660-cdfb6396d3.webp)2 indexed source exports / one preview
+
+- `intellicreate.co.uk/v1/Intellicreate-Logo-e1689228238660.png`
+- `intellicreate.co.uk/v1/cropped-Intellicreate-Logo-e1689228238660.png`
+
+![intellicreate.co.uk — V2](https://alimohsinofficial.github.io/assets/images/logos/intellicreate-co-uk/logotext-e65b4a50f3.webp)
+
+V2
+
+## logotext.png
+
+Representative file created 30 Oct 2025
+File modified 30 Oct 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/intellicreate-co-uk/logotext-e65b4a50f3.webp)64 indexed source exports / one preview
+
+- `intellicreate.co.uk/v2/selected/Gemini_Generated_Image_wnjuhrwnjuhrwnju.png`
+- `intellicreate.co.uk/v2/selected/variations/Gemini_Generated_Image_cbi9o4cbi9o4cbi9.png`
+- `intellicreate.co.uk/v2/selected/variations/Gemini_Generated_Image_p5yrefp5yrefp5yr.png`
+- `intellicreate.co.uk/v2/selected/Gemini_Generated_Image_ahyj0pahyj0pahyj.png`
+- `intellicreate.co.uk/v2/selected/variations/Gemini_Generated_Image_p07g9jp07g9jp07g.png`
+- `intellicreate.co.uk/v2/selected/variations/Gemini_Generated_Image_k7xuhqk7xuhqk7xu.png`
+- `intellicreate.co.uk/v2/selected/variations/Gemini_Generated_Image_k7xuhqk7xuhqk7xu (1).png`
+- `intellicreate.co.uk/v2/selected/variations/Gemini_Generated_Image_k8szqvk8szqvk8sz.png`
+- `intellicreate.co.uk/v2/selected/Gemini_Generated_Image_k8szqvk8szqvk8sz (1).png`
+- `intellicreate.co.uk/v2/selected upscaled/0not black/Gemini_Generated_Image_ahyj0pahyj0pahyj.png`
+- `intellicreate.co.uk/v2/selected upscaled/0not black/Gemini_Generated_Image_k8szqvk8szqvk8sz.png`
+- `intellicreate.co.uk/v2/selected upscaled/0not black/Gemini_Generated_Image_k8szqvk8szqvk8sz.svg`
+- `intellicreate.co.uk/v2/selected/Gemini_Generated_Image_fslxmzfslxmzfslx.png`
+- `intellicreate.co.uk/v2/selected upscaled/Gemini_Generated_Image_fslxmzfslxmzfslx.png`
+- `intellicreate.co.uk/v2/selected upscaled/Gemini_Generated_Image_fslxmzfslxmzfslx.svg`
+- `intellicreate.co.uk/v2/selected/Gemini_Generated_Image_pfu8qlpfu8qlpfu8.png`
+- `intellicreate.co.uk/v2/selected upscaled/Gemini_Generated_Image_pfu8qlpfu8qlpfu8.png`
+- `intellicreate.co.uk/v2/selected upscaled/Gemini_Generated_Image_pfu8qlpfu8qlpfu8.svg`
+- `intellicreate.co.uk/v2/selected final/old/logotext.png`
+- `intellicreate.co.uk/v2/selected final/old/webp/logotext.webp`
+- `intellicreate.co.uk/v2/selected final/old/logo.png`
+- `intellicreate.co.uk/v2/selected final/old/webp/logo.webp`
+- `intellicreate.co.uk/v2/selected final/old/favicon.png`
+- `intellicreate.co.uk/v2/selected final/old/webp/favicon.webp`
+- `intellicreate.co.uk/v2/selected final/old/logo.svg`
+- `intellicreate.co.uk/v2/selected final/logo/logo-light.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logo-light.svg`
+- `intellicreate.co.uk/v2/selected final/logo/logo-dark.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logo-dark.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-50.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logo-50-dark.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logo-50-light.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logo-40-dark.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logo-40-light.svg`
+- `intellicreate.co.uk/v2/selected final/logo/logo-50-dark.svg`
+- `intellicreate.co.uk/v2/selected final/logo/logo-50-light.svg`
+- `intellicreate.co.uk/v2/selected final/logo/favicon-dark.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/favicon-dark.svg`
+- `intellicreate.co.uk/v2/selected final/logo/favicon-light.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/favicon-light.svg`
+- `intellicreate.co.uk/v2/selected final/logo/logotext-light.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logotext-light.svg`
+- `intellicreate.co.uk/v2/selected final/logo/logotext-dark.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logotext-dark.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logotext-50-dark.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logotext-50-light.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logotext-40-dark.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-svg/logotext-40-light.svg`
+- `intellicreate.co.uk/v2/selected final/logo/logotext-50-dark.svg`
+- `intellicreate.co.uk/v2/selected final/logo/logotext-50-light.svg`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/favicon-dark.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/favicon-light.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logo-40-light.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logo-dark.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logo-50-light.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logo-light.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logo-50-dark.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logo-40-dark.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logotext-dark.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logotext-50-light.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logotext-40-light.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logotext-light.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logotext-50-dark.png`
+- `intellicreate.co.uk/v2/selected final/old/logo-png/logotext-40-dark.png`
+
+![intellicreate.co.uk — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/intellicreate-co-uk/gemini-generated-image-ahyj0pahyj0pahyj-1-e65f2d679f.webp)
+
+Unversioned archive
+
+## Gemini\_Generated\_Image\_ahyj0pahyj0pahyj (1).png
+
+Representative file created 30 Oct 2025
+File modified 30 Oct 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/intellicreate-co-uk/gemini-generated-image-ahyj0pahyj0pahyj-1-e65f2d679f.webp)25 indexed source exports / one preview
+
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_f9dkuyf9dkuyf9dk.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_2wd8w2wd8w2wd8w2.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_1ghv501ghv501ghv.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_myizjpmyizjpmyiz.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_r8nvctr8nvctr8nv.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_n00t3jn00t3jn00t.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_f7pi47f7pi47f7pi.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_nl9qyenl9qyenl9q.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_iabt1piabt1piabt.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_svtg9usvtg9usvtg.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_aj8n2eaj8n2eaj8n.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_imoqzeimoqzeimoq.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_hyphawhyphawhyph.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_hyphawhyphawhyph (1).png`
+- `intellicreate.co.uk/ai/selected/Gemini_Generated_Image_1l0fgs1l0fgs1l0f.png`
+- `intellicreate.co.uk/ai/selected/Gemini_Generated_Image_is13nkis13nkis13.png`
+- `intellicreate.co.uk/ai/selected/Gemini_Generated_Image_srpig0srpig0srpi.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_231qsl231qsl231q.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_lk0tplk0tplk0tpl.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_cadfwucadfwucadf.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_3t3zs53t3zs53t3z.png`
+- `intellicreate.co.uk/ai/Gemini_Generated_Image_kmpymzkmpymzkmpy.png`
+- `intellicreate.co.uk/ai/selected/Gemini_Generated_Image_tgnlwbtgnlwbtgnl.png`
+- `intellicreate.co.uk/ai/selected/Gemini_Generated_Image_xtivp7xtivp7xtiv.png`
+- `intellicreate.co.uk/ai/selected/Gemini_Generated_Image_ahyj0pahyj0pahyj (1).png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (14)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `intellicreate.co.uk/v2/selected final/logo.ai`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected final/logo.psd`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected final/old/favicon.ai`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected final/old/favicon.psd`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected final/old/logo-50.psd`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected final/old/logo-old.psd`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected final/old/logo.ai`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected upscaled/favicon.ai`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected upscaled/Gemini_Generated_Image_fslxmzfslxmzfslx.ai`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected upscaled/Gemini_Generated_Image_pfu8qlpfu8qlpfu8.ai`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected upscaled/logo - Copy.ai`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected upscaled/logo-50.ai`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected upscaled/logo.ai`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+- `intellicreate.co.uk/v2/selected upscaled/0not black/Gemini_Generated_Image_ahyj0pahyj0pahyj.ai`
+  File created 30 Oct 2025 · modified 30 Oct 2025
+
+
+---
+
+# bellacet — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/bellacet/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## bellacet
+
+2 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![bellacet — V1](https://alimohsinofficial.github.io/assets/images/logos/bellacet/bellacet-logotext-vh-f3c98aa10c.webp)
+
+V1
+
+## bellacet-logotext-vh.png
+
+Representative file created 22 Oct 2025
+File modified 22 Oct 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bellacet/bellacet-logotext-vh-f3c98aa10c.webp)29 indexed source exports / one preview
+
+- `bellacet/ai/bellacet-v1 (2).png`
+- `bellacet/v1/png/bellacet-logo-h.png`
+- `bellacet/v1/png/bellacet-logotext-h.png`
+- `bellacet/v1/png cropped/bellacet-logo-h.png`
+- `bellacet/v1/png cropped/bellacet-logotext-h.png`
+- `bellacet/v1/webp cropped/bellacet-logo-h.webp`
+- `bellacet/v1/webp cropped/bellacet-logotext-h.webp`
+- `bellacet/v1/webp/bellacet-logo-h.webp`
+- `bellacet/v1/webp/bellacet-logotext-h.webp`
+- `bellacet/v1/png/bellacet-logo-v.png`
+- `bellacet/v1/png cropped/bellacet-logo-v.png`
+- `bellacet/v1/webp cropped/bellacet-logo-v.webp`
+- `bellacet/v1/webp/bellacet-logo-v.webp`
+- `bellacet/v1/png/bellacet-logotext-v.png`
+- `bellacet/v1/png cropped/bellacet-logotext-v.png`
+- `bellacet/v1/webp cropped/bellacet-logotext-v.webp`
+- `bellacet/v1/webp/bellacet-logotext-v.webp`
+- `bellacet/v1/png/bellacet-icon.png`
+- `bellacet/v1/png cropped/bellacet-icon.png`
+- `bellacet/v1/webp cropped/bellacet-icon.webp`
+- `bellacet/v1/webp/bellacet-icon.webp`
+- `bellacet/v1/png/bellacet-logo-vh.png`
+- `bellacet/v1/webp/bellacet-logo-vh.webp`
+- `bellacet/v1/png cropped/bellacet-logo-vh.png`
+- `bellacet/v1/webp cropped/bellacet-logo-vh.webp`
+- `bellacet/v1/png/bellacet-logotext-vh.png`
+- `bellacet/v1/webp/bellacet-logotext-vh.webp`
+- `bellacet/v1/png cropped/bellacet-logotext-vh.png`
+- `bellacet/v1/webp cropped/bellacet-logotext-vh.webp`
+
+![bellacet — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/bellacet/gemini-generated-image-y20yyty20yyty20y-dc675acb7e.webp)
+
+Unversioned archive
+
+## Gemini\_Generated\_Image\_y20yyty20yyty20y.png
+
+Representative file created 22 Oct 2025
+File modified 22 Oct 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bellacet/gemini-generated-image-y20yyty20yyty20y-dc675acb7e.webp)4 indexed source exports / one preview
+
+- `bellacet/ai/Gemini_Generated_Image_ppjxvvppjxvvppjx.png`
+- `bellacet/ai/bellacet-v (1).png`
+- `bellacet/ai/Gemini_Generated_Image_miaa4lmiaa4lmiaa.png`
+- `bellacet/ai/Gemini_Generated_Image_y20yyty20yyty20y.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (1)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `bellacet/v1/bellacet-v1 (2).psd`
+  File created 22 Oct 2025 · modified 22 Oct 2025
+
+
+---
+
+# livingstone — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/livingstone/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## livingstone
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![livingstone — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/livingstone/gemini-generated-image-n223azn223azn223-8e9988889d.webp)
+
+Unversioned archive
+
+## Gemini\_Generated\_Image\_n223azn223azn223.png
+
+Representative file created 22 Oct 2025
+File modified 22 Oct 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/livingstone/gemini-generated-image-n223azn223azn223-8e9988889d.webp)1 indexed source exports / one preview
+
+- `livingstone/Gemini_Generated_Image_n223azn223azn223.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+
+---
+
+# OceanLink — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/oceanlink/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## OceanLink
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![OceanLink — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/oceanlink/gemini-generated-image-r9tol7r9tol7r9to-6eddc0914d.webp)
+
+Unversioned archive
+
+## Gemini\_Generated\_Image\_r9tol7r9tol7r9to.png
+
+Representative file created 27 Sep 2025
+File modified 27 Sep 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/oceanlink/gemini-generated-image-r9tol7r9tol7r9to-6eddc0914d.webp)6 indexed source exports / one preview
+
+- `OceanLink/Gemini_Generated_Image_hewh3hewh3hewh3h.png`
+- `OceanLink/Gemini_Generated_Image_ezmzpoezmzpoezmz.png`
+- `OceanLink/Gemini_Generated_Image_s75wkss75wkss75w.png`
+- `OceanLink/Gemini_Generated_Image_tmg9r6tmg9r6tmg9.png`
+- `OceanLink/Gemini_Generated_Image_xayo2pxayo2pxayo.png`
+- `OceanLink/Gemini_Generated_Image_r9tol7r9tol7r9to.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+
+---
+
+# smartroundabout.co.uk — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/smartroundabout-co-uk/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## smartroundabout.co.uk
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![smartroundabout.co.uk — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/smartroundabout-co-uk/sra-a7b890fbb6.webp)
+
+Unversioned archive
+
+## SRA.png
+
+Representative file created 12 Sep 2025
+File modified 12 Sep 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/smartroundabout-co-uk/sra-a7b890fbb6.webp)4 indexed source exports / one preview
+
+- `smartroundabout.co.uk/SRA2.png`
+- `smartroundabout.co.uk/SRA1.png`
+- `smartroundabout.co.uk/SRA.png`
+- `smartroundabout.co.uk/SRA.webp`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+
+---
+
+# trackgenesis — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/trackgenesis/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## trackgenesis
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![trackgenesis — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/trackgenesis/trackgenesisg-logo-white-f68eb44b49.webp)
+
+Unversioned archive
+
+## TrackgenesisG-logo-white.svg
+
+Representative file created 08 Dec 2024
+File modified 31 Jan 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/trackgenesis/trackgenesisg-logo-white-f68eb44b49.webp)3 indexed source exports / one preview
+
+- `trackgenesis/TrackgenesisG-logo-white.svg`
+- `trackgenesis/TrackgenesisG-logo-white.png`
+- `trackgenesis/TrackgenesisG-logo-white.webp`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+
+---
+
+# alimohsinofficial.github.io — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/alimohsinofficial-github-io/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## alimohsinofficial.github.io
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![alimohsinofficial.github.io — V0](https://alimohsinofficial.github.io/assets/images/logos/alimohsinofficial-github-io/logo-8e7815c3cc.webp)
+
+V0
+
+## logo.svg
+
+Representative file created 02 Jun 2025
+File modified 02 Jun 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/alimohsinofficial-github-io/logo-8e7815c3cc.webp)2 indexed source exports / one preview
+
+- `alimohsinofficial.github.io/v0/logo.svg`
+- `alimohsinofficial.github.io/v0/logo.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (1)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `alimohsinofficial.github.io/v0/logo.psd`
+  File created 02 Jun 2025 · modified 02 Jun 2025
+
+
+---
+
+# AI4MultiGIS — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/ai4multigis/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## AI4MultiGIS
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![AI4MultiGIS — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/ai4multigis/logo-with-ai-0001-group-7-79e812d45a.webp)
+
+Unversioned archive
+
+## logo-with-ai\_0001\_Group-7.png
+
+Representative file created 26 Feb 2025
+File modified 26 Feb 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/ai4multigis/logo-with-ai-0001-group-7-79e812d45a.webp)20 indexed source exports / one preview
+
+- `AI4MultiGIS/selected/versions/logo copy.png`
+- `AI4MultiGIS/selected/versions/logo_0002_Group-4-copy.png`
+- `AI4MultiGIS/selected/versions/logo-with-ai_0003_Group-5.png`
+- `AI4MultiGIS/selected/versions/logo-with-ai_0007_Group-1.png`
+- `AI4MultiGIS/selected/final/logo-with-ai_0003_Group-5.png`
+- `AI4MultiGIS/selected/final/logo-with-ai_0007_Group-1.png`
+- `AI4MultiGIS/selected/versions/logo-with-ai_0000_Group-8.png`
+- `AI4MultiGIS/selected/versions/logo-with-ai_0004_Group-4.png`
+- `AI4MultiGIS/selected/versions/logo_0000_Group-4-copy-3.png`
+- `AI4MultiGIS/selected/versions/logo-with-ai_0002_Group-6.png`
+- `AI4MultiGIS/selected/versions/logo-with-ai_0006_Group-2.png`
+- `AI4MultiGIS/selected/final/logo-with-ai_0002_Group-6.png`
+- `AI4MultiGIS/selected/final/logo.png`
+- `AI4MultiGIS/selected/versions/logo_0001_Group-4-copy-2.png`
+- `AI4MultiGIS/selected/versions/logo-with-ai_0001_Group-7.png`
+- `AI4MultiGIS/selected/versions/logo-with-ai_0005_Group-3.png`
+- `AI4MultiGIS/selected/final/logo-with-ai_0000_Group-8.png`
+- `AI4MultiGIS/selected/final/logo-with-ai_0004_Group-4.png`
+- `AI4MultiGIS/selected/final/logo-with-ai_0001_Group-7.png`
+- `AI4MultiGIS/selected/final/logo-with-ai_0005_Group-3.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (4)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `AI4MultiGIS/selected/logo - Copy.psd`
+  File created 15 Jan 2025 · modified 15 Jan 2025
+- `AI4MultiGIS/selected/logo with ai - Copy.psd`
+  File created 16 Jan 2025 · modified 16 Jan 2025
+- `AI4MultiGIS/selected/logo with ai.psd`
+  File created 26 Feb 2025 · modified 26 Feb 2025
+- `AI4MultiGIS/selected/logo.psd`
+  File created 16 Jan 2025 · modified 16 Jan 2025
+
+
+---
+
+# nanoRail — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/nanorail/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## nanoRail
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![nanoRail — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/nanorail/logo-74037e9a43.webp)
+
+Unversioned archive
+
+## logo.png
+
+Representative file created 07 Feb 2025
+File modified 07 Feb 2025
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/nanorail/logo-74037e9a43.webp)6 indexed source exports / one preview
+
+- `nanoRail/logo copy1.png`
+- `nanoRail/logo copy - Copy (2).jpg`
+- `nanoRail/logo.png`
+- `nanoRail/logo copy - Copy (2).png`
+- `nanoRail/logo copy - Copy.png`
+- `nanoRail/logo copy.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (2)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `nanoRail/logo - Copy.psd`
+  File created 13 Jan 2025 · modified 13 Jan 2025
+- `nanoRail/logo.psd`
+  File created 13 Jan 2025 · modified 13 Jan 2025
+
+
+---
+
+# adsync360 — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/adsync360/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## adsync360
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![adsync360 — V1](https://alimohsinofficial.github.io/assets/images/logos/adsync360/adsync360-logo-dark-e545445468.webp)
+
+V1
+
+## adsync360\_logo-dark.svg
+
+Representative file created 04 Jan 2025
+File modified 29 Dec 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/adsync360/adsync360-logo-dark-e545445468.webp)4 indexed source exports / one preview
+
+- `adsync360/v1/SVG/adsync360_logo-dark.svg`
+- `adsync360/v1/SVG/adsync360_logo-light.svg`
+- `adsync360/v1/SVG/logo.svg`
+- `adsync360/v1/SVG/icon.svg`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (1)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `adsync360/v1/logo [Recovered2].ai`
+  File created 29 Dec 2024 · modified 29 Dec 2024
+
+
+---
+
+# Canvas of hope — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/canvas-of-hope/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## Canvas of hope
+
+2 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![Canvas of hope — V1](https://alimohsinofficial.github.io/assets/images/logos/canvas-of-hope/logo-big-cutout-white-839cc91dde.webp)
+
+V1
+
+## logo-big-cutout-white.webp
+
+Representative file created 25 Dec 2024
+File modified 25 Dec 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/canvas-of-hope/logo-big-cutout-white-839cc91dde.webp)12 indexed source exports / one preview
+
+- `Canvas of hope/v1/logo-top-black.png`
+- `Canvas of hope/v1/logo-top-white.png`
+- `Canvas of hope/v1/logo-side-by-side-black.png`
+- `Canvas of hope/v1/logo-side-by-side-white.png`
+- `Canvas of hope/v1/logo-big-cutout-black.png`
+- `Canvas of hope/v1/logo-big-cutout-white.png`
+- `Canvas of hope/v1 webp/logo-big-cutout-black.webp`
+- `Canvas of hope/v1 webp/logo-big-cutout-white.webp`
+- `Canvas of hope/v1 webp/logo-side-by-side-black.webp`
+- `Canvas of hope/v1 webp/logo-side-by-side-white.webp`
+- `Canvas of hope/v1 webp/logo-top-black.webp`
+- `Canvas of hope/v1 webp/logo-top-white.webp`
+
+![Canvas of hope — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/canvas-of-hope/icon-aa6d1542fe.webp)
+
+Unversioned archive
+
+## icon.png
+
+Representative file created 25 Dec 2024
+File modified 25 Dec 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/canvas-of-hope/icon-aa6d1542fe.webp)2 indexed source exports / one preview
+
+- `Canvas of hope/icon.png`
+- `Canvas of hope/icon.webp`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (4)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `Canvas of hope/icon.psd`
+  File created 25 Dec 2024 · modified 25 Dec 2024
+- `Canvas of hope/logo-backup.psd`
+  File created 25 Dec 2024 · modified 25 Dec 2024
+- `Canvas of hope/logo-v1-export.psd`
+  File created 25 Dec 2024 · modified 25 Dec 2024
+- `Canvas of hope/logo-v1.psd`
+  File created 25 Dec 2024 · modified 25 Dec 2024
+
+
+---
+
+# Mediprospects.co.uk — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/mediprospects-co-uk/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## Mediprospects.co.uk
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![Mediprospects.co.uk — V1](https://alimohsinofficial.github.io/assets/images/logos/mediprospects-co-uk/mediprospects-logo1-3-678b01b810.webp)
+
+V1
+
+## MEDIPROSPECTS-LOGO1 (3).jpg
+
+Representative file created 22 Dec 2024
+File modified 22 Dec 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/mediprospects-co-uk/mediprospects-logo1-3-678b01b810.webp)4 indexed source exports / one preview
+
+- `Mediprospects.co.uk/v1/MEDIPROSPECTS LOGO.png`
+- `Mediprospects.co.uk/v1/MEDIPROSPECTS LOGO1 (1).png`
+- `Mediprospects.co.uk/v1/MEDIPROSPECTS-LOGO1 (3).jpg`
+- `Mediprospects.co.uk/v1/MEDIPROSPECTS 2.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (6)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `Mediprospects.co.uk/v1/MEDIPROSPECTS 2 - Copy.ai`
+  File created 23 Dec 2024 · modified 22 Dec 2024
+- `Mediprospects.co.uk/v1/MEDIPROSPECTS LOGO (1).ai`
+  File created 22 Dec 2024 · modified 22 Dec 2024
+- `Mediprospects.co.uk/v1/MEDIPROSPECTS 2.eps`
+  File created 22 Dec 2024 · modified 22 Dec 2024
+- `Mediprospects.co.uk/v1/MEDIPROSPECTS LOGO (1).eps`
+  File created 22 Dec 2024 · modified 22 Dec 2024
+- `Mediprospects.co.uk/v1/mr_logo007-attachments/mp.eps`
+  File created 22 Dec 2024 · modified 16 Oct 2018
+- `Mediprospects.co.uk/v1/mr_logo007-attachments/mp.pdf`
+  File created 22 Dec 2024 · modified 16 Oct 2018
+
+
+---
+
+# canvas of life by anny — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/canvas-of-life-by-anny/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## canvas of life by anny
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![canvas of life by anny — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/canvas-of-life-by-anny/logo-copy4-82adff0174.webp)
+
+Unversioned archive
+
+## logo copy4.png
+
+Representative file created 29 Nov 2024
+File modified 29 Nov 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/canvas-of-life-by-anny/logo-copy4-82adff0174.webp)4 indexed source exports / one preview
+
+- `canvas of life by anny/logo/logo copy1.png`
+- `canvas of life by anny/logo/logo copy2.png`
+- `canvas of life by anny/logo/logo copy3.png`
+- `canvas of life by anny/logo/logo copy4.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (1)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `canvas of life by anny/logo/logo.psd`
+  File created 29 Nov 2024 · modified 29 Nov 2024
+
+
+---
+
+# PQCshift — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/pqcshift/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## PQCshift
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![PQCshift — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/pqcshift/horizon-pqcshift-logo-fe780187bc.webp)
+
+Unversioned archive
+
+## horizon PQCshift logo.png
+
+Representative file created 17 Nov 2024
+File modified 17 Nov 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/pqcshift/horizon-pqcshift-logo-fe780187bc.webp)3 indexed source exports / one preview
+
+- `PQCshift/old/horizon quantosniff logo.png`
+- `PQCshift/old/horizon quantosniff logo copy.png`
+- `PQCshift/horizon PQCshift logo.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (2)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `PQCshift/horizon PQCshift logo.psd`
+  File created 17 Nov 2024 · modified 17 Nov 2024
+- `PQCshift/old/horizon quantosniff logo.psd`
+  File created 10 Nov 2024 · modified 10 Nov 2024
+
+
+---
+
+# Urban Taste Travels — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/urban-taste-travels/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## Urban Taste Travels
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![Urban Taste Travels — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/urban-taste-travels/original-75ca3128eb.webp)
+
+Unversioned archive
+
+## original.png
+
+Representative file created 01 Jul 2024
+File modified 01 Jul 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/urban-taste-travels/original-75ca3128eb.webp)4 indexed source exports / one preview
+
+- `Urban Taste Travels/original.png`
+- `Urban Taste Travels/clean.png`
+- `Urban Taste Travels/logo.png`
+- `Urban Taste Travels/logo150.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (1)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `Urban Taste Travels/logo.psd`
+  File created 01 Jul 2024 · modified 01 Jul 2024
+
+
+---
+
+# AI360Degree — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/ai360degree/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## AI360Degree
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![AI360Degree — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/ai360degree/logo-dark-a4a1ae0e0d.webp)
+
+Unversioned archive
+
+## logo-dark.png
+
+Representative file created 27 Jun 2024
+File modified 27 Jun 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/ai360degree/logo-dark-a4a1ae0e0d.webp)3 indexed source exports / one preview
+
+- `AI360Degree/favicon.webp`
+- `AI360Degree/logo-light.png`
+- `AI360Degree/logo-dark.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (3)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `AI360Degree/favicon-128.psd`
+  File created 27 Jun 2024 · modified 27 Jun 2024
+- `AI360Degree/favicon.psd`
+  File created 27 Jun 2024 · modified 27 Jun 2024
+- `AI360Degree/logo.psd`
+  File created 27 Jun 2024 · modified 27 Jun 2024
+
+
+---
+
+# 143play — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/143play/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## 143play
+
+6 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![143play — V2](https://alimohsinofficial.github.io/assets/images/logos/143play/logo-with-text-a3312f071c.webp)
+
+V2
+
+## logo with text.png
+
+Representative file created 07 Jan 2019
+File modified 07 Jan 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/143play/logo-with-text-a3312f071c.webp)14 indexed source exports / one preview
+
+- `143play/v2/raf/logo1a1d2s1.png`
+- `143play/v2/raf/logo solid.png`
+- `143play/v2/raf/logo solid cut.png`
+- `143play/v2/logo.png`
+- `143play/v2/logo solid.png`
+- `143play/v2/icon.png`
+- `143play/v2/logo with text.png`
+- `143play/v2/logo with text solid.png`
+- `143play/v2/logo with text horizontal.png`
+- `143play/v2/logo_with_text.png`
+- `143play/v2/logo with text horizontal solid.png`
+- `143play/v2/logo solid black.png`
+- `143play/v2/logo solid white.png`
+- `143play/v2/logo3d.png`
+
+![143play — V3](https://alimohsinofficial.github.io/assets/images/logos/143play/logo3d-790bd4687c.webp)
+
+V3
+
+## logo3d.png
+
+Representative file created 27 Mar 2019
+File modified 27 Mar 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/143play/logo3d-790bd4687c.webp)6 indexed source exports / one preview
+
+- `143play/v3/logo-white.png`
+- `143play/v3/logo1.png`
+- `143play/v3/logo3.png`
+- `143play/v3/logo4.png`
+- `143play/v3/logo12.png`
+- `143play/v3/logo3d.png`
+
+![143play — V4](https://alimohsinofficial.github.io/assets/images/logos/143play/143play-text-6e3c09287f.webp)
+
+V4
+
+## 143play-text.png
+
+Representative file created 06 Jan 2020
+File modified 06 Jan 2020
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/143play/143play-text-6e3c09287f.webp)27 indexed source exports / one preview
+
+- `143play/v4/logo3d.png`
+- `143play/v4/logo3d1.png`
+- `143play/v4/logo3d - Copy.png`
+- `143play/v4/preview-old/logo-b.png`
+- `143play/v4/preview-top/logo-b.png`
+- `143play/v4/preview/logo-b.png`
+- `143play/v4/aaa/logo-b.png`
+- `143play/v4/preview/logo-b - Copy.png`
+- `143play/v4/preview-old/logo-w.png`
+- `143play/v4/preview-top/logo-w.png`
+- `143play/v4/preview/logo-w.png`
+- `143play/v4/aaa/logo-w.png`
+- `143play/v4/preview-old/143play-text.png`
+- `143play/v4/preview-top/143play-text.png`
+- `143play/v4/preview-old/logo-text-v-w.png`
+- `143play/v4/preview-top/logo-text-v-w.png`
+- `143play/v4/preview/logo-text-v-w.png`
+- `143play/v4/preview-old/logo-fb.png`
+- `143play/v4/preview-top/logo-fb.png`
+- `143play/v4/preview-old/logo-text-h.png`
+- `143play/v4/preview-top/logo-text-h.png`
+- `143play/v4/aaa/logo-text-h.png`
+- `143play/v4/preview-old/logo-b - Copy.png`
+- `143play/v4/svg/logo_full.svg`
+- `143play/v4/aaa/logo-text-v-w.png`
+- `143play/v4/aaa/143play-text.png`
+- `143play/v4/aaa/logo-fb.png`
+
+![143play — V5](https://alimohsinofficial.github.io/assets/images/logos/143play/logo-text-h-f39f13d170.webp)
+
+V5
+
+## logo-text-h.png
+
+Representative file created 29 Mar 2019
+File modified 29 Mar 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/143play/logo-text-h-f39f13d170.webp)8 indexed source exports / one preview
+
+- `143play/v5/logo-b.png`
+- `143play/v5/logo-w.png`
+- `143play/v5/logo-text-h.png`
+- `143play/v5/143play-text - Copy.png`
+- `143play/v5/143play-text.png`
+- `143play/v5/logo-fb.png`
+- `143play/v5/logo-text-v-w.png`
+- `143play/v5/logo-w - Copy.png`
+
+![143play — V6](https://alimohsinofficial.github.io/assets/images/logos/143play/logo-text-black-color-5ac04b1fbb.webp)
+
+V6
+
+## logo\_text-black-color.svg
+
+Representative file created 03 Apr 2020
+File modified 31 Mar 2020
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/143play/logo-text-black-color-5ac04b1fbb.webp)15 indexed source exports / one preview
+
+- `143play/v6/svg/logo-icon/logo_icon-black-color.svg`
+- `143play/v6/svg/logo-icon/logo_icon-white-color.svg`
+- `143play/v6/svg/logo-icon/logo_icon-black.svg`
+- `143play/v6/svg/logo-icon/logo_icon-white.svg`
+- `143play/v6/svg/logo-icon/favicon-dark.svg`
+- `143play/v6/svg/logo-icon/favicon-light.svg`
+- `143play/v6/svg/logo-text/logo_text-black-color.svg`
+- `143play/v6/svg/logo-text/logo_text-white-color.svg`
+- `143play/v6/svg/logo-text/logo_text-black.svg`
+- `143play/v6/svg/logo-text/logo_text-white.svg`
+- `143play/v6/svg/logo/logo-black-color.svg`
+- `143play/v6/svg/logo/logo-white-color.svg`
+- `143play/v6/svg/logo/logo-black.svg`
+- `143play/v6/svg/logo/logo-white.svg`
+- `143play/v6/svg/logo/logo-white-color.png`
+
+![143play — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/143play/v-17-12-17-sketch-042a9427b6.webp)
+
+Unversioned archive
+
+## v.17.12.17.sketch.psd
+
+Representative file created 25 May 2018
+File modified 17 Dec 2017
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/143play/v-17-12-17-sketch-042a9427b6.webp)49 indexed source exports / one preview
+
+- `143play/logo/sketch - Copy.psd`
+- `143play/logo/sketch - Copy (2).psd`
+- `143play/logo/v.17.12.17.sketch.psd`
+- `143play/logo/17.12.17.logo.v2/icon512.png`
+- `143play/logo/17.12.17.logo.v2/logo512.png`
+- `143play/logo/17.12.17.logo.v2/logo120.png`
+- `143play/logo/17.12.17.logo.v2/logo96.png`
+- `143play/logo/17.12.17.logo.v1/normal/iconf512.png`
+- `143play/logo/17.12.17.logo.v1/normal/logof512.png`
+- `143play/logo/17.12.17.logo.v1/normal/logof96.png`
+- `143play/logo/17.12.17.logo.v2/logo72.png`
+- `143play/logo/17.12.17.logo.v2/logo48.png`
+- `143play/logo/17.12.17.logo.v1/normal/logof48.png`
+- `143play/logo/17.12.17.logo.v1/normal/logof72.png`
+- `143play/logo/17.12.17.logo.v1/normal/logof120.png`
+- `143play/logo/v.17.12.29.psd`
+- `143play/logo/v.17.12.29.sketch.psd`
+- `143play/logo/v.17.12.29.sketch - Copy.psd`
+- `143play/logo/29.12.17.logo.v1/logo512.png`
+- `143play/logo/29.12.17.logo.v1/logo48.png`
+- `143play/logo/29.12.17.logo.v1/logo120.png`
+- `143play/logo/29.12.17.logo.v1/logo96.png`
+- `143play/logo/29.12.17.logo.v1/logo72.png`
+- `143play/logo/29.12.17.logo.v2/logo512.png`
+- `143play/logo/29.12.17.logo.v2/logo48.png`
+- `143play/logo/29.12.17.logo.v2/logo72.png`
+- `143play/logo/29.12.17.logo.v2/logo120.png`
+- `143play/logo/29.12.17.logo.v2/logo96.png`
+- `143play/logo/17.12.17.logo.v1/play.png`
+- `143play/logo/17.12.17.logo.v1/143.png`
+- `143play/logo/29.12.17.logo.v1/play.png`
+- `143play/logo/29.12.17.logo.v1/143.png`
+- `143play/logo/v.17.12.17.psd`
+- `143play/logo/v.18.02.14.psd`
+- `143play/logo/17.12.17.logo.v1/w/logoW512.png`
+- `143play/logo/17.12.17.logo.v1/w/iconW512.png`
+- `143play/logo/17.12.17.logo.v1/w/logoW72.png`
+- `143play/logo/17.12.17.logo.v1/w/logoW48.png`
+- `143play/logo/17.12.17.logo.v1/w/logoW120.png`
+- `143play/logo/17.12.17.logo.v1/w/logoW96.png`
+- `143play/logo/17.12.17.logo.v1/wb/logoWB512.png`
+- `143play/logo/v.b.18.02.14.psd`
+- `143play/logo/17.12.17.logo.v1/wb/iconWB512.png`
+- `143play/logo/17.12.17.logo.v1/wb/logoWB120.png`
+- `143play/logo/17.12.17.logo.v1/wb/logoWB96.png`
+- `143play/logo/17.12.17.logo.v1/wb/logoWB48.png`
+- `143play/logo/17.12.17.logo.v1/wb/logoWB72.png`
+- `143play/logo/error.psd`
+- `143play/logo/17.12.17.logo.v1/error/logof512.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (29)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `143play/logo/error.psd`
+  File created 25 May 2018 · modified 15 Feb 2018
+- `143play/logo/sketch - Copy (2).psd`
+  File created 25 May 2018 · modified 16 Dec 2017
+- `143play/logo/sketch - Copy.psd`
+  File created 25 May 2018 · modified 16 Dec 2017
+- `143play/logo/sketck.ai`
+  File created 25 May 2018 · modified 17 Dec 2017
+- `143play/logo/v.17.12.17.psd`
+  File created 25 May 2018 · modified 14 Feb 2018
+- `143play/logo/v.17.12.17.sketch.psd`
+  File created 25 May 2018 · modified 17 Dec 2017
+- `143play/logo/v.17.12.29.psd`
+  File created 25 May 2018 · modified 29 Dec 2017
+- `143play/logo/v.17.12.29.sketch - Copy.psd`
+  File created 25 May 2018 · modified 29 Dec 2017
+- `143play/logo/v.17.12.29.sketch.psd`
+  File created 25 May 2018 · modified 29 Dec 2017
+- `143play/logo/v.18.02.14.psd`
+  File created 25 May 2018 · modified 14 Feb 2018
+- `143play/logo/v.b.18.02.14.psd`
+  File created 25 May 2018 · modified 14 Feb 2018
+- `143play/v2/logo - Copy.psd`
+  File created 06 Jan 2019 · modified 06 Jan 2019
+- `143play/v2/logo with text horizontal.psd`
+  File created 07 Jan 2019 · modified 07 Jan 2019
+- `143play/v2/logo with text.psd`
+  File created 07 Jan 2019 · modified 07 Jan 2019
+- `143play/v2/logo.ai`
+  File created 07 Jan 2019 · modified 07 Jan 2019
+- `143play/v2/logo.psd`
+  File created 06 Jan 2019 · modified 06 Jan 2019
+- `143play/v2/logo3d - Copy.psd`
+  File created 27 Mar 2019 · modified 27 Mar 2019
+- `143play/v2/logo3d.psd`
+  File created 27 Mar 2019 · modified 27 Mar 2019
+- `143play/v3/logo - Copy.psd`
+  File created 06 Feb 2019 · modified 06 Feb 2019
+- `143play/v3/logo.ai`
+  File created 06 Feb 2019 · modified 06 Feb 2019
+- `143play/v3/logo.psd`
+  File created 07 Feb 2019 · modified 07 Feb 2019
+- `143play/v3/logo3d.psd`
+  File created 27 Mar 2019 · modified 27 Mar 2019
+- `143play/v4/logo - Copy (2).psd`
+  File created 04 Jan 2020 · modified 05 Aug 2019
+- `143play/v4/logo - Copy.psd`
+  File created 05 Aug 2019 · modified 30 Mar 2019
+- `143play/v4/logo.ai`
+  File created 09 Oct 2019 · modified 09 Oct 2019
+- `143play/v4/logo.backup.psd`
+  File created 30 Mar 2019 · modified 29 Mar 2019
+- `143play/v4/logo.backup2.psd`
+  File created 30 Mar 2019 · modified 30 Mar 2019
+- `143play/v4/logo.psd`
+  File created 08 Feb 2020 · modified 08 Feb 2020
+- `143play/v6/3d/143Play_logo_3d.ai`
+  File created 18 Aug 2022 · modified 18 Aug 2022
+
+
+---
+
+# microinvestica.com — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/microinvestica-com/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## microinvestica.com
+
+3 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![microinvestica.com — V1](https://alimohsinofficial.github.io/assets/images/logos/microinvestica-com/logo-v1-copy-copy-f62777026b.webp)
+
+V1
+
+## logo.v1 copy - Copy.png
+
+Representative file created 25 Mar 2024
+File modified 25 Mar 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/microinvestica-com/logo-v1-copy-copy-f62777026b.webp)3 indexed source exports / one preview
+
+- `microinvestica.com/v1/logo.v1 copy - Copy.png`
+- `microinvestica.com/v1/logo.v1 copy.png`
+- `microinvestica.com/v1/icon.png`
+
+![microinvestica.com — V2](https://alimohsinofficial.github.io/assets/images/logos/microinvestica-com/microinvestica-logo-copy-a76e17d59f.webp)
+
+V2
+
+## microinvestica-logo copy.png
+
+Representative file created 01 Apr 2024
+File modified 01 Apr 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/microinvestica-com/microinvestica-logo-copy-a76e17d59f.webp)2 indexed source exports / one preview
+
+- `microinvestica.com/v2/microinvestica-logo copy.png`
+- `microinvestica.com/v2/microinvestica-logo.png`
+
+![microinvestica.com — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/microinvestica-com/logo-8a64e1448b.webp)
+
+Unversioned archive
+
+## logo.jpg
+
+Representative file created 16 May 2020
+File modified 16 May 2020
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/microinvestica-com/logo-8a64e1448b.webp)1 indexed source exports / one preview
+
+- `microinvestica.com/logo.jpg`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (4)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `microinvestica.com/v1/logo.v1.psd`
+  File created 25 Mar 2024 · modified 25 Mar 2024
+- `microinvestica.com/v2/microinvestica-logo.psd`
+  File created 01 Apr 2024 · modified 01 Apr 2024
+- `microinvestica.com/web1/flat-design-marketing-logo-collection/6056194.eps`
+  File created 25 Mar 2024 · modified 26 Sep 2021
+- `microinvestica.com/web1/gradient-accounting-logo-with-tagline/4929924.eps`
+  File created 25 Mar 2024 · modified 15 Jan 2021
+
+
+---
+
+# arise — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/arise/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## arise
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![arise — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/arise/default-649d0ac9af.webp)
+
+Unversioned archive
+
+## default.png
+
+Representative file created 16 Mar 2024
+File modified 16 Mar 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/arise/default-649d0ac9af.webp)10 indexed source exports / one preview
+
+- `arise/ARISE-logo/cover.png`
+- `arise/ARISE-logo/vector/default-monochrome-black.svg`
+- `arise/ARISE-logo/vector/default-monochrome.svg`
+- `arise/ARISE-logo/vector/default-monochrome-white.svg`
+- `arise/ARISE-logo/default.png`
+- `arise/ARISE-logo/vector/default.svg`
+- `arise/ARISE-logo/vector/isolated-layout.svg`
+- `arise/ARISE-logo/vector/isolated-monochrome-black.svg`
+- `arise/ARISE-logo/vector/isolated-monochrome-white.svg`
+- `arise/ARISE-logo/profile.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+
+---
+
+# safetechnologia.com — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/safetechnologia-com/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## safetechnologia.com
+
+3 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![safetechnologia.com — V1](https://alimohsinofficial.github.io/assets/images/logos/safetechnologia-com/logo-light-solid-67dea9eb1d.webp)
+
+V1
+
+## logo-light-solid.png
+
+Representative file created 04 Mar 2024
+File modified 04 Mar 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/safetechnologia-com/logo-light-solid-67dea9eb1d.webp)4 indexed source exports / one preview
+
+- `safetechnologia.com/v1/logo-light.png`
+- `safetechnologia.com/v1/logo-dark.png`
+- `safetechnologia.com/v1/logo-dark-solid.png`
+- `safetechnologia.com/v1/logo-light-solid.png`
+
+![safetechnologia.com — V2](https://alimohsinofficial.github.io/assets/images/logos/safetechnologia-com/logo-dark-90e5536bc6.webp)
+
+V2
+
+## logo-dark.png
+
+Representative file created 31 Dec 2023
+File modified 31 Dec 2023
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/safetechnologia-com/logo-dark-90e5536bc6.webp)2 indexed source exports / one preview
+
+- `safetechnologia.com/v2/logo-light.png`
+- `safetechnologia.com/v2/logo-dark.png`
+
+![safetechnologia.com — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/safetechnologia-com/logo-icon-15474ec273.webp)
+
+Unversioned archive
+
+## logo\_icon.png
+
+Representative file created 30 Dec 2023
+File modified 30 Dec 2023
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/safetechnologia-com/logo-icon-15474ec273.webp)2 indexed source exports / one preview
+
+- `safetechnologia.com/logo_icon.png`
+- `safetechnologia.com/safetechnologia_icon.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (2)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `safetechnologia.com/v1/logo_icon.psd`
+  File created 31 Dec 2023 · modified 31 Dec 2023
+- `safetechnologia.com/v2/logo_icon.psd`
+  File created 02 Jan 2024 · modified 02 Jan 2024
+
+
+---
+
+# impactofwe.com — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/impactofwe-com/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## impactofwe.com
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![impactofwe.com — V1](https://alimohsinofficial.github.io/assets/images/logos/impactofwe-com/impactofwe-logo-d39d26538e.webp)
+
+V1
+
+## impactofwe\_logo.svg
+
+Representative file created 09 Jan 2024
+File modified 09 Jan 2024
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/impactofwe-com/impactofwe-logo-d39d26538e.webp)3 indexed source exports / one preview
+
+- `impactofwe.com/v1/impactofwe_logo.svg`
+- `impactofwe.com/v1/impactofwe_icon.svg`
+- `impactofwe.com/v1/impactofwe_icon_trim.svg`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (3)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `impactofwe.com/v1/impactofwe_icon.ai`
+  File created 09 Jan 2024 · modified 09 Jan 2024
+- `impactofwe.com/v1/impactofwe_logo_main.ai`
+  File created 09 Jan 2024 · modified 09 Jan 2024
+- `impactofwe.com/v1/impactofwe_logo.ai`
+  File created 09 Jan 2024 · modified 09 Jan 2024
+
+
+---
+
+# QuantoTrace — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/quantotrace/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## QuantoTrace
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![QuantoTrace — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/quantotrace/quantotrace-copy-c7a04a8379.webp)
+
+Unversioned archive
+
+## QuantoTrace copy.png
+
+Representative file created 18 Dec 2023
+File modified 18 Dec 2023
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/quantotrace/quantotrace-copy-c7a04a8379.webp)1 indexed source exports / one preview
+
+- `QuantoTrace/QuantoTrace copy.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (1)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `QuantoTrace/QuantoTrace.psd`
+  File created 18 Dec 2023 · modified 18 Dec 2023
+
+
+---
+
+# net0chain — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/net0chain/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## net0chain
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![net0chain — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/net0chain/net0chain-02-e5527ffec0.webp)
+
+Unversioned archive
+
+## net0chain-02.svg
+
+Representative file created 24 Apr 2023
+File modified 24 Apr 2023
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/net0chain/net0chain-02-e5527ffec0.webp)1 indexed source exports / one preview
+
+- `net0chain/New folder/net0chain-02.svg`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (2)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `net0chain/net0chain.ai`
+  File created 24 Apr 2023 · modified 24 Apr 2023
+- `net0chain/net0chain.psd`
+  File created 24 Apr 2023 · modified 24 Apr 2023
+
+
+---
+
+# imchartered.co.uk — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/imchartered-co-uk/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## imchartered.co.uk
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![imchartered.co.uk — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/imchartered-co-uk/logo-1232bedf5d.webp)
+
+Unversioned archive
+
+## logo.jpg
+
+Representative file created 30 Jul 2020
+File modified 30 Jul 2020
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/imchartered-co-uk/logo-1232bedf5d.webp)14 indexed source exports / one preview
+
+- `imchartered.co.uk/imc logo concept/PLogos_D-IMSupply.png`
+- `imchartered.co.uk/logo1.jpg`
+- `imchartered.co.uk/logo2.jpg`
+- `imchartered.co.uk/logo3.jpg`
+- `imchartered.co.uk/logo4.jpg`
+- `imchartered.co.uk/logo5.jpg`
+- `imchartered.co.uk/logo6.jpg`
+- `imchartered.co.uk/logo.jpg`
+- `imchartered.co.uk/fb_logo.jpg`
+- `imchartered.co.uk/logo-black.png`
+- `imchartered.co.uk/icon.png`
+- `imchartered.co.uk/logo-white.png`
+- `imchartered.co.uk/logo80.png`
+- `imchartered.co.uk/logo.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (5)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `imchartered.co.uk/fb_logo.psd`
+  File created 10 Nov 2020 · modified 10 Nov 2020
+- `imchartered.co.uk/logo - Copy (2).psd`
+  File created 30 Jul 2020 · modified 30 Jul 2020
+- `imchartered.co.uk/logo - Copy (3).psd`
+  File created 30 Jul 2020 · modified 30 Jul 2020
+- `imchartered.co.uk/logo - Copy.psd`
+  File created 30 Jul 2020 · modified 30 Jul 2020
+- `imchartered.co.uk/logo.psd`
+  File created 30 Jul 2020 · modified 30 Jul 2020
+
+
+---
+
+# mediHIS — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/medihis/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## mediHIS
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![mediHIS — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/medihis/logo-text-white-a1790ec3e6.webp)
+
+Unversioned archive
+
+## logo-text-white.png
+
+Representative file created 29 Jan 2022
+File modified 29 Jan 2022
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/medihis/logo-text-white-a1790ec3e6.webp)4 indexed source exports / one preview
+
+- `mediHIS/logo.png`
+- `mediHIS/logo-text.png`
+- `mediHIS/logo-full.png`
+- `mediHIS/logo-text-white.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (2)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `mediHIS/logo-full.psd`
+  File created 29 Jan 2022 · modified 29 Jan 2022
+- `mediHIS/logo-text.psd`
+  File created 29 Jan 2022 · modified 29 Jan 2022
+
+
+---
+
+# open world gaming — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/open-world-gaming/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## open world gaming
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![open world gaming — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/open-world-gaming/logo512-c3414ad202.webp)
+
+Unversioned archive
+
+## logo512.png
+
+Representative file created 10 Jan 2022
+File modified 10 Jan 2022
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/open-world-gaming/logo512-c3414ad202.webp)2 indexed source exports / one preview
+
+- `open world gaming/logo512.png`
+- `open world gaming/logo.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+
+---
+
+# bdunicompare.com — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/bdunicompare-com/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## bdunicompare.com
+
+7 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![bdunicompare.com — V1](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo-374f93529a.webp)
+
+V1
+
+## logo.png
+
+Representative file created 21 Aug 2021
+File modified 21 Aug 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo-374f93529a.webp)3 indexed source exports / one preview
+
+- `bdunicompare.com/v1/logo.png`
+- `bdunicompare.com/v1/icon.png`
+- `bdunicompare.com/v1/logo50.png`
+
+![bdunicompare.com — V2](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo-ff894829bb.webp)
+
+V2
+
+## logo.psd
+
+Representative file created 28 Dec 2021
+File modified 28 Dec 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo-ff894829bb.webp)1 indexed source exports / one preview
+
+- `bdunicompare.com/v2/logo.psd`
+
+![bdunicompare.com — V3](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo-1fc1f7373b.webp)
+
+V3
+
+## logo.psd
+
+Representative file created 28 Dec 2021
+File modified 28 Dec 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo-1fc1f7373b.webp)1 indexed source exports / one preview
+
+- `bdunicompare.com/v3/logo.psd`
+
+![bdunicompare.com — V4](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo512-bf33346b8f.webp)
+
+V4
+
+## logo512.png
+
+Representative file created 29 Dec 2021
+File modified 29 Dec 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo512-bf33346b8f.webp)4 indexed source exports / one preview
+
+- `bdunicompare.com/v4/logo512.png`
+- `bdunicompare.com/v4/logo72.png`
+- `bdunicompare.com/v4/favicon.v1.png`
+- `bdunicompare.com/v4/logo copy.png`
+
+![bdunicompare.com — V5](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo-92d00c8947.webp)
+
+V5
+
+## logo.png
+
+Representative file created 29 Dec 2021
+File modified 29 Dec 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo-92d00c8947.webp)1 indexed source exports / one preview
+
+- `bdunicompare.com/v5/logo.png`
+
+![bdunicompare.com — V6](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo-7c952bfd5f.webp)
+
+V6
+
+## logo.psd
+
+Representative file created 09 Jan 2022
+File modified 12 Sep 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo-7c952bfd5f.webp)1 indexed source exports / one preview
+
+- `bdunicompare.com/v6/logo.psd`
+
+![bdunicompare.com — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo512-507b763faa.webp)
+
+Unversioned archive
+
+## logo512.png
+
+Representative file created 02 Jan 2022
+File modified 02 Jan 2022
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/logo512-507b763faa.webp)2 indexed source exports / one preview
+
+- `bdunicompare.com/psd/logo512 (2).png`
+- `bdunicompare.com/psd/logo512.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (10)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `bdunicompare.com/logo.psd`
+  File created 12 Sep 2021 · modified 12 Sep 2021
+- `bdunicompare.com/v1/logo.psd`
+  File created 21 Aug 2021 · modified 21 Aug 2021
+- `bdunicompare.com/v2/logo.psd`
+  File created 28 Dec 2021 · modified 28 Dec 2021
+- `bdunicompare.com/v3/logo.psd`
+  File created 28 Dec 2021 · modified 28 Dec 2021
+- `bdunicompare.com/v4/logo - Copy (2).psd`
+  File created 29 Dec 2021 · modified 29 Dec 2021
+- `bdunicompare.com/v4/logo - Copy (3).psd`
+  File created 29 Dec 2021 · modified 29 Dec 2021
+- `bdunicompare.com/v4/logo - Copy.psd`
+  File created 29 Dec 2021 · modified 29 Dec 2021
+- `bdunicompare.com/v4/logo.psd`
+  File created 29 Dec 2021 · modified 29 Dec 2021
+- `bdunicompare.com/v5/logo.psd`
+  File created 29 Dec 2021 · modified 29 Dec 2021
+- `bdunicompare.com/v6/logo.psd`
+  File created 09 Jan 2022 · modified 12 Sep 2021
+
+
+---
+
+# elite — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/elite/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## elite
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![elite — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/elite/elite-logo-edd221d85d.webp)
+
+Unversioned archive
+
+## elite\_logo.jpg
+
+Representative file created 01 Nov 2021
+File modified 01 Nov 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/elite/elite-logo-edd221d85d.webp)6 indexed source exports / one preview
+
+- `elite/elite_logo.jpg`
+- `elite/elite_logo-512.png`
+- `elite/elite_logo-512h.png`
+- `elite/elite_logo-512fb.png`
+- `elite/elite_logo-512fb-w.png`
+- `elite/elite_logo-512s-w.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (2)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `elite/elite_logo-512.psd`
+  File created 01 Nov 2021 · modified 01 Nov 2021
+- `elite/elite_logo-512fb.psd`
+  File created 01 Nov 2021 · modified 01 Nov 2021
+
+
+---
+
+# bdnationalsurvey.com — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/bdnationalsurvey-com/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## bdnationalsurvey.com
+
+3 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![bdnationalsurvey.com — V1](https://alimohsinofficial.github.io/assets/images/logos/bdnationalsurvey-com/logo-7d4a6134c2.webp)
+
+V1
+
+## logo.png
+
+Representative file created 21 Aug 2021
+File modified 21 Aug 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bdnationalsurvey-com/logo-7d4a6134c2.webp)2 indexed source exports / one preview
+
+- `bdnationalsurvey.com/v1/logo.png`
+- `bdnationalsurvey.com/v1/icon.png`
+
+![bdnationalsurvey.com — V2](https://alimohsinofficial.github.io/assets/images/logos/bdnationalsurvey-com/logo-2044771215.webp)
+
+V2
+
+## logo.png
+
+Representative file created 21 Aug 2021
+File modified 21 Aug 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bdnationalsurvey-com/logo-2044771215.webp)2 indexed source exports / one preview
+
+- `bdnationalsurvey.com/v2/logo.png`
+- `bdnationalsurvey.com/v2/icon.png`
+
+![bdnationalsurvey.com — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/bdnationalsurvey-com/logo50-82520b623b.webp)
+
+Unversioned archive
+
+## logo50.png
+
+Representative file created 21 Aug 2021
+File modified 21 Aug 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/bdnationalsurvey-com/logo50-82520b623b.webp)1 indexed source exports / one preview
+
+- `bdnationalsurvey.com/logo50.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (1)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `bdnationalsurvey.com/logo.psd`
+  File created 21 Aug 2021 · modified 21 Aug 2021
+
+
+---
+
+# xRTES — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/xrtes/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## xRTES
+
+2 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![xRTES — V1](https://alimohsinofficial.github.io/assets/images/logos/xrtes/logo-light-text-copy-8079c28fe5.webp)
+
+V1
+
+## logo-light-text - Copy.png
+
+Representative file created 28 Jun 2021
+File modified 28 Jun 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/xrtes/logo-light-text-copy-8079c28fe5.webp)6 indexed source exports / one preview
+
+- `xRTES/logo v1/logo-dark-text - Copy.png`
+- `xRTES/logo v1/logo-dark-text.png`
+- `xRTES/logo v1/logo-light-text - Copy.png`
+- `xRTES/logo v1/logo-light-text.png`
+- `xRTES/icon v1/icon.png`
+- `xRTES/icon v1/logo-letter.png`
+
+![xRTES — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/xrtes/logo-dark-text-7cc91ad493.webp)
+
+Unversioned archive
+
+## logo-dark-text.png
+
+Representative file created 28 Jun 2021
+File modified 28 Jun 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/xrtes/logo-dark-text-7cc91ad493.webp)8 indexed source exports / one preview
+
+- `xRTES/favicon_io/apple-touch-icon.png`
+- `xRTES/icon old/icon.png`
+- `xRTES/icon old/logo-letter.png`
+- `xRTES/favicon_io/favicon-32x32.png`
+- `xRTES/icon.png`
+- `xRTES/logo-letter - Copy.png`
+- `xRTES/logo-dark-text.png`
+- `xRTES/logo-letter.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (3)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `xRTES/icon - Copy.psd`
+  File created 28 Jun 2021 · modified 28 Jun 2021
+- `xRTES/icon.psd`
+  File created 28 Jun 2021 · modified 28 Jun 2021
+- `xRTES/xRTES-all - Copy.psd`
+  File created 28 Jun 2021 · modified 28 Jun 2021
+
+
+---
+
+# itgov.xyz — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/itgov-xyz/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## itgov.xyz
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![itgov.xyz — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/itgov-xyz/itgov-xyz-fdd566bf4e.webp)
+
+Unversioned archive
+
+## itgov-xyz.png
+
+Representative file created 30 Jan 2021
+File modified 30 Jan 2021
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/itgov-xyz/itgov-xyz-fdd566bf4e.webp)3 indexed source exports / one preview
+
+- `itgov.xyz/it-governance-institute - Copy.png`
+- `itgov.xyz/it-governance-institute.png`
+- `itgov.xyz/itgov-xyz.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (1)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `itgov.xyz/it-governance-institute.psd`
+  File created 30 Jan 2021 · modified 30 Jan 2021
+
+
+---
+
+# GEIT — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/geit/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## GEIT
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![GEIT — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/geit/logo512-c6647b97c8.webp)
+
+Unversioned archive
+
+## logo512.png
+
+Representative file created 23 Dec 2020
+File modified 23 Dec 2020
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/geit/logo512-c6647b97c8.webp)6 indexed source exports / one preview
+
+- `GEIT/logo512.png`
+- `GEIT/logo250.png`
+- `GEIT/logo72.png`
+- `GEIT/logo48.png`
+- `GEIT/logo64.png`
+- `GEIT/SMART GEIT LOGO/logo512.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (3)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `GEIT/logo250.psd`
+  File created 30 Nov 2020 · modified 30 Nov 2020
+- `GEIT/logo512.psd`
+  File created 30 Nov 2020 · modified 30 Nov 2020
+- `GEIT/SMART GEIT LOGO/logo512.psd`
+  File created 23 Dec 2020 · modified 23 Dec 2020
+
+
+---
+
+# mediprospects.ai — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/mediprospects-ai/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## mediprospects.ai
+
+3 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![mediprospects.ai — V1](https://alimohsinofficial.github.io/assets/images/logos/mediprospects-ai/logo-h-text-2000-a40d2767aa.webp)
+
+V1
+
+## logo-h-text.2000.png
+
+Representative file created 19 Apr 2019
+File modified 19 Apr 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/mediprospects-ai/logo-h-text-2000-a40d2767aa.webp)12 indexed source exports / one preview
+
+- `mediprospects.ai/v1/icon-black.png`
+- `mediprospects.ai/v1/logo.png`
+- `mediprospects.ai/v1/fb-logo.jpg`
+- `mediprospects.ai/v1/home-logo3.png`
+- `mediprospects.ai/v1/logo-green.png`
+- `mediprospects.ai/v1/logo2000.png`
+- `mediprospects.ai/v1/icon-white.png`
+- `mediprospects.ai/v1/logo-h-text.2000.png`
+- `mediprospects.ai/v1/home-logo2.png`
+- `mediprospects.ai/v1/logo.b.2000.png`
+- `mediprospects.ai/v1/logo.g.2000.png`
+- `mediprospects.ai/v1/menu-logo.png`
+
+![mediprospects.ai — V2](https://alimohsinofficial.github.io/assets/images/logos/mediprospects-ai/logo-h-text-2000-a40d2767aa.webp)
+
+V2
+
+## logo-h-text.2000.png
+
+Representative file created 19 Apr 2019
+File modified 19 Apr 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/mediprospects-ai/logo-h-text-2000-a40d2767aa.webp)46 indexed source exports / one preview
+
+- `mediprospects.ai/v2/images/apple-icon-60x60.png`
+- `mediprospects.ai/v2/images/apple-icon-180x180.png`
+- `mediprospects.ai/v2/images/favicon-96x96.png`
+- `mediprospects.ai/v2/images/apple-icon-57x57.png`
+- `mediprospects.ai/v2/images/android-icon-192x192.png`
+- `mediprospects.ai/v2/images/apple-icon-152x152.png`
+- `mediprospects.ai/v2/images/apple-icon-144x144.png`
+- `mediprospects.ai/v2/images/apple-icon-120x120.png`
+- `mediprospects.ai/v2/images/apple-icon-114x114.png`
+- `mediprospects.ai/v2/images/apple-icon-76x76.png`
+- `mediprospects.ai/v2/images/apple-icon-72x72.png`
+- `mediprospects.ai/v2/images/home-logo.png`
+- `mediprospects.ai/v2/images/icon.png`
+- `mediprospects.ai/v2/images/home-logo3.png`
+- `mediprospects.ai/v2/images/home-logo2.png`
+- `mediprospects.ai/v2/images/menu-logo1.png`
+- `mediprospects.ai/v2/images/menu-logo.png`
+- `mediprospects.ai/v2/images/services/service-icon1.png`
+- `mediprospects.ai/v2/images/services/service-icon2.png`
+- `mediprospects.ai/v2/images/services/service-icon3.png`
+- `mediprospects.ai/v2/new logo/relogos/New Logo-01.jpg`
+- `mediprospects.ai/v2/new logo/relogos/New Logo-02.jpg`
+- `mediprospects.ai/v2/new logo/relogos/New Logo-03.jpg`
+- `mediprospects.ai/v2/new logo/relogos/New Logo-04.jpg`
+- `mediprospects.ai/v2 selected/New Logo-01.png`
+- `mediprospects.ai/v2/new logo/relogos/New Logo-01.png`
+- `mediprospects.ai/v2 selected/New Logo-02.png`
+- `mediprospects.ai/v2/new logo/relogos/New Logo-02.png`
+- `mediprospects.ai/v2 selected/New Logo-03.png`
+- `mediprospects.ai/v2/new logo/relogos/New Logo-03.png`
+- `mediprospects.ai/v2 selected/New Logo-04.png`
+- `mediprospects.ai/v2/new logo/relogos/New Logo-04.png`
+- `mediprospects.ai/v2/home-logo3.bac.png`
+- `mediprospects.ai/v2/home-logo2 - Copy.png`
+- `mediprospects.ai/v2/home-logo3 - Copy.png`
+- `mediprospects.ai/v2/home-logo.png`
+- `mediprospects.ai/v2/icon.png`
+- `mediprospects.ai/v2/menu-logo1.png`
+- `mediprospects.ai/v2/menu-logo.png`
+- `mediprospects.ai/v2/home-logo2.png`
+- `mediprospects.ai/v2/home-logo3.png`
+- `mediprospects.ai/v2/mediprospects_logo/fb_logo1.jpg`
+- `mediprospects.ai/v2/mediprospects_logo/mediprospects_logo/fb_logo1.jpg`
+- `mediprospects.ai/v2/New folder/mediprospects-ai.jpg`
+- `mediprospects.ai/v2/mediprospects_logo/fb_logo.png`
+- `mediprospects.ai/v2/mediprospects_logo/mediprospects_logo/fb_logo.png`
+
+![mediprospects.ai — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/mediprospects-ai/home-logo2-0c6bd5c853.webp)
+
+Unversioned archive
+
+## home-logo2.png
+
+Representative file created 13 Feb 2019
+File modified 13 Feb 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/mediprospects-ai/home-logo2-0c6bd5c853.webp)2 indexed source exports / one preview
+
+- `mediprospects.ai/sketch/just-text/home-logo3.png`
+- `mediprospects.ai/sketch/just-text/home-logo2.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (17)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `mediprospects.ai/sketch/logo - Copy.psd`
+  File created 13 Feb 2019 · modified 12 Feb 2019
+- `mediprospects.ai/sketch/logo-with-text.psd`
+  File created 13 Feb 2019 · modified 13 Feb 2019
+- `mediprospects.ai/sketch/logo.ai`
+  File created 13 Feb 2019 · modified 13 Feb 2019
+- `mediprospects.ai/sketch/logo.psd`
+  File created 13 Feb 2019 · modified 13 Feb 2019
+- `mediprospects.ai/v1/fb-logo.psd`
+  File created 15 Feb 2019 · modified 15 Feb 2019
+- `mediprospects.ai/v1/logo-h-text.psd`
+  File created 15 Feb 2019 · modified 15 Feb 2019
+- `mediprospects.ai/v1/logo-h-textlll.psd`
+  File created 15 Feb 2019 · modified 15 Feb 2019
+- `mediprospects.ai/v1/logo-text.psd`
+  File created 25 Mar 2019 · modified 25 Mar 2019
+- `mediprospects.ai/v1/logo-v-text.psd`
+  File created 15 Feb 2019 · modified 15 Feb 2019
+- `mediprospects.ai/v1/logo.psd`
+  File created 06 Sep 2019 · modified 06 Sep 2019
+- `mediprospects.ai/v2/fb_logo.psd`
+  File created 27 Jan 2020 · modified 27 Jan 2020
+- `mediprospects.ai/v2/new logo/relogos/New Logo-01 - Copy.ai`
+  File created 22 Oct 2019 · modified 22 Oct 2019
+- `mediprospects.ai/v2/new logo/relogos/New Logo-01.ai`
+  File created 22 Oct 2019 · modified 21 Oct 2019
+- `mediprospects.ai/v2/new logo/relogos/New Logo-02.ai`
+  File created 22 Oct 2019 · modified 21 Oct 2019
+- `mediprospects.ai/v2/new logo/relogos/New Logo-03.ai`
+  File created 22 Oct 2019 · modified 21 Oct 2019
+- `mediprospects.ai/v2/new logo/relogos/New Logo-04.ai`
+  File created 22 Oct 2019 · modified 21 Oct 2019
+- `mediprospects.ai/v2/new logo/relogos/New Logo.ai`
+  File created 22 Oct 2019 · modified 21 Oct 2019
+Original files without a browser preview
+
+- `mediprospects.ai/v2/new logo/relogos/New folder/New Logo.png`
+  Created 22 Oct 2019 · modified 22 Oct 2019
+  Oversized source image; metadata retained, preview not published.
+
+
+---
+
+# itknowledgeltd.com — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/itknowledgeltd-com/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## itknowledgeltd.com
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![itknowledgeltd.com — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/itknowledgeltd-com/logo-7f901db1e6.webp)
+
+Unversioned archive
+
+## logo.png
+
+Representative file created 18 Nov 2019
+File modified 18 Nov 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/itknowledgeltd-com/logo-7f901db1e6.webp)4 indexed source exports / one preview
+
+- `itknowledgeltd.com/icon.png`
+- `itknowledgeltd.com/itknowledgeltd.com_logo/logo.png`
+- `itknowledgeltd.com/itknowledgeltd.com_logo/logo_fb1.png`
+- `itknowledgeltd.com/itknowledgeltd.com_logo/logo_fb2.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (5)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `itknowledgeltd.com/icon.psd`
+  File created 13 Nov 2019 · modified 13 Nov 2019
+- `itknowledgeltd.com/logo - Copy (2).psd`
+  File created 27 Jan 2020 · modified 27 Jan 2020
+- `itknowledgeltd.com/logo - Copy.psd`
+  File created 27 Jan 2020 · modified 18 Nov 2019
+- `itknowledgeltd.com/logo.ai`
+  File created 13 Nov 2019 · modified 13 Nov 2019
+- `itknowledgeltd.com/logo.psd`
+  File created 27 Jan 2020 · modified 27 Jan 2020
+
+
+---
+
+# qater — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/qater/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## qater
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![qater — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/qater/logo-3b953c734a.webp)
+
+Unversioned archive
+
+## logo.png
+
+Representative file created 03 Jan 2020
+File modified 03 Jan 2020
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/qater/logo-3b953c734a.webp)2 indexed source exports / one preview
+
+- `qater/logo.png`
+- `qater/logo2.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (2)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `qater/logo.psd`
+  File created 03 Jan 2020 · modified 03 Jan 2020
+- `qater/logo2.psd`
+  File created 03 Jan 2020 · modified 03 Jan 2020
+
+
+---
+
+# supportbd — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/supportbd/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## supportbd
+
+3 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![supportbd — V1](https://alimohsinofficial.github.io/assets/images/logos/supportbd/logo-text-black-876526e9ea.webp)
+
+V1
+
+## logo-text-black.png
+
+Representative file created 27 Mar 2019
+File modified 12 Mar 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/supportbd/logo-text-black-876526e9ea.webp)4 indexed source exports / one preview
+
+- `supportbd/v1/icon.png`
+- `supportbd/v1/icon-xyz.png`
+- `supportbd/v1/logo-text.png`
+- `supportbd/v1/logo-text-black.png`
+
+![supportbd — V2](https://alimohsinofficial.github.io/assets/images/logos/supportbd/horizontal-logo-with-text-601c40886e.webp)
+
+V2
+
+## horizontal logo with text.png
+
+Representative file created 28 Mar 2019
+File modified 28 Mar 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/supportbd/horizontal-logo-with-text-601c40886e.webp)11 indexed source exports / one preview
+
+- `supportbd/v2/preview/multi/logo.png`
+- `supportbd/v2/preview/multi/logo with xyz.png`
+- `supportbd/v2/preview/multi/horizontal logo with text.png`
+- `supportbd/v2/preview/multi/horizontal logo with text with xyz.png`
+- `supportbd/v2/preview/logo/logo.png`
+- `supportbd/v2/preview/logo/logo-xyz.png`
+- `supportbd/v2/preview/logo/logo-text-h.png`
+- `supportbd/v2/preview/logo/logo-text-xyz-h.png`
+- `supportbd/v2/preview/logo/logo-fb.png`
+- `supportbd/v2/preview/logo/logo-fb-xyz - Copy.png`
+- `supportbd/v2/preview/logo/logo-fb-xyz.png`
+
+![supportbd — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/supportbd/logo-text-black-876526e9ea.webp)
+
+Unversioned archive
+
+## logo-text-black.png
+
+Representative file created 27 Mar 2019
+File modified 12 Mar 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/supportbd/logo-text-black-876526e9ea.webp)7 indexed source exports / one preview
+
+- `supportbd/garbase/icon.png`
+- `supportbd/garbase/icon-xyz.png`
+- `supportbd/garbase/logo-text.png`
+- `supportbd/garbase/logo-text-black.png`
+- `supportbd/garbase/logo3d.png`
+- `supportbd/garbase/logo3d1.png`
+- `supportbd/garbase/logo3ddd.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (11)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `supportbd/garbase/logo-text.psd`
+  File created 12 Mar 2019 · modified 12 Mar 2019
+- `supportbd/garbase/logo.psd`
+  File created 28 Mar 2019 · modified 28 Mar 2019
+- `supportbd/garbase/logo3d - Copy (2).psd`
+  File created 27 Mar 2019 · modified 27 Mar 2019
+- `supportbd/garbase/logo3d - Copy.psd`
+  File created 27 Mar 2019 · modified 27 Mar 2019
+- `supportbd/garbase/logo3d.psd`
+  File created 27 Mar 2019 · modified 27 Mar 2019
+- `supportbd/garbase/logo3d1.psd`
+  File created 27 Mar 2019 · modified 27 Mar 2019
+- `supportbd/v1/logo-text.psd`
+  File created 27 Mar 2019 · modified 12 Mar 2019
+- `supportbd/v1/logo.ai`
+  File created 27 Mar 2019 · modified 25 Mar 2019
+- `supportbd/v1/logo.psd`
+  File created 27 Mar 2019 · modified 12 Mar 2019
+- `supportbd/v2/logo.ai`
+  File created 28 Mar 2019 · modified 28 Mar 2019
+- `supportbd/v2/logo.psd`
+  File created 14 Apr 2019 · modified 14 Apr 2019
+
+
+---
+
+# buyzooba — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/buyzooba/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## buyzooba
+
+3 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![buyzooba — V1](https://alimohsinofficial.github.io/assets/images/logos/buyzooba/logo-with-text-square-border-black-2e9ea49ba8.webp)
+
+V1
+
+## logo with text square border black.png
+
+Representative file created 02 Jan 2019
+File modified 02 Jan 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/buyzooba/logo-with-text-square-border-black-2e9ea49ba8.webp)19 indexed source exports / one preview
+
+- `buyzooba/v1/preview/logo border.png`
+- `buyzooba/v1/preview/logo border black.png`
+- `buyzooba/v1/preview/logo border white.png`
+- `buyzooba/v1/preview/logo.png`
+- `buyzooba/v1/preview/logo white.png`
+- `buyzooba/v1/preview/logo black.png`
+- `buyzooba/v1/preview/logo with text square border.png`
+- `buyzooba/v1/preview/logo with text square.png`
+- `buyzooba/v1/preview/logo with text square border white.png`
+- `buyzooba/v1/preview/logo with text square white.png`
+- `buyzooba/v1/preview/logo with text square black.png`
+- `buyzooba/v1/preview/logo with text square border black.png`
+- `buyzooba/v1/preview/logo with text vertical border.png`
+- `buyzooba/v1/preview/logo with text vertical.png`
+- `buyzooba/v1/preview/logo with text vertical white.png`
+- `buyzooba/v1/preview/logo with text vertical border white.png`
+- `buyzooba/v1/preview/logo with text vertical border black.png`
+- `buyzooba/v1/preview/logo with text vertical black.png`
+- `buyzooba/v1/preview/logo with text square fb.jpg`
+
+![buyzooba — V2](https://alimohsinofficial.github.io/assets/images/logos/buyzooba/logo-text-h-f39f13d170.webp)
+
+V2
+
+## logo-text-h.png
+
+Representative file created 29 Mar 2019
+File modified 29 Mar 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/buyzooba/logo-text-h-f39f13d170.webp)3 indexed source exports / one preview
+
+- `buyzooba/v2/preview/logo.png`
+- `buyzooba/v2/preview/logo-fb.png`
+- `buyzooba/v2/preview/logo-text-h.png`
+
+![buyzooba — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/buyzooba/logo-ref-e785e09e09.webp)
+
+Unversioned archive
+
+## logo ref.psd
+
+Representative file created 03 Jan 2019
+File modified 03 Jan 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/buyzooba/logo-ref-e785e09e09.webp)1 indexed source exports / one preview
+
+- `buyzooba/garbage/logo ref.psd`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (3)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `buyzooba/garbage/logo ref.psd`
+  File created 03 Jan 2019 · modified 03 Jan 2019
+- `buyzooba/v2/logo.ai`
+  File created 02 Jan 2019 · modified 02 Jan 2019
+- `buyzooba/v2/logo.psd`
+  File created 29 Mar 2019 · modified 29 Mar 2019
+
+
+---
+
+# incorelab — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/incorelab/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## incorelab
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![incorelab — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/incorelab/logo-with-text-white-63aedea21b.webp)
+
+Unversioned archive
+
+## logo with text white.png
+
+Representative file created 04 Jan 2019
+File modified 04 Jan 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/incorelab/logo-with-text-white-63aedea21b.webp)9 indexed source exports / one preview
+
+- `incorelab/preview/logo.png`
+- `incorelab/preview/logo2.png`
+- `incorelab/preview/logo with text.png`
+- `incorelab/preview/logo with text2.png`
+- `incorelab/preview/logo with text black.png`
+- `incorelab/preview/logo with text white.png`
+- `incorelab/preview/logo black.png`
+- `incorelab/preview/logo white.png`
+- `incorelab/preview/logo with text horizontal.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (4)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `incorelab/logo with text horizontal.psd`
+  File created 04 Jan 2019 · modified 04 Jan 2019
+- `incorelab/logo with text.psd`
+  File created 04 Jan 2019 · modified 04 Jan 2019
+- `incorelab/logo.ai`
+  File created 04 Jan 2019 · modified 04 Jan 2019
+- `incorelab/logo.psd`
+  File created 04 Jan 2019 · modified 04 Jan 2019
+
+
+---
+
+# anchorbd — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/anchorbd/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## anchorbd
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![anchorbd — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/anchorbd/logo-with-text-square-white-610dce4292.webp)
+
+Unversioned archive
+
+## logo with text square white.png
+
+Representative file created 02 Jan 2019
+File modified 02 Jan 2019
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/anchorbd/logo-with-text-square-white-610dce4292.webp)9 indexed source exports / one preview
+
+- `anchorbd/preview/logo.png`
+- `anchorbd/preview/logo with text square.png`
+- `anchorbd/preview/logo white.png`
+- `anchorbd/preview/logo black.png`
+- `anchorbd/preview/logo with text square black.png`
+- `anchorbd/preview/logo with text square white.png`
+- `anchorbd/preview/logo with text vertical.png`
+- `anchorbd/preview/logo with text vertical white.png`
+- `anchorbd/preview/logo with text vertical black.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (3)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `anchorbd/logo with text square.psd`
+  File created 02 Jan 2019 · modified 02 Jan 2019
+- `anchorbd/logo with text vertical.psd`
+  File created 02 Jan 2019 · modified 02 Jan 2019
+- `anchorbd/logo.psd`
+  File created 02 Jan 2019 · modified 02 Jan 2019
+
+
+---
+
+# EnglishSociety — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/englishsociety/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## EnglishSociety
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![EnglishSociety — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/englishsociety/englishsocietycover1-b4be771506.webp)
+
+Unversioned archive
+
+## EnglishSocietyCover1.png
+
+Representative file created 10 Jun 2018
+File modified 10 Jun 2018
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/englishsociety/englishsocietycover1-b4be771506.webp)24 indexed source exports / one preview
+
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo.jpg`
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo1.png`
+- `EnglishSociety/EnglishSocietyLogo/ai_export/EnglishSocietyLogodsdsdsf.png`
+- `EnglishSociety/EnglishSocietyLogo/ai_export/EnglishSocietyLogosdsfwf.png`
+- `EnglishSociety/EnglishSocietyLogo/ai_export/EnglishSocietyLogosfgsdgrgd.png`
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo3.png`
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo700.png`
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo4.png`
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo2.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover9.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover10.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover11.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover12.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover13.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover8.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover7.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover6.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover5.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover4.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover3.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover2.png`
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover1.png`
+- `EnglishSociety/EnglishSocietyLogo/logo.png`
+- `EnglishSociety/EnglishSocietyLogo/icon.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (6)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `EnglishSociety/EnglishSocietyCover/EnglishSocietyCover.psd`
+  File created 10 Jun 2018 · modified 10 Jun 2018
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo - Copy (2).ai`
+  File created 10 Jun 2018 · modified 10 Jun 2018
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo - Copy.ai`
+  File created 10 Jun 2018 · modified 10 Jun 2018
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo - Copy.psd`
+  File created 28 Jun 2018 · modified 28 Jun 2018
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo.ai`
+  File created 10 Jun 2018 · modified 10 Jun 2018
+- `EnglishSociety/EnglishSocietyLogo/EnglishSocietyLogo.psd`
+  File created 28 Jun 2018 · modified 28 Jun 2018
+
+
+---
+
+# SetMyLife — logo design
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/setmylife/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / LOGO ARCHIVE
+
+## SetMyLife
+
+1 representative previews: one per explicitly named version, plus one for files without a version label. Original filenames and file dates remain indexed for search. Dates are source metadata, not verified design completion dates.
+
+Dates below are original file timestamps, shown in UTC+06. They do not establish client approval or design completion. Duplicate resolution exports are grouped together. Original editable files remain in the source archive.
+
+![SetMyLife — Unversioned archive](https://alimohsinofficial.github.io/assets/images/logos/setmylife/setmylifecover-c8a0b19b88.webp)
+
+Unversioned archive
+
+## SetMyLifeCover.png
+
+Representative file created 17 Jun 2018
+File modified 17 Jun 2018
+
+[Download preview ↗](https://alimohsinofficial.github.io/assets/images/logos/setmylife/setmylifecover-c8a0b19b88.webp)3 indexed source exports / one preview
+
+- `SetMyLife/SetMyLifeLogo/SetMyLifeLogo1.png`
+- `SetMyLife/SetMyLifeLogo/SetMyLifeLogo.png`
+- `SetMyLife/SetMyLifeCover/SetMyLifeCover.png`
+
+[All logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+Editable original file records (4)
+
+Editable originals remain in the source archive; previews above are available for browser download.
+
+- `SetMyLife/SetMyLifeCover/SetMyLifeCover.psd`
+  File created 17 Jun 2018 · modified 17 Jun 2018
+- `SetMyLife/SetMyLifeLogo/SetMyLifeLogo_c.psd`
+  File created 17 Jun 2018 · modified 17 Jun 2018
+- `SetMyLife/SetMyLifeLogo/SetMyLifeLogo.ai`
+  File created 17 Jun 2018 · modified 17 Jun 2018
+- `SetMyLife/SetMyLifeLogo/SetMyLifeLogo.psd`
+  File created 17 Jun 2018 · modified 17 Jun 2018
+
+
+---
+
+# Logo design archive
+
+Canonical page: https://alimohsinofficial.github.io/design/logos/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+DESIGN / VISUAL IDENTITIES
+
+## Logo design archive.
+
+48 logo projects. 86 representative version previews. One image per version; original filenames and dates stay searchable.
+
+Search by project, original filename, version or year. Dates are source-file metadata, not verified project completion dates. Reference material and stock/mockup assets are excluded.
+
+![AgentForge logo preview](https://alimohsinofficial.github.io/assets/images/logos/agentforge/cover.webp)
+
+## [AgentForge](https://alimohsinofficial.github.io/design/logos/agentforge/)
+
+8 version previews
+
+VIEW VERSIONS ↗
+
+![incodetechnology.uk logo preview](https://alimohsinofficial.github.io/assets/images/logos/incodetechnology-uk/cover.webp)
+
+## [incodetechnology.uk](https://alimohsinofficial.github.io/design/logos/incodetechnology-uk/)
+
+2 version previews
+
+VIEW VERSIONS ↗
+
+![quantidiumai logo preview](https://alimohsinofficial.github.io/assets/images/logos/quantidiumai/cover.webp)
+
+## [quantidiumai](https://alimohsinofficial.github.io/design/logos/quantidiumai/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![taka.digital logo preview](https://alimohsinofficial.github.io/assets/images/logos/taka-digital/cover.webp)
+
+## [taka.digital](https://alimohsinofficial.github.io/design/logos/taka-digital/)
+
+2 version previews
+
+VIEW VERSIONS ↗
+
+![cambridgeflair.co.uk logo preview](https://alimohsinofficial.github.io/assets/images/logos/cambridgeflair-co-uk/cover.webp)
+
+## [cambridgeflair.co.uk](https://alimohsinofficial.github.io/design/logos/cambridgeflair-co-uk/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![Quantonova logo preview](https://alimohsinofficial.github.io/assets/images/logos/quantonova/cover.webp)
+
+## [Quantonova](https://alimohsinofficial.github.io/design/logos/quantonova/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![nextaifusion.com logo preview](https://alimohsinofficial.github.io/assets/images/logos/nextaifusion-com/cover.webp)
+
+## [nextaifusion.com](https://alimohsinofficial.github.io/design/logos/nextaifusion-com/)
+
+2 version previews
+
+VIEW VERSIONS ↗
+
+![intellicreate.co.uk logo preview](https://alimohsinofficial.github.io/assets/images/logos/intellicreate-co-uk/cover.webp)
+
+## [intellicreate.co.uk](https://alimohsinofficial.github.io/design/logos/intellicreate-co-uk/)
+
+3 version previews
+
+VIEW VERSIONS ↗
+
+![bellacet logo preview](https://alimohsinofficial.github.io/assets/images/logos/bellacet/cover.webp)
+
+## [bellacet](https://alimohsinofficial.github.io/design/logos/bellacet/)
+
+2 version previews
+
+VIEW VERSIONS ↗
+
+![livingstone logo preview](https://alimohsinofficial.github.io/assets/images/logos/livingstone/cover.webp)
+
+## [livingstone](https://alimohsinofficial.github.io/design/logos/livingstone/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![OceanLink logo preview](https://alimohsinofficial.github.io/assets/images/logos/oceanlink/cover.webp)
+
+## [OceanLink](https://alimohsinofficial.github.io/design/logos/oceanlink/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![smartroundabout.co.uk logo preview](https://alimohsinofficial.github.io/assets/images/logos/smartroundabout-co-uk/cover.webp)
+
+## [smartroundabout.co.uk](https://alimohsinofficial.github.io/design/logos/smartroundabout-co-uk/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![trackgenesis logo preview](https://alimohsinofficial.github.io/assets/images/logos/trackgenesis/cover.webp)
+
+## [trackgenesis](https://alimohsinofficial.github.io/design/logos/trackgenesis/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![alimohsinofficial.github.io logo preview](https://alimohsinofficial.github.io/assets/images/logos/alimohsinofficial-github-io/cover.webp)
+
+## [alimohsinofficial.github.io](https://alimohsinofficial.github.io/design/logos/alimohsinofficial-github-io/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![AI4MultiGIS logo preview](https://alimohsinofficial.github.io/assets/images/logos/ai4multigis/cover.webp)
+
+## [AI4MultiGIS](https://alimohsinofficial.github.io/design/logos/ai4multigis/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![nanoRail logo preview](https://alimohsinofficial.github.io/assets/images/logos/nanorail/cover.webp)
+
+## [nanoRail](https://alimohsinofficial.github.io/design/logos/nanorail/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![adsync360 logo preview](https://alimohsinofficial.github.io/assets/images/logos/adsync360/cover.webp)
+
+## [adsync360](https://alimohsinofficial.github.io/design/logos/adsync360/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![Canvas of hope logo preview](https://alimohsinofficial.github.io/assets/images/logos/canvas-of-hope/cover.webp)
+
+## [Canvas of hope](https://alimohsinofficial.github.io/design/logos/canvas-of-hope/)
+
+2 version previews
+
+VIEW VERSIONS ↗
+
+![Mediprospects.co.uk logo preview](https://alimohsinofficial.github.io/assets/images/logos/mediprospects-co-uk/cover.webp)
+
+## [Mediprospects.co.uk](https://alimohsinofficial.github.io/design/logos/mediprospects-co-uk/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![canvas of life by anny logo preview](https://alimohsinofficial.github.io/assets/images/logos/canvas-of-life-by-anny/cover.webp)
+
+## [canvas of life by anny](https://alimohsinofficial.github.io/design/logos/canvas-of-life-by-anny/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![PQCshift logo preview](https://alimohsinofficial.github.io/assets/images/logos/pqcshift/cover.webp)
+
+## [PQCshift](https://alimohsinofficial.github.io/design/logos/pqcshift/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![Urban Taste Travels logo preview](https://alimohsinofficial.github.io/assets/images/logos/urban-taste-travels/cover.webp)
+
+## [Urban Taste Travels](https://alimohsinofficial.github.io/design/logos/urban-taste-travels/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![AI360Degree logo preview](https://alimohsinofficial.github.io/assets/images/logos/ai360degree/cover.webp)
+
+## [AI360Degree](https://alimohsinofficial.github.io/design/logos/ai360degree/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![143play logo preview](https://alimohsinofficial.github.io/assets/images/logos/143play/cover.webp)
+
+## [143play](https://alimohsinofficial.github.io/design/logos/143play/)
+
+6 version previews
+
+VIEW VERSIONS ↗
+
+![microinvestica.com logo preview](https://alimohsinofficial.github.io/assets/images/logos/microinvestica-com/cover.webp)
+
+## [microinvestica.com](https://alimohsinofficial.github.io/design/logos/microinvestica-com/)
+
+3 version previews
+
+VIEW VERSIONS ↗
+
+![arise logo preview](https://alimohsinofficial.github.io/assets/images/logos/arise/cover.webp)
+
+## [arise](https://alimohsinofficial.github.io/design/logos/arise/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![safetechnologia.com logo preview](https://alimohsinofficial.github.io/assets/images/logos/safetechnologia-com/cover.webp)
+
+## [safetechnologia.com](https://alimohsinofficial.github.io/design/logos/safetechnologia-com/)
+
+3 version previews
+
+VIEW VERSIONS ↗
+
+![impactofwe.com logo preview](https://alimohsinofficial.github.io/assets/images/logos/impactofwe-com/cover.webp)
+
+## [impactofwe.com](https://alimohsinofficial.github.io/design/logos/impactofwe-com/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![QuantoTrace logo preview](https://alimohsinofficial.github.io/assets/images/logos/quantotrace/cover.webp)
+
+## [QuantoTrace](https://alimohsinofficial.github.io/design/logos/quantotrace/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![net0chain logo preview](https://alimohsinofficial.github.io/assets/images/logos/net0chain/cover.webp)
+
+## [net0chain](https://alimohsinofficial.github.io/design/logos/net0chain/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![imchartered.co.uk logo preview](https://alimohsinofficial.github.io/assets/images/logos/imchartered-co-uk/cover.webp)
+
+## [imchartered.co.uk](https://alimohsinofficial.github.io/design/logos/imchartered-co-uk/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![mediHIS logo preview](https://alimohsinofficial.github.io/assets/images/logos/medihis/cover.webp)
+
+## [mediHIS](https://alimohsinofficial.github.io/design/logos/medihis/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![open world gaming logo preview](https://alimohsinofficial.github.io/assets/images/logos/open-world-gaming/cover.webp)
+
+## [open world gaming](https://alimohsinofficial.github.io/design/logos/open-world-gaming/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![bdunicompare.com logo preview](https://alimohsinofficial.github.io/assets/images/logos/bdunicompare-com/cover.webp)
+
+## [bdunicompare.com](https://alimohsinofficial.github.io/design/logos/bdunicompare-com/)
+
+7 version previews
+
+VIEW VERSIONS ↗
+
+![elite logo preview](https://alimohsinofficial.github.io/assets/images/logos/elite/cover.webp)
+
+## [elite](https://alimohsinofficial.github.io/design/logos/elite/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![bdnationalsurvey.com logo preview](https://alimohsinofficial.github.io/assets/images/logos/bdnationalsurvey-com/cover.webp)
+
+## [bdnationalsurvey.com](https://alimohsinofficial.github.io/design/logos/bdnationalsurvey-com/)
+
+3 version previews
+
+VIEW VERSIONS ↗
+
+![xRTES logo preview](https://alimohsinofficial.github.io/assets/images/logos/xrtes/cover.webp)
+
+## [xRTES](https://alimohsinofficial.github.io/design/logos/xrtes/)
+
+2 version previews
+
+VIEW VERSIONS ↗
+
+![itgov.xyz logo preview](https://alimohsinofficial.github.io/assets/images/logos/itgov-xyz/cover.webp)
+
+## [itgov.xyz](https://alimohsinofficial.github.io/design/logos/itgov-xyz/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![GEIT logo preview](https://alimohsinofficial.github.io/assets/images/logos/geit/cover.webp)
+
+## [GEIT](https://alimohsinofficial.github.io/design/logos/geit/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![mediprospects.ai logo preview](https://alimohsinofficial.github.io/assets/images/logos/mediprospects-ai/cover.webp)
+
+## [mediprospects.ai](https://alimohsinofficial.github.io/design/logos/mediprospects-ai/)
+
+3 version previews
+
+VIEW VERSIONS ↗
+
+![itknowledgeltd.com logo preview](https://alimohsinofficial.github.io/assets/images/logos/itknowledgeltd-com/cover.webp)
+
+## [itknowledgeltd.com](https://alimohsinofficial.github.io/design/logos/itknowledgeltd-com/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![qater logo preview](https://alimohsinofficial.github.io/assets/images/logos/qater/cover.webp)
+
+## [qater](https://alimohsinofficial.github.io/design/logos/qater/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![supportbd logo preview](https://alimohsinofficial.github.io/assets/images/logos/supportbd/cover.webp)
+
+## [supportbd](https://alimohsinofficial.github.io/design/logos/supportbd/)
+
+3 version previews
+
+VIEW VERSIONS ↗
+
+![buyzooba logo preview](https://alimohsinofficial.github.io/assets/images/logos/buyzooba/cover.webp)
+
+## [buyzooba](https://alimohsinofficial.github.io/design/logos/buyzooba/)
+
+3 version previews
+
+VIEW VERSIONS ↗
+
+![incorelab logo preview](https://alimohsinofficial.github.io/assets/images/logos/incorelab/cover.webp)
+
+## [incorelab](https://alimohsinofficial.github.io/design/logos/incorelab/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![anchorbd logo preview](https://alimohsinofficial.github.io/assets/images/logos/anchorbd/cover.webp)
+
+## [anchorbd](https://alimohsinofficial.github.io/design/logos/anchorbd/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![EnglishSociety logo preview](https://alimohsinofficial.github.io/assets/images/logos/englishsociety/cover.webp)
+
+## [EnglishSociety](https://alimohsinofficial.github.io/design/logos/englishsociety/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+![SetMyLife logo preview](https://alimohsinofficial.github.io/assets/images/logos/setmylife/cover.webp)
+
+## [SetMyLife](https://alimohsinofficial.github.io/design/logos/setmylife/)
+
+1 version previews
+
+VIEW VERSIONS ↗
+
+[Download searchable catalogue JSON ↗](https://alimohsinofficial.github.io/assets/logos/catalog.json)
+
+
+---
+
+# Android apps & games
+
+Canonical page: https://alimohsinofficial.github.io/projects/android-apps/
+
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
+
+MOBILE WORK / EARLIER PORTFOLIO
+
+## Android apps & games.
+
+Card games, a number puzzle, and practical Android tools from my earlier work.
+
+These nine titles are listed in my earlier resume. This collection documents that work; current store availability and exact release dates have not been verified.
+
+![7 Card Game — Archived app icon](https://alimohsinofficial.github.io/assets/images/apps/7-card-game.webp)
+
+ANDROID / CARD GAME
+
+## 7 Card Game
+
+Archived app icon
+
+[Archived listing ↗](https://www.browsercam.com/7-card-game-pc/)
+
+![29 Card Game Challenge — Archived app icon](https://alimohsinofficial.github.io/assets/images/apps/29-card-game-challenge.webp)
+
+ANDROID / CARD GAME
+
+## 29 Card Game Challenge
+
+Archived app icon
+
+[Archived listing ↗](https://www.slunecnice.cz/android/sw/29-card-game-challenge/)
+
+![USA Election 2016 — Portfolio illustration · original icon unavailable](https://alimohsinofficial.github.io/assets/images/apps/usa-election-2016.svg)
+
+ANDROID / ANDROID APP
+
+## USA Election 2016
+
+Portfolio illustration · original icon unavailable
+
+[Developer archive ↗](https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI)
+
+![29 Card Game Pro — Portfolio illustration · original icon unavailable](https://alimohsinofficial.github.io/assets/images/apps/29-card-game-pro.svg)
+
+ANDROID / CARD GAME
+
+## 29 Card Game Pro
+
+Portfolio illustration · original icon unavailable
+
+[Developer archive ↗](https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI)
+
+![29 Card — Portfolio illustration · original icon unavailable](https://alimohsinofficial.github.io/assets/images/apps/29-card.svg)
+
+ANDROID / CARD GAME
+
+## 29 Card
+
+Portfolio illustration · original icon unavailable
+
+[Developer archive ↗](https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI)
+
+![SmartBluetooth Tracker — Archived app icon](https://alimohsinofficial.github.io/assets/images/apps/smartbluetooth-tracker.webp)
+
+ANDROID / BLUETOOTH UTILITY
+
+## SmartBluetooth Tracker
+
+Archived app icon
+
+[Archived listing ↗](https://www.slunecnice.cz/android/sw/smartbluetooth-tracker/)
+
+![2048 Ultimate — Portfolio illustration · original icon unavailable](https://alimohsinofficial.github.io/assets/images/apps/2048-ultimate.svg)
+
+ANDROID / PUZZLE GAME
+
+## 2048 Ultimate
+
+Portfolio illustration · original icon unavailable
+
+[Developer archive ↗](https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI)
+
+![EU Referendum 2016 — Portfolio illustration · original icon unavailable](https://alimohsinofficial.github.io/assets/images/apps/eu-referendum-2016.svg)
+
+ANDROID / ANDROID APP
+
+## EU Referendum 2016
+
+Portfolio illustration · original icon unavailable
+
+[Developer archive ↗](https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI)
+
+![Tasbeeh — Portfolio illustration · original icon unavailable](https://alimohsinofficial.github.io/assets/images/apps/tasbeeh.svg)
+
+ANDROID / ANDROID APP
+
+## Tasbeeh
+
+Portfolio illustration · original icon unavailable
+
+[Developer archive ↗](https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI)
+
+## Source record
+
+Names come from my earlier resume. Recovered icons are credited to the matching archived listings above. Other illustrations are clearly labelled and are not presented as original app logos.
+
+[IRCICI developer archive / 24 May 2017 ↗](https://web.archive.org/web/20170524101117/https://play.google.com/store/apps/developer?id=IRCICI)

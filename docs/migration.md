@@ -59,7 +59,7 @@ Visitor browser details are read locally. External GeoJS lookup is initiated by 
 
 ## Separate experiences — 14 October 2026
 
-The earlier dual-skin layout and tilted relief map are superseded. Studio now uses a full-width, flat fixed-profile/scrolling-content composition with GSAP progressive enhancement. Tactical lives at `/tactical/` with in-place hash views, local dossier dialogs, readable QType/console typography, and a small optional orthographic amCharts globe. Mobile navigation is fixed to the bottom in both experiences. Experience switches retain the selected section or detail. Appearance preferences are independent.
+The earlier dual-skin layout and tilted relief map are superseded. Studio now uses a full-width, flat fixed-profile/scrolling-content composition with GSAP progressive enhancement. Tactical lives at `/tactical/` with in-place hash views, local dossier dialogs, readable QType/console typography, and a small custom orthographic globe shown by default. Mobile navigation is fixed to the bottom in both experiences. Experience switches retain the selected section or detail. Appearance preferences are independent.
 
 Reference inspection included the user's `site_html/index.html`, grid/pattern/ruler/border experiments, font samples, and PowerPoint shape/text/media examples. The QType Square font was copied from that reference folder. The generic Blueprint `.switch::after` skin caused the persistent extra white knob; site CSS suppresses it without altering vendored Blueprint.
 

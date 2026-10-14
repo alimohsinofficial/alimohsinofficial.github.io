@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 INTRODUCTION / MOHSIN ALI
 
@@ -30,7 +30,7 @@ Notes on AI, engineering, research, and the process of building. Written with AI
 
 LATEST ENTRY / FIELD NOTES
 
-01 / NOTES FROM THE DESK 
+01 / NOTES FROM THE DESK
 
 ### [A new home for the work, and the thinking behind it](https://alimohsinofficial.github.io/blog/a-new-home/)
 
@@ -57,6 +57,24 @@ ACOUSTIC INTELLIGENCE
 Understanding salmon feeding behaviour through underwater acoustics.
 
 ACOUSTICS / ML / AQUACULTURE VIEW PROJECT ↗
+
+ANDROID / 09 TITLES [Games & pocket tools ↗](https://alimohsinofficial.github.io/projects/android-apps/)
+
+VISUAL IDENTITY / LOGO DESIGN
+
+### Marks with a history.
+
+[Browse 48 logo projects ↗](https://alimohsinofficial.github.io/design/logos/)
+
+[![AgentForge logo](https://alimohsinofficial.github.io/assets/images/logos/agentforge/cover.webp)
+
+AgentForge](https://alimohsinofficial.github.io/design/logos/agentforge/)[![incodetechnology.uk logo](https://alimohsinofficial.github.io/assets/images/logos/incodetechnology-uk/cover.webp)
+
+incodetechnology.uk](https://alimohsinofficial.github.io/design/logos/incodetechnology-uk/)[![quantidiumai logo](https://alimohsinofficial.github.io/assets/images/logos/quantidiumai/cover.webp)
+
+quantidiumai](https://alimohsinofficial.github.io/design/logos/quantidiumai/)[![taka.digital logo](https://alimohsinofficial.github.io/assets/images/logos/taka-digital/cover.webp)
+
+taka.digital](https://alimohsinofficial.github.io/design/logos/taka-digital/)
 
 03 / A LITTLE CONTEXT
 

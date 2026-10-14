@@ -19,7 +19,7 @@ Plain HTML, CSS, and browser JavaScript. No npm, Node.js, TypeScript, compiler, 
 | `assets/studio.css`, `assets/studio.js`, `assets/experience.css` | Studio layout, responsive shell, and GSAP motion |
 | `assets/tactical.css`, `assets/tactical.js` | Independent HUD layout and in-place navigation |
 | `assets/controls.css` | Site-specific theme-toggle fix: suppresses the generic `.switch` skin's extra pseudo-element knob |
-| `assets/location-map.js` | amCharts globe shown by default, owner/visitor markers, drag rotation, and recenter controls |
+| `assets/location-map.js` | custom Canvas globe shown by default, owner/visitor markers, drag rotation, and recenter controls |
 | `assets/visitor-info.js` | Local browser readouts and visitor-initiated location requests |
 | `assets/images/profile.png` | The current portrait, used by both experiences |
 
@@ -47,7 +47,7 @@ The portfolio does not persist visitor IP/location data. Tactical tab changes re
 
 - Blueprint UI is a manually copied native-component snapshot under `assets/vendor/blueprint/`. Update corresponding `dist/blueprint.js`, `dist/blueprint.css`, and the segmented/accordion/copy-button/theme-toggle distributions. Vendor source has not been changed.
 - GSAP 3.15.0 and ScrollTrigger are self-hosted classic scripts under `assets/vendor/gsap/`. Copyright headers and the vendor's standard license page are retained.
-- amCharts 5 and worldLow geography are self-hosted under `assets/vendor/amcharts5/`. Its original linkware LICENSE and built-in branding remain intact.
+- The custom Canvas globe uses locally stored public-domain Natural Earth country boundaries. It draws spherical geometry without chart-engine or texture downloads.
 - QType Square was copied from the user's `site_html/assets/fonts/QTypeSquare/` reference. Tactical console text uses installed Consolas or a monospace fallback.
 - The user's `site_html` grid, crosshair, ruler, border, font experiments, and `143play_site_mockup.pptx` were inspected for visual direction. Reference boilerplate was not imported as portfolio content.
 
@@ -57,7 +57,7 @@ The original site and local assets are preserved on `codex/legacy-portfolio-2026
 Studio and Tactical use the standalone Blueprint `x-contact-form` component. Google Form endpoint and entry mappings are configured in HTML (and shared Tactical markup in assets/portfolio.js). No build, npm, backend, or per-page submission JavaScript is required. Native submission opens Google confirmation in a new tab; the component never claims delivery. Use the direct Google Form link if provider restrictions prevent a custom form handoff.
 
 ### Creative scenes and motion
-Studio keeps its fixed identity column and full-width scrolling content. Its introduction uses a Three.js inputs/model/product stack; research uses a conceptual redundant-check diagram; the acoustic project uses PixiJS waveform graphics. Tactical overview shows the engineering stack and acoustic illustration, separate from the existing amCharts geographic globe.
+Studio keeps its fixed identity column and full-width scrolling content. Its introduction uses a Three.js inputs/model/product stack; research uses a conceptual redundant-check diagram; the acoustic project uses PixiJS waveform graphics. Tactical overview shows the engineering stack and acoustic illustration, separate from the custom geographic globe.
 
 Libraries are pinned, locally hosted classic browser scripts: Three.js 0.160.1 (the classic distribution preserves direct-file operation) and PixiJS 8.6.6. MIT licenses are included. No npm, TypeScript, compilation, API key or external rendering service is required. Actual text, links, contact controls and navigation remain HTML. The pipeline, error-correction and acoustic diagrams are conceptual illustrations, not live measurements.
 
@@ -75,7 +75,19 @@ No Search Console ownership token, indexing submission, DNS change, deployment, 
 ### Context and motion controls
 The hero and Tactical overview now use a conceptual inputs → model → product architecture stack. Research uses data nodes and redundant-check connections to introduce quantum error-correction concepts, rather than an atom metaphor or a claimed QuantoTrace implementation. Acoustic curves relate to AI-AFS and are explicitly illustrative, not measured recordings. The contact particle field was removed.
 
-The header motion control pauses GSAP, text decoding, HUD CSS effects and amCharts drift, and releases Three/Pixi renderer resources. Reduced-motion preferences force motion off; data-saver mode defaults it off. Rendering libraries are loaded only for visible scenes with motion enabled; paused mode keeps CSS diagrams and normal content, links, labels and captions. Visible GPU drawings are capped around 30 fps and pixel density at 1.25 (1 on lower-memory/data-saver devices), with fewer acoustic samples and simpler standard-material geometry. These are implementation budgets; live device performance and assistive-technology testing are still required before making compliance or Core Web Vitals claims.
+The header motion control pauses GSAP, text decoding, HUD CSS effects, and releases Three/Pixi renderer resources. Reduced-motion preferences force motion off; data-saver mode defaults it off. Rendering libraries are loaded only for visible scenes with motion enabled; paused mode keeps CSS diagrams and normal content, links, labels and captions. Visible GPU drawings are capped around 30 fps and pixel density at 1.25 (1 on lower-memory/data-saver devices), with fewer acoustic samples and simpler standard-material geometry. These are implementation budgets; live device performance and assistive-technology testing are still required before making compliance or Core Web Vitals claims.
 
 ### Tactical document reveals
 `tactical-reveals.js` adds short blackout-bar reveals to record descriptions and dossier passages as it enters the visible area. Bars are decorative, aria-hidden and pointer-transparent; source content remains normal HTML. They are separate from the existing scramble reveal: headings and dossier titles scramble only, while descriptions and passages use blackout only. A public-record release stamp has its own short entrance. Every effect has a finite duration; switching views, closing dialogs, resizing, hiding the document, disabling motion or requesting reduced motion cleans up overlays. Focused controls remain unobscured. The styling denotes a public portfolio, not real classified or clearance-gated material.
+
+## Logo-design archive
+`/design/logos/` is the searchable collection; `/design/logos/<project>/` holds one representative preview per version and original file timestamps. `assets/images/logos/<project>/` contains optimized, descriptive WebP filenames. `assets/logos/catalog.json` records source-relative filenames, creation and modification timestamps, preview URLs and duplicate-export provenance. Originals in F:/WorkSpace/logo were not moved or changed. Reference/stock files, UI packs and mockup templates were excluded; archive backups are grouped with their project. Dates are original file metadata in UTC+06, not invented completion/approval dates.
+
+Search works directly against native HTML by name, source filename, version and recorded year; preview downloads are available. The gallery contains 86 representative version previews across 48 projects. Colours, layouts, copies and resolutions are indexed as source records rather than extra images. Editable PSD/AI files and very large originals are not shipped to visitors. Tactical loads only the collection script, then the requested project dossier; the rest of the archive does not load on the initial dashboard. Preview images are lazy-loaded and have dimensions; smaller cover files are used in the collection. Markdown and the agent manifest include these pages and the structured catalogue.
+
+The optional compatible-host header template now uses route-specific CSP hashes to keep each policy short. GitHub Pages still ignores it; HTML meta CSP remains active. Keep the logo HTML, matching Markdown, catalogue and individual lazy dossier in sync when editing. No build is needed to run the site.
+
+## Content and loading updates
+Nine Android titles from the earlier resume are collected at `/projects/android-apps/`, with three recovered app icons and clearly labelled fallback illustrations for the remaining titles. `assets/apps.json` records source links. Product marks and official references are local static HTML in both experiences, backed by `assets/products.json`. External destinations open in a new tab with `noopener noreferrer`.
+
+Portraits now use responsive WebP copies (39–73 KB instead of the 1.96 MB original PNG). The initial Tactical view has native HTML content before scripts run. Heavy Three/Pixi enhancements remain lazy and optional; the custom Canvas globe has no chart-library download or idle render loop. Local pages and logo dossiers are warmed on navigation intent; save-data preferences prevent prefetching. All files run directly without a build. These are implementation improvements, not a claim of zero network latency.

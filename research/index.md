@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/research/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 RESEARCH & PUBLICATIONS
 
@@ -32,7 +32,7 @@ Co-author · 2nd author
 
 03
 
-UX-driven design, application logo and GUI psychology, and lightweight JavaScript 3D rendering.
+UX-driven design, application logo and GUI psychology, and lightweight [![](https://alimohsinofficial.github.io/assets/images/products/javascript.svg)JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 3D rendering.
 
 ### ICCIT 2014 Student Conference
 

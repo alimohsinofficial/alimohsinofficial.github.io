@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/projects/quantairsense/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 Industrial AI / PROJECT 01
 
@@ -16,9 +16,9 @@ Architecture & engineering leadership
 
 TECHNOLOGIES
 
-Python Random Forest SHAP Google Cloud Run
+[![](https://alimohsinofficial.github.io/assets/images/products/python.svg)Python](https://www.python.org/) Random Forest [SHAP](https://shap.readthedocs.io/) [![](https://alimohsinofficial.github.io/assets/images/products/googlecloud.svg)Google Cloud Run](https://cloud.google.com/run)
 
-[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/)
 
 ## Context
 
@@ -27,8 +27,8 @@ An AI compressed-air monitoring platform for UK SME manufacturers, developed wit
 ## The work
 
 - Detect compressed-air leaks, equipment degradation, and scheduling waste using a Random Forest classifier.
-- Engineer 15 temporal features, with SHAP explainability and forecasting.
-- Deliver a SCADA-style dashboard on Google Cloud Run in europe-west2.
+- Engineer 15 temporal features, with [SHAP](https://shap.readthedocs.io/) explainability and forecasting.
+- Deliver a SCADA-style dashboard on [![](https://alimohsinofficial.github.io/assets/images/products/googlecloud.svg)Google Cloud Run](https://cloud.google.com/run) in europe-west2.
 
 ## Reported outcomes
 

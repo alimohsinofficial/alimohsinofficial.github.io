@@ -1,0 +1,23 @@
+[
+  {
+    "id": "smartbluetooth-tracker",
+    "image": "/assets/images/apps/smartbluetooth-tracker.webp",
+    "source": "https://i.iinfo.cz/s/product-icons/android/91/59/smartbluetooth-tracker.png",
+    "reference": "https://www.slunecnice.cz/android/sw/smartbluetooth-tracker/",
+    "artwork": "Archived app icon"
+  },
+  {
+    "id": "29-card-game-challenge",
+    "image": "/assets/images/apps/29-card-game-challenge.webp",
+    "source": "https://i.iinfo.cz/s/product-icons/android/45/50/29-card-game-challenge.png",
+    "reference": "https://www.slunecnice.cz/android/sw/29-card-game-challenge/",
+    "artwork": "Archived app icon"
+  },
+  {
+    "id": "7-card-game",
+    "image": "/assets/images/apps/7-card-game.webp",
+    "source": "https://cdn.browsercam.com/img/com.onefourthreeplay.sevencard-logo.png",
+    "reference": "https://www.browsercam.com/7-card-game-pc/",
+    "artwork": "Archived app icon"
+  }
+]

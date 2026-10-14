@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/projects/portfolio-delivery-platform/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 Full-stack systems / PROJECT 04
 
@@ -16,9 +16,9 @@ Platform development
 
 TECHNOLOGIES
 
-Laravel Livewire Tailwind CSS Project management
+[![](https://alimohsinofficial.github.io/assets/images/products/laravel.svg)Laravel](https://laravel.com/) [![](https://alimohsinofficial.github.io/assets/images/products/livewire.svg)Livewire](https://livewire.laravel.com/) [![](https://alimohsinofficial.github.io/assets/images/products/tailwindcss.svg)Tailwind CSS](https://tailwindcss.com/) Project management
 
-[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/)
 
 ## Context
 
@@ -28,7 +28,7 @@ An internal project-management platform for coordinating Quantonova's multi-proj
 
 - Build 48 modules supporting delivery and portfolio coordination.
 - Bring project documentation and compliance workflows into a shared platform.
-- Use Laravel and Livewire for the application foundation.
+- Use [![](https://alimohsinofficial.github.io/assets/images/products/laravel.svg)Laravel](https://laravel.com/) and [![](https://alimohsinofficial.github.io/assets/images/products/livewire.svg)Livewire](https://livewire.laravel.com/) for the application foundation.
 
 ## Reported outcomes
 

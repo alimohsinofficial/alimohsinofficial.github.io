@@ -1,0 +1,359 @@
+[
+  {
+    "name": "Python",
+    "slug": "python",
+    "url": "https://www.python.org/",
+    "image": "/assets/images/products/python.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+  },
+  {
+    "name": "scikit-learn",
+    "slug": "scikitlearn",
+    "url": "https://scikit-learn.org/",
+    "image": "/assets/images/products/scikitlearn.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg"
+  },
+  {
+    "name": "pandas",
+    "slug": "pandas",
+    "url": "https://pandas.pydata.org/",
+    "image": "/assets/images/products/pandas.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg"
+  },
+  {
+    "name": "NumPy",
+    "slug": "numpy",
+    "url": "https://numpy.org/",
+    "image": "/assets/images/products/numpy.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg"
+  },
+  {
+    "name": "Power BI",
+    "slug": "powerbi",
+    "url": "https://www.microsoft.com/power-platform/products/power-bi",
+    "image": null,
+    "source": null
+  },
+  {
+    "name": "Jupyter",
+    "slug": "jupyter",
+    "url": "https://jupyter.org/",
+    "image": "/assets/images/products/jupyter.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg"
+  },
+  {
+    "name": "JavaScript",
+    "slug": "javascript",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "image": "/assets/images/products/javascript.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+  },
+  {
+    "name": "TypeScript",
+    "slug": "typescript",
+    "url": "https://www.typescriptlang.org/",
+    "image": "/assets/images/products/typescript.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+  },
+  {
+    "name": "PHP",
+    "slug": "php",
+    "url": "https://www.php.net/",
+    "image": "/assets/images/products/php.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+  },
+  {
+    "name": "Java",
+    "slug": "java",
+    "url": "https://www.java.com/",
+    "image": "/assets/images/products/java.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+  },
+  {
+    "name": "C",
+    "slug": "c",
+    "url": "https://en.cppreference.com/w/c",
+    "image": "/assets/images/products/c.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+  },
+  {
+    "name": "C++",
+    "slug": "cplusplus",
+    "url": "https://isocpp.org/",
+    "image": "/assets/images/products/cplusplus.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+  },
+  {
+    "name": "React",
+    "slug": "react",
+    "url": "https://react.dev/",
+    "image": "/assets/images/products/react.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+  },
+  {
+    "name": "React Native",
+    "slug": "react",
+    "url": "https://reactnative.dev/",
+    "image": "/assets/images/products/react.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+  },
+  {
+    "name": "Vue",
+    "slug": "vuejs",
+    "url": "https://vuejs.org/",
+    "image": "/assets/images/products/vuejs.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
+  },
+  {
+    "name": "Node.js",
+    "slug": "nodejs",
+    "url": "https://nodejs.org/",
+    "image": "/assets/images/products/nodejs.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+  },
+  {
+    "name": "Laravel",
+    "slug": "laravel",
+    "url": "https://laravel.com/",
+    "image": "/assets/images/products/laravel.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg"
+  },
+  {
+    "name": "Livewire",
+    "slug": "livewire",
+    "url": "https://livewire.laravel.com/",
+    "image": "/assets/images/products/livewire.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/livewire/livewire-original.svg"
+  },
+  {
+    "name": "Docker",
+    "slug": "docker",
+    "url": "https://www.docker.com/",
+    "image": "/assets/images/products/docker.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+  },
+  {
+    "name": "Google Cloud Run",
+    "slug": "googlecloud",
+    "url": "https://cloud.google.com/run",
+    "image": "/assets/images/products/googlecloud.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg"
+  },
+  {
+    "name": "PostgreSQL",
+    "slug": "postgresql",
+    "url": "https://www.postgresql.org/",
+    "image": "/assets/images/products/postgresql.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
+  },
+  {
+    "name": "MySQL",
+    "slug": "mysql",
+    "url": "https://www.mysql.com/",
+    "image": "/assets/images/products/mysql.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+  },
+  {
+    "name": "SQLite",
+    "slug": "sqlite",
+    "url": "https://www.sqlite.org/",
+    "image": "/assets/images/products/sqlite.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg"
+  },
+  {
+    "name": "WordPress",
+    "slug": "wordpress",
+    "url": "https://wordpress.org/",
+    "image": "/assets/images/products/wordpress.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg"
+  },
+  {
+    "name": "Git",
+    "slug": "git",
+    "url": "https://git-scm.com/",
+    "image": "/assets/images/products/git.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+  },
+  {
+    "name": "HTML5",
+    "slug": "html5",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "image": "/assets/images/products/html5.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+  },
+  {
+    "name": "CSS3",
+    "slug": "css3",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "image": "/assets/images/products/css3.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+  },
+  {
+    "name": "Tailwind CSS",
+    "slug": "tailwindcss",
+    "url": "https://tailwindcss.com/",
+    "image": "/assets/images/products/tailwindcss.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
+  },
+  {
+    "name": "CodeIgniter",
+    "slug": "codeigniter",
+    "url": "https://codeigniter.com/",
+    "image": "/assets/images/products/codeigniter.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/codeigniter/codeigniter-plain.svg"
+  },
+  {
+    "name": "Flutter",
+    "slug": "flutter",
+    "url": "https://flutter.dev/",
+    "image": "/assets/images/products/flutter.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg"
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "url": "https://www.figma.com/",
+    "image": "/assets/images/products/figma.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg"
+  },
+  {
+    "name": "Unity",
+    "slug": "unity",
+    "url": "https://unity.com/",
+    "image": "/assets/images/products/unity.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original.svg"
+  },
+  {
+    "name": "Unreal Engine",
+    "slug": "unrealengine",
+    "url": "https://www.unrealengine.com/",
+    "image": "/assets/images/products/unrealengine.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/unrealengine/unrealengine-original.svg"
+  },
+  {
+    "name": "Blender",
+    "slug": "blender",
+    "url": "https://www.blender.org/",
+    "image": "/assets/images/products/blender.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/blender/blender-original.svg"
+  },
+  {
+    "name": "Photoshop",
+    "slug": "photoshop",
+    "url": "https://www.adobe.com/products/photoshop.html",
+    "image": "/assets/images/products/photoshop.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-original.svg"
+  },
+  {
+    "name": "Illustrator",
+    "slug": "illustrator",
+    "url": "https://www.adobe.com/products/illustrator.html",
+    "image": "/assets/images/products/illustrator.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/illustrator/illustrator-original.svg"
+  },
+  {
+    "name": "Adobe Premiere Pro",
+    "slug": "premierepro",
+    "url": "https://www.adobe.com/products/premiere.html",
+    "image": "/assets/images/products/premierepro.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/premierepro/premierepro-original.svg"
+  },
+  {
+    "name": "Notion",
+    "slug": "notion",
+    "url": "https://www.notion.com/",
+    "image": "/assets/images/products/notion.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/notion/notion-original.svg"
+  },
+  {
+    "name": "Obsidian",
+    "slug": "obsidian",
+    "url": "https://obsidian.md/",
+    "image": "/assets/images/products/obsidian.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/obsidian.svg"
+  },
+  {
+    "name": "n8n",
+    "slug": "n8n",
+    "url": "https://n8n.io/",
+    "image": "/assets/images/products/n8n.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/n8n.svg"
+  },
+  {
+    "name": "Claude Code",
+    "slug": "claude",
+    "url": "https://code.claude.com/docs/",
+    "image": "/assets/images/products/claude.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/claude.svg"
+  },
+  {
+    "name": "OpenAI Codex",
+    "slug": "openai",
+    "url": "https://openai.com/codex/",
+    "image": null,
+    "source": null
+  },
+  {
+    "name": "Google Gemini",
+    "slug": "googlegemini",
+    "url": "https://gemini.google.com/",
+    "image": "/assets/images/products/googlegemini.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlegemini.svg"
+  },
+  {
+    "name": "NotebookLM",
+    "slug": "notebooklm",
+    "url": "https://notebooklm.google.com/",
+    "image": "/assets/images/products/notebooklm.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/notebooklm.svg"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "slug": "davinciresolve",
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "image": "/assets/images/products/davinciresolve.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/davinciresolve.svg"
+  },
+  {
+    "name": "World Creator",
+    "slug": "worldcreator",
+    "url": "https://www.world-creator.com/",
+    "image": null,
+    "source": null
+  },
+  {
+    "name": "Gaea",
+    "slug": "gaea",
+    "url": "https://quadspinner.com/",
+    "image": null,
+    "source": null
+  },
+  {
+    "name": "Three.js",
+    "slug": "threejs",
+    "url": "https://threejs.org/",
+    "image": "/assets/images/products/threejs.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg"
+  },
+  {
+    "name": "PixiJS",
+    "slug": "pixijs",
+    "url": "https://pixijs.com/",
+    "image": "/assets/images/products/pixijs.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/pixijs/pixijs-original.svg"
+  },
+  {
+    "name": "GSAP",
+    "slug": "greensock",
+    "url": "https://gsap.com/",
+    "image": "/assets/images/products/greensock.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/greensock.svg"
+  },
+  {
+    "name": "SHAP",
+    "slug": null,
+    "url": "https://shap.readthedocs.io/",
+    "image": null,
+    "source": null
+  }
+]

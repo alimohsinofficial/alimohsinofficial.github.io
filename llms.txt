@@ -20,6 +20,60 @@ Canonical site: https://alimohsinofficial.github.io/
 - [QuantAirSense](https://alimohsinofficial.github.io/projects/quantairsense/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/projects/quantairsense/).
 - [Research & publications](https://alimohsinofficial.github.io/research/index.md): CollectionPage; [HTML](https://alimohsinofficial.github.io/research/).
 - [Web resume](https://alimohsinofficial.github.io/resume/index.md): ProfilePage; [HTML](https://alimohsinofficial.github.io/resume/).
+- [AgentForge — logo design](https://alimohsinofficial.github.io/design/logos/agentforge/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/agentforge/).
+- [incodetechnology.uk — logo design](https://alimohsinofficial.github.io/design/logos/incodetechnology-uk/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/incodetechnology-uk/).
+- [quantidiumai — logo design](https://alimohsinofficial.github.io/design/logos/quantidiumai/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/quantidiumai/).
+- [taka.digital — logo design](https://alimohsinofficial.github.io/design/logos/taka-digital/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/taka-digital/).
+- [cambridgeflair.co.uk — logo design](https://alimohsinofficial.github.io/design/logos/cambridgeflair-co-uk/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/cambridgeflair-co-uk/).
+- [Quantonova — logo design](https://alimohsinofficial.github.io/design/logos/quantonova/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/quantonova/).
+- [nextaifusion.com — logo design](https://alimohsinofficial.github.io/design/logos/nextaifusion-com/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/nextaifusion-com/).
+- [intellicreate.co.uk — logo design](https://alimohsinofficial.github.io/design/logos/intellicreate-co-uk/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/intellicreate-co-uk/).
+- [bellacet — logo design](https://alimohsinofficial.github.io/design/logos/bellacet/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/bellacet/).
+- [livingstone — logo design](https://alimohsinofficial.github.io/design/logos/livingstone/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/livingstone/).
+- [OceanLink — logo design](https://alimohsinofficial.github.io/design/logos/oceanlink/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/oceanlink/).
+- [smartroundabout.co.uk — logo design](https://alimohsinofficial.github.io/design/logos/smartroundabout-co-uk/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/smartroundabout-co-uk/).
+- [trackgenesis — logo design](https://alimohsinofficial.github.io/design/logos/trackgenesis/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/trackgenesis/).
+- [alimohsinofficial.github.io — logo design](https://alimohsinofficial.github.io/design/logos/alimohsinofficial-github-io/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/alimohsinofficial-github-io/).
+- [AI4MultiGIS — logo design](https://alimohsinofficial.github.io/design/logos/ai4multigis/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/ai4multigis/).
+- [nanoRail — logo design](https://alimohsinofficial.github.io/design/logos/nanorail/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/nanorail/).
+- [adsync360 — logo design](https://alimohsinofficial.github.io/design/logos/adsync360/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/adsync360/).
+- [Canvas of hope — logo design](https://alimohsinofficial.github.io/design/logos/canvas-of-hope/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/canvas-of-hope/).
+- [Mediprospects.co.uk — logo design](https://alimohsinofficial.github.io/design/logos/mediprospects-co-uk/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/mediprospects-co-uk/).
+- [canvas of life by anny — logo design](https://alimohsinofficial.github.io/design/logos/canvas-of-life-by-anny/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/canvas-of-life-by-anny/).
+- [PQCshift — logo design](https://alimohsinofficial.github.io/design/logos/pqcshift/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/pqcshift/).
+- [Urban Taste Travels — logo design](https://alimohsinofficial.github.io/design/logos/urban-taste-travels/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/urban-taste-travels/).
+- [AI360Degree — logo design](https://alimohsinofficial.github.io/design/logos/ai360degree/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/ai360degree/).
+- [143play — logo design](https://alimohsinofficial.github.io/design/logos/143play/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/143play/).
+- [microinvestica.com — logo design](https://alimohsinofficial.github.io/design/logos/microinvestica-com/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/microinvestica-com/).
+- [arise — logo design](https://alimohsinofficial.github.io/design/logos/arise/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/arise/).
+- [safetechnologia.com — logo design](https://alimohsinofficial.github.io/design/logos/safetechnologia-com/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/safetechnologia-com/).
+- [impactofwe.com — logo design](https://alimohsinofficial.github.io/design/logos/impactofwe-com/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/impactofwe-com/).
+- [QuantoTrace — logo design](https://alimohsinofficial.github.io/design/logos/quantotrace/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/quantotrace/).
+- [net0chain — logo design](https://alimohsinofficial.github.io/design/logos/net0chain/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/net0chain/).
+- [imchartered.co.uk — logo design](https://alimohsinofficial.github.io/design/logos/imchartered-co-uk/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/imchartered-co-uk/).
+- [mediHIS — logo design](https://alimohsinofficial.github.io/design/logos/medihis/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/medihis/).
+- [open world gaming — logo design](https://alimohsinofficial.github.io/design/logos/open-world-gaming/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/open-world-gaming/).
+- [bdunicompare.com — logo design](https://alimohsinofficial.github.io/design/logos/bdunicompare-com/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/bdunicompare-com/).
+- [elite — logo design](https://alimohsinofficial.github.io/design/logos/elite/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/elite/).
+- [bdnationalsurvey.com — logo design](https://alimohsinofficial.github.io/design/logos/bdnationalsurvey-com/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/bdnationalsurvey-com/).
+- [xRTES — logo design](https://alimohsinofficial.github.io/design/logos/xrtes/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/xrtes/).
+- [itgov.xyz — logo design](https://alimohsinofficial.github.io/design/logos/itgov-xyz/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/itgov-xyz/).
+- [GEIT — logo design](https://alimohsinofficial.github.io/design/logos/geit/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/geit/).
+- [mediprospects.ai — logo design](https://alimohsinofficial.github.io/design/logos/mediprospects-ai/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/mediprospects-ai/).
+- [itknowledgeltd.com — logo design](https://alimohsinofficial.github.io/design/logos/itknowledgeltd-com/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/itknowledgeltd-com/).
+- [qater — logo design](https://alimohsinofficial.github.io/design/logos/qater/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/qater/).
+- [supportbd — logo design](https://alimohsinofficial.github.io/design/logos/supportbd/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/supportbd/).
+- [buyzooba — logo design](https://alimohsinofficial.github.io/design/logos/buyzooba/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/buyzooba/).
+- [incorelab — logo design](https://alimohsinofficial.github.io/design/logos/incorelab/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/incorelab/).
+- [anchorbd — logo design](https://alimohsinofficial.github.io/design/logos/anchorbd/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/anchorbd/).
+- [EnglishSociety — logo design](https://alimohsinofficial.github.io/design/logos/englishsociety/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/englishsociety/).
+- [SetMyLife — logo design](https://alimohsinofficial.github.io/design/logos/setmylife/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/design/logos/setmylife/).
+- [Logo design archive](https://alimohsinofficial.github.io/design/logos/index.md): CollectionPage; [HTML](https://alimohsinofficial.github.io/design/logos/).
+- [Android apps & games](https://alimohsinofficial.github.io/projects/android-apps/index.md): project; [HTML](https://alimohsinofficial.github.io/projects/android-apps/).
+
+## Logo search
+
+- [Structured logo catalogue](https://alimohsinofficial.github.io/assets/logos/catalog.json): projects, variants, original filenames, creation/modification timestamps and preview URLs.
 
 ## Complete collection
 

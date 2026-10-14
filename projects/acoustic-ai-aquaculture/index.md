@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 Acoustic intelligence / PROJECT 02
 
@@ -16,9 +16,9 @@ Algorithm development & work-package delivery
 
 TECHNOLOGIES
 
-Python Acoustic classification Machine learning
+[![](https://alimohsinofficial.github.io/assets/images/products/python.svg)Python](https://www.python.org/) Acoustic classification Machine learning
 
-[Discuss this work ↗](https://alimohsinofficial.github.io/contact/) 
+[Discuss this work ↗](https://alimohsinofficial.github.io/contact/)
 
 ## Context
 

@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/projects/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-14.
+Author: Mohsin Ali. Content snapshot: 2026-10-15.
 
 SELECTED WORK
 
@@ -57,3 +57,19 @@ Project descriptions and reported results are based on the supplied resume. Visu
 Let's discuss the research, the architecture, and the path to delivery.
 
 [Get in touch ↗](https://alimohsinofficial.github.io/contact/)
+
+ALSO IN MY WORK
+
+## Logo design & visual identity
+
+48 projects with searchable versions and source-file dates.
+
+[Explore logo design ↗](https://alimohsinofficial.github.io/design/logos/)
+
+EARLIER WORK / ANDROID
+
+## Games & pocket tools.
+
+Nine mobile titles, from card games to Bluetooth utilities.
+
+[Explore Android work ↗](https://alimohsinofficial.github.io/projects/android-apps/)
