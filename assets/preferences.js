@@ -1,9 +1,10 @@
+/* The URL chooses the experience; each experience remembers its own appearance. */
 (() => {
   try {
-    const mode = localStorage.getItem('portfolio-mode');
-    const theme = localStorage.getItem('blueprint-theme');
-    if (['studio', 'tactical'].includes(mode)) document.documentElement.setAttribute('mode', mode);
-    const resolved = theme === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme;
-    document.documentElement.setAttribute('theme', ['light','dark'].includes(resolved) ? resolved : 'light');
-  } catch {}
-})();
+  const experience=document.documentElement.dataset.experience||'studio';
+  const saved=localStorage.getItem('portfolio-theme-'+experience);
+  const theme=['light','dark'].includes(saved)?saved:(experience==='tactical'?'dark':'light');
+  window.PortfolioAppearance={value:theme};
+  document.documentElement.setAttribute('theme',theme);
+  localStorage.setItem('blueprint-theme',theme);
+} catch {}})();

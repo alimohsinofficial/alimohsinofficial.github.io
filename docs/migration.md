@@ -55,3 +55,14 @@ Visitor browser details are read locally. External GeoJS lookup is initiated by 
 - Direct file opening is supported by relative asset paths and local-folder link resolution; the in-app browser prohibits file URLs, so direct-file rendering was not visually tested there. Visual checks used a temporary local Python static preview, which is not part of the site or a user requirement.
 - Browser print layout has not been exported and visually verified. Publication links were preserved from the sources rather than independently revalidated.
 - No remote push or deployment is included in this revision.
+
+
+## Separate experiences — 14 October 2026
+
+The earlier dual-skin layout and tilted relief map are superseded. Studio now uses a full-width, flat fixed-profile/scrolling-content composition with GSAP progressive enhancement. Tactical lives at `/tactical/` with in-place hash views, local dossier dialogs, readable QType/console typography, and a small optional orthographic amCharts globe. Mobile navigation is fixed to the bottom in both experiences. Experience switches retain the selected section or detail. Appearance preferences are independent.
+
+Reference inspection included the user's `site_html/index.html`, grid/pattern/ruler/border experiments, font samples, and PowerPoint shape/text/media examples. The QType Square font was copied from that reference folder. The generic Blueprint `.switch::after` skin caused the persistent extra white knob; site CSS suppresses it without altering vendored Blueprint.
+
+Static validation: 14 HTML pages return HTTP 200; 483 local references resolve; 13 structured metadata blocks parse; feed and sitemap XML parse. Browser checks include full-width desktop boundaries, fixed Studio profile versus right-pane scrolling, desktop/mobile Contact context switching, bottom navigation, Tactical hash navigation and detail dialogs, optional spherical globe and branding, live clock, both appearance states, and browser error logs. Synthetic component fixtures verified valid IP and device positions, denied device permission, missing coordinates, lookup failure, visitor-marker availability, and retention across Tactical tab changes without repeat lookup. No live device permission or real IP lookup was requested during these checks. Reduced-motion and missing-GSAP fixtures kept all Studio content visible.
+
+Appearance isolation was verified with concurrent Studio-light/Tactical-dark and Studio-dark/Tactical-light tabs. The app uses Blueprint’s public theme API to restore its own per-experience choice after shared-key notifications.

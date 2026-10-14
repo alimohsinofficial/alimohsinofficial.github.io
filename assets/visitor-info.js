@@ -51,7 +51,7 @@
         this.values.position=latitude.toFixed(4)+' / '+longitude.toFixed(4)+' · DEVICE';this.values.region='DEVICE POSITION';this.paintValues();
         document.dispatchEvent(new CustomEvent('portfolio:visitor-location',{detail:{latitude,longitude,accuracy,city:'DEVICE LOCATION',source:'device'}}));
         this.status('Device location received · accuracy ±'+Math.round(accuracy)+' m. Coordinates stay on this page.');
-      },error=>{this.status(error.code===1?'Device location was declined. No device position is shown.':'Device location is unavailable. Try the approximate IP lookup.');},{enableHighAccuracy:false,timeout:10000,maximumAge:60000});
+      },error=>{if(this.values.region==='DEVICE POSITION'){this.values.position='UNAVAILABLE';this.values.region='NOT LOCATED';this.paintValues();document.dispatchEvent(new CustomEvent('portfolio:visitor-location',{detail:{unavailable:true}}));}this.status(error.code===1?'Device location was declined. No device position is shown.':'Device location is unavailable. Try the approximate IP lookup.');},{enableHighAccuracy:false,timeout:10000,maximumAge:60000});
     }
   }
   customElements.define('x-visitor-info',VisitorInfo);
