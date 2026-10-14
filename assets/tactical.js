@@ -6,6 +6,32 @@
   const nav=['overview','blog','projects','about','resume','research','contact','widgets'];
   const names=['OVERVIEW','FIELD NOTEBOOK','PROJECT INDEX','OWNER PROFILE','RESUME','RESEARCH','CONTACT','SESSION WIDGETS'];
   let currentView='overview',lastFocus=null;
+  const motion=matchMedia('(prefers-reduced-motion: reduce)');
+  // Decode only newly opened headings. Accessible labels retain the final wording.
+  function revealText(scope){
+    if(motion.matches)return;
+    scope.querySelectorAll('.view-heading h2,.view-heading .hud-label,#dossier-title').forEach(el=>{
+      const label=el.textContent;el.setAttribute('aria-label',label);
+      const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),nodes=[];let node;
+      while(node=walker.nextNode())nodes.push([node,node.nodeValue]);
+      const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/+#_';let start,last=0;
+      function frame(now){
+        if(!el.isConnected)return;
+        if(start===undefined)start=now;const progress=Math.min(1,(now-start)/640);
+        if(now-last>40||progress===1){last=now;for(const [node,text] of nodes){const end=Math.ceil(text.length*progress);node.nodeValue=Array.from(text,(c,i)=>i<end||/\s/.test(c)?c:chars[Math.floor(Math.random()*chars.length)]).join('');}}
+        if(progress<1)requestAnimationFrame(frame);else el.removeAttribute('aria-label');
+      }
+      requestAnimationFrame(frame);
+    });
+  }
+  // Native dialog stays in the top layer, but its frame follows the main panel.
+  const main=document.getElementById('view-panel');
+  function placeDossier(){
+    const r=main.getBoundingClientRect();
+    modal.style.left=r.left+'px';modal.style.top=r.top+'px';modal.style.width=r.width+'px';modal.style.height=r.height+'px';
+  }
+  new ResizeObserver(placeDossier).observe(main);window.addEventListener('resize',placeDossier);
+
   const record=(path,title,text,extra='')=>`<a class="hud-record" href="#${path.replace(/^\//,'').replace(/\/$/,'')}"><small>${extra}</small><h3>${escape(title)}</h3><p>${escape(text)}</p><span>OPEN DOSSIER ↗</span></a>`;
   const projects=()=>P.projects.map((p,i)=>record(p.path,p.title,p.text,'0'+(i+1)+' / '+escape(p.category.toUpperCase()))).join('');
   const notes=()=>P.articles.map(p=>record(p.path,p.title,'Work, research, and the thinking behind it.',escape(p.date)+' / '+escape(p.kind.toUpperCase()))).join('');
@@ -26,7 +52,7 @@
     if(view==='contact')panel.innerHTML=`${heading('CONTACT / OPEN CHANNEL','START A CONVERSATION.','Engineering, research collaboration, or turning an idea into a working system.')}${P.contactForm}<div class="hud-contact-links"><a href="https://www.linkedin.com/in/imalimohsin/"><span>LINKEDIN</span><b>/in/imalimohsin</b><i>↗</i></a></div><p class="contact-location">DHAKA, BANGLADESH / UTC +06</p>`;
     if(view==='widgets')panel.innerHTML=heading('SESSION / LOCAL READOUT','SESSION WIDGETS.','The globe and visitor instruments show available browser details and optional location information. IP positions are approximate.');
     panel.querySelector('#hud-note-search')?.addEventListener('input',e=>{let count=0;panel.querySelectorAll('.hud-note-list .hud-record').forEach(card=>{card.hidden=!card.textContent.toLowerCase().includes(e.target.value.toLowerCase());if(!card.hidden)count++;});panel.querySelector('.hud-empty').hidden=count>0;});
-    panel.scrollTop=0;
+    panel.scrollTop=0;revealText(panel);
   }
   function openDocument(path){
     const doc=D[path];if(!doc)return;lastFocus=document.activeElement;
@@ -39,7 +65,7 @@
     body.querySelectorAll('x-copy-button[copy-current-url]').forEach(el=>el.setAttribute('text',location.href));
     body.querySelector('.resume-toolbar')?.remove();
     body.querySelector('.filter-row')?.remove();
-    modal.showModal();document.getElementById('dossier-close').focus();body.scrollTop=0;
+    placeDossier();modal.showModal();document.getElementById('dossier-close').focus();body.scrollTop=0;revealText(modal);
   }
   function route(){
     let key;try{key=decodeURIComponent(location.hash.slice(1)).replace(/\/$/,'')||'overview';}catch{key='overview';}
