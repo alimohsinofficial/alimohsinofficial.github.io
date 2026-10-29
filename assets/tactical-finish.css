@@ -65,3 +65,46 @@ x-contact-form {--color-primary:var(--accent);--color-primary-contrast:var(--bg)
 @media(max-width:900px) {.view-heading h2 {font-size:29px}.hud-scroll-statement {font-size:14px}.hud-mobile-nav {background:var(--surface)}}
 html[data-motion="off"] .reading-word {opacity:1!important;transform:none!important}
 @media(prefers-reduced-motion:reduce) {.reading-word {opacity:1!important;transform:none!important}}
+/* One continuous dossier surface. Rules divide fields; widgets have no outer frame. */
+.hud-app {gap:0;padding-inline:22px;grid-template-rows:72px 44px minmax(0,1fr) 30px}
+.hud-dashboard,.hud-owner,.hud-widgets {gap:0}
+.hud-dashboard {border-inline:1px solid var(--line)}
+.hud-owner {border-right:1px solid var(--line)}
+.hud-widgets {border-left:1px solid var(--line)}
+.hud-frame {border:0;background:transparent;box-shadow:none}
+.hud-frame::before,.hud-frame::after {content:none}
+.hud-frame-title {background:transparent;border-bottom:1px solid var(--line);color:var(--muted)}
+.clock-widget,.visitor-widget {border-top:1px solid var(--line)}
+.hud-main {background:color-mix(in srgb,var(--surface) 74%,transparent)}
+.hud-portrait {margin:16px 16px 0}
+.hud-portrait::after {inset:0;border:0;background:none;animation:none}
+.hud-portrait i {display:none}
+.identity-copy {padding:18px 16px}
+.globe-widget {background:transparent}
+.hud-footer {border-top:1px solid var(--line)}
+.hud-nav {border-top:0}
+.hud-nav a {background:transparent}
+.hud-nav a[aria-current] {background:color-mix(in srgb,var(--ink) 5%,transparent)}
+.hud-record-grid,.overview-projects,.research-records {gap:0}
+.hud-record,.hud-record-grid .hud-record,.overview-note .hud-record,.hud-research-record {border:0;border-bottom:1px solid var(--line);padding:22px 0;background:transparent;min-height:0}
+.hud-record-grid {grid-template-columns:1fr}
+.hud-record-grid .hud-record {display:grid;grid-template-columns:minmax(110px,.35fr) minmax(0,1fr);column-gap:24px}
+.hud-record-grid .hud-record small {grid-row:1/4}
+.hud-record-grid .hud-record h3,.hud-record-grid .hud-record p,.hud-record-grid .hud-record>span {grid-column:2}
+.overview-projects a {border:0;border-bottom:1px solid var(--line);padding:18px 0}
+.overview-projects a+a {padding-left:20px;border-left:1px solid var(--line)}
+.hud-record::after,.hud-research-record::after {display:none}
+.hud-record:hover,.hud-research-record:hover {background:transparent}
+.hud-record:hover h3,.hud-research-record:hover h3 {text-decoration:underline;text-underline-offset:5px}
+.hud-visual-stage {border:0;background:transparent}
+#dossier-modal {border:0;outline:1px solid var(--line)}
+.dossier-header {background:var(--surface)}
+@media(max-width:900px) {
+  .hud-app {padding:0 12px calc(77px + env(safe-area-inset-bottom));grid-template-rows:64px minmax(0,1fr) 30px;gap:0}
+  .hud-owner,.hud-widgets {border:0}
+  .hud-record-grid .hud-record {display:flex;gap:12px}
+  .overview-projects a+a {padding-left:0;border-left:0}
+}
+.hud-dashboard {background:var(--surface)}
+.hud-main {background:transparent}
+.hud-frame-title>span:last-child:not(.live-dot) {opacity:.65}

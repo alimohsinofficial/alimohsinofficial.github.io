@@ -44,3 +44,47 @@ html[theme="dark"] .studio-landing .studio-profile-section {background:#202a37}
   .studio-scroll {--studio-media:20px}
   .studio-landing .notebook-object {padding:24px}
 }
+/* Full pages continue the home sections: open rows, shared type and media treatment. */
+.studio-detail .detail-wrap {padding:55px 5vw 60px}
+.studio-detail .detail-wrap>.page-heading {margin:0 0 42px;max-width:100%;padding:0}
+.studio-detail .detail-wrap>.page-heading h1 {font-size:clamp(36px,3.8vw,58px);line-height:1.15;font-weight:400;letter-spacing:-.04em;margin:20px 0}
+.studio-detail .detail-wrap>.page-heading .lede {max-width:750px;font-size:18px;line-height:1.85}
+.studio-detail .detail-wrap .project-grid {grid-template-columns:1fr;gap:0}
+.studio-detail .detail-wrap .project-card {display:grid;grid-template-columns:210px minmax(0,1fr);gap:32px;align-items:center;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:28px 0;background:none}
+.studio-detail .detail-wrap .project-card-body {padding:0}
+.studio-detail .detail-wrap .project-card h3 {font-size:31px;font-weight:500;letter-spacing:-.03em;margin:16px 0 12px}
+.studio-detail .detail-wrap .project-card p {font-size:16px;line-height:1.8}
+.studio-detail .detail-wrap .project-card .project-art {height:200px;border-radius:var(--studio-media);background:var(--studio-soft);filter:none}
+.studio-detail .detail-wrap .post-grid {display:block}
+.studio-detail .detail-wrap .post-card {border:0;border-bottom:1px solid var(--line);border-radius:0;padding:30px 0;display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,.65fr);column-gap:32px;background:none;box-shadow:none}
+.studio-detail .detail-wrap .post-card h3 {font-size:clamp(26px,2.5vw,36px);font-weight:400;letter-spacing:-.025em;line-height:1.3;margin:16px 0 24px;grid-column:1;grid-row:2/4}
+.studio-detail .detail-wrap .post-card>.meta {grid-column:1/-1}
+.studio-detail .detail-wrap .post-card>p {grid-column:2;font-size:16px;line-height:1.8;margin-top:16px}
+.studio-detail .detail-wrap .post-card .post-bottom {grid-column:2;border:0;padding:20px 0 0;margin-top:0;align-self:end}
+.studio-detail .detail-wrap .post-card:first-child {padding:30px;border:0;border-radius:var(--studio-media);background:var(--studio-soft);margin-bottom:16px}
+.studio-detail .detail-wrap .service-grid {grid-template-columns:1fr;gap:0}
+.studio-detail .detail-wrap .service-card {display:grid;grid-template-columns:50px minmax(180px,.6fr) minmax(0,1fr);gap:22px;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:26px 0;background:none}
+.studio-detail .detail-wrap .service-card h3 {font-size:25px;margin:0;font-weight:400}
+.studio-detail .detail-wrap .service-card p {font-size:16px;line-height:1.8;margin:0}
+.studio-detail .detail-wrap .about-full>div {display:grid;grid-template-columns:.85fr 1.15fr;column-gap:50px;align-items:start}
+.studio-detail .detail-wrap .about-full h2 {font-size:37px;line-height:1.3;font-weight:400;letter-spacing:-.035em;grid-column:1;grid-row:1/5}
+.studio-detail .detail-wrap .about-full p,.studio-detail .detail-wrap .about-full .button {grid-column:2}
+.studio-detail .detail-wrap .about-full .button {justify-self:start}
+.studio-detail .detail-wrap .about-full .lede {font-size:18px;line-height:1.85}
+.studio-detail .detail-wrap .research-row {padding:28px 0;background:transparent;border-radius:0;box-shadow:none}
+.studio-detail .detail-wrap .research-row h3 {font-size:27px;font-weight:400;letter-spacing:-.02em}
+@media(max-width:1100px) {
+ .studio-detail .detail-wrap .post-card {grid-template-columns:1fr}
+ .studio-detail .detail-wrap .post-card h3,.studio-detail .detail-wrap .post-card>p,.studio-detail .detail-wrap .post-card .post-bottom {grid-column:1;grid-row:auto}
+}
+@media(max-width:700px) {
+ .studio-detail .detail-wrap {padding:32px 22px 45px}
+ .studio-detail .detail-wrap>.page-heading h1 {font-size:36px}
+ .studio-detail .detail-wrap .project-card {grid-template-columns:1fr;gap:20px}
+ .studio-detail .detail-wrap .project-card .project-art {height:230px}
+ .studio-detail .detail-wrap .post-card:first-child {padding:24px}
+ .studio-detail .detail-wrap .service-card {grid-template-columns:30px 1fr;gap:16px}
+ .studio-detail .detail-wrap .service-card p {grid-column:2}
+ .studio-detail .detail-wrap .about-full>div {display:block}
+ .studio-detail .detail-wrap .about-full h2 {margin-bottom:24px}
+}
