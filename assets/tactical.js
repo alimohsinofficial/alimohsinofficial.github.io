@@ -36,7 +36,7 @@
 
   const record=(path,title,text,extra='')=>`<a class="hud-record" href="#${path.replace(/^\//,'').replace(/\/$/,'')}"><small>${extra}</small><h3>${escape(title)}</h3><p>${escape(text)}</p><span>OPEN DOSSIER ↗</span></a>`;
   const projects=()=>P.projects.map((p,i)=>record(p.path,p.title,p.text,'0'+(i+1)+' / '+escape(p.category.toUpperCase()))).join('');
-  const notes=()=>P.articles.map(p=>record(p.path,p.title,'Work, research, and the thinking behind it.',escape(p.date)+' / '+escape(p.kind.toUpperCase()))).join('');
+  const notes=()=>P.articles.map(p=>record(p.path,p.title,p.text||'Work, research, and the thinking behind it.',escape(p.date)+' / '+escape(p.kind.toUpperCase()))).join('');
   const logoLoads=new Map(),assetLoads=new Map();
   const logoAsset=file=>{if(!assetLoads.has(file))assetLoads.set(file,new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=P.url(file);script.onload=resolve;script.onerror=reject;document.head.append(script);}));return assetLoads.get(file);};
   const loadLogos=(path='/design/logos/')=>{
@@ -56,7 +56,7 @@
     document.querySelector('.studio-switch').href=P.url(studioPaths[view]);
     document.getElementById('hud-more-toggle').classList.toggle('current',['resume','research','contact','logos','widgets'].includes(view));
     const index=nav.indexOf(view);document.getElementById('view-code').textContent='03 / '+names[index];document.getElementById('view-status').textContent='VIEW 0'+(index+1)+' / '+names[index];
-    const heading=(label,title,description='')=>`<div class="view-heading"><span class="release-stamp" aria-hidden="true">PUBLIC RECORD<br>RELEASED</span><p class="hud-label">${label}</p><h2>${title}</h2>${description?'<p>'+description+'</p>':''}</div>`;
+    const heading=(label,title,description='')=>`<div class="view-heading"><span class="release-stamp" aria-hidden="true">PUBLIC RECORD<br>RELEASED</span><p class="hud-label">${label}</p><h2>${title}</h2>${description?'<div class="hud-scroll-statement"><p>'+description+'</p></div>':''}</div>`;
     if(view==='overview')panel.innerHTML=`${heading('ENGINEERING / AI / DEEP TECH','IDEAS INTO<br><em>WORKING SYSTEMS.</em>','I build software, lead engineering teams, and work on applied research.')}<div class="hud-visual-stage"><div class="visual-scene" data-three-scene="pipeline" aria-hidden="true"><span class="visual-fallback"><i></i><i></i><i></i></span></div><div class="visual-scene" data-pixi-scene="acoustic" aria-hidden="true"><span class="visual-fallback acoustic-fallback"><svg viewBox="0 0 400 160" aria-hidden="true"><path d="M0 80H40q10-18 20 0t20 0h20q10-48 20 0t20 0h20q10-65 20 0t20 0h20q10-35 20 0t20 0h20q10-16 20 0t20 0h40" fill="none" stroke="currentColor" stroke-width="2"/><path d="M0 110H70q10-12 20 0t20 0h35q10-28 20 0t20 0h35q10-20 20 0t20 0h35q10-10 20 0t20 0h35" fill="none" stroke="currentColor" stroke-width="1" opacity=".4"/></svg></span></div><div class="hud-visual-caption"><span>INPUTS → MODEL → PRODUCT / CONCEPT</span><span>AI-AFS / ACOUSTIC SIGNAL CONCEPT</span></div></div><div class="overview-stats"><div><b>10+</b><span>YEARS BUILDING</span></div><div><b>04</b><span>PROJECT DOSSIERS</span></div><div><b>02</b><span>CS DEGREES</span></div></div><div class="view-section-title"><span>FIELD NOTEBOOK / LATEST</span><a href="#blog">VIEW ALL ↗</a></div><div class="overview-note">${notes()}</div><div class="view-section-title"><span>SELECTED WORK</span><a href="#projects">VIEW ALL ↗</a></div><div class="overview-projects">${P.projects.slice(0,2).map(p=>`<a href="#${p.path.slice(1,-1)}"><span>${escape(p.category.toUpperCase())}</span><b>${escape(p.title)}</b><i>↗</i></a>`).join('')}</div>`;
     if(view==='projects')panel.innerHTML=`${heading('ENGINEERING / PROJECT INDEX','SELECTED WORK.','Industrial AI, acoustic intelligence, physical modelling, and research delivery.')}<div class="hud-record-grid">${projects()}</div><button class="hud-button" data-document="/projects/android-apps/">ANDROID / 09 APPS &amp; GAMES ↗</button>`;
     if(view==='blog')panel.innerHTML=`${heading('WRITING / FIELD NOTES','THE NOTEBOOK.','AI, engineering, research, and the process of building. AI assistance is disclosed on each note.')}<label class="hud-search">SEARCH NOTES<input type="search" id="hud-note-search" placeholder="Title or topic…"></label><div class="hud-note-list">${notes()}</div><p class="hud-empty" hidden>No notes match your search.</p>`;
@@ -79,8 +79,10 @@
     body.querySelector('h1')?.remove();
     const ids=new Map();body.querySelectorAll('[id]').forEach(el=>{const old=el.id;el.id='dossier-'+old;ids.set(old,el.id);});
     body.querySelectorAll('[for],[aria-labelledby],[aria-describedby],[aria-controls]').forEach(el=>{for(const attr of ['for','aria-labelledby','aria-describedby','aria-controls'])if(el.hasAttribute(attr))el.setAttribute(attr,el.getAttribute(attr).split(/\s+/).map(id=>ids.get(id)||id).join(' '));});
+    body.querySelectorAll('a[href^="#"]').forEach(link=>{const id=ids.get(link.getAttribute('href').slice(1));if(id)link.setAttribute('href','#'+id);});
     body.querySelectorAll('a[href],img[src]').forEach(el=>{const attr=el.tagName==='IMG'?'src':'href';const value=el.getAttribute(attr);if(value.startsWith('/'))el.setAttribute(attr,P.url(value));});
     body.querySelectorAll('x-copy-button[copy-current-url]').forEach(el=>el.setAttribute('text',location.href));
+    body.querySelector('.detail-back')?.remove();
     body.querySelector('.resume-toolbar')?.remove();
     body.querySelector('.filter-row')?.remove();
     window.PortfolioLogoSearch?.init(body,{query});
@@ -97,6 +99,8 @@
     if(e.target.closest('a.skip')){e.preventDefault();if(document.body.dataset.view==='widgets')document.querySelector('.hud-widgets button:not(:disabled)')?.focus();else document.getElementById('view-panel').focus();return;}
     const button=e.target.closest('[data-document]');if(button){e.preventDefault();openDocument(button.dataset.document,window.PortfolioLogoSearch?.queryFrom(button)||'');return;}
     const link=e.target.closest('#dossier-content a[href]');if(!link)return;
+    const fragment=link.getAttribute('href');
+    if(fragment.startsWith('#')){const target=document.getElementById(fragment.slice(1));if(target&&document.getElementById('dossier-content').contains(target)){e.preventDefault();target.scrollIntoView({block:'start',behavior:motion.matches||window.PortfolioMotion?.enabled===false?'auto':'smooth'});target.setAttribute('tabindex','-1');target.focus({preventScroll:true});return;}}
     const u=new URL(link.href);if(u.origin===new URL(P.url('/')).origin){const base=new URL(P.url('/')).pathname;let path='/'+u.pathname.slice(base.length);path=path.replace(/index\.html$/,'');if(D[path]){e.preventDefault();modal.close();location.hash=path.slice(1,-1);}}
   });
   const close=()=>{modal.close();if(location.hash.slice(1).includes('/'))location.hash=currentView;if(lastFocus?.isConnected)lastFocus.focus();else document.getElementById('view-panel').focus();};

@@ -20,7 +20,7 @@
   Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-8o3lzlSXjKpV7oMSgImTDavvPsbLqK1+JNm4il6zqLM='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://get.geojs.io; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-src 'none'; form-action https://docs.google.com; frame-ancestors 'none'
 
 /blog/
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-CliwDA9R+AGGDQuQRQq1NYqTwMcHzgSM6ev8SN3yyzU='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://get.geojs.io; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-src 'none'; form-action https://docs.google.com; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-YWezvYotleBN36bYuDnerFySkCq6ccJT/781Dtj9VSc='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://get.geojs.io; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-src 'none'; form-action https://docs.google.com; frame-ancestors 'none'
 
 /contact/
   Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-yggOCrioZ3hd6XGGTKEE2/Wlqv2nnPweSJwc2py+jfY='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://get.geojs.io; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-src 'none'; form-action https://docs.google.com; frame-ancestors 'none'
@@ -204,3 +204,6 @@
 
 /tactical/
   Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-m5IPGc388XO7tY1NUWLSzMZKACVPm2FoOQK9fUsF7Dc='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://get.geojs.io; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-src 'none'; form-action https://docs.google.com; frame-ancestors 'none'
+
+/blog/uk-php2shell-cyber-emergency/
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-KlaZJpOBGv4/0qZ8eYKKxBWhqTGPuxUkr74c7+iJbzU='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://get.geojs.io; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-src 'none'; form-action https://docs.google.com; frame-ancestors 'none'

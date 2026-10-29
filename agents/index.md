@@ -2,7 +2,9 @@
 
 Canonical page: https://alimohsinofficial.github.io/agents/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-15.
+Author: Mohsin Ali. Content snapshot: 2026-10-26.
+
+## Content for AI agents
 
 The same portfolio facts and writing, available as Markdown without rendering [![](https://alimohsinofficial.github.io/assets/images/products/javascript.svg)JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) or WebGL.
 
@@ -77,6 +79,7 @@ Studio HTML pages are the canonical public content. Tactical is an alternate int
 - [SetMyLife — logo design](https://alimohsinofficial.github.io/design/logos/setmylife/) · [Markdown](https://alimohsinofficial.github.io/design/logos/setmylife/index.md)
 - [Logo design archive](https://alimohsinofficial.github.io/design/logos/) · [Markdown](https://alimohsinofficial.github.io/design/logos/index.md)
 - [Android apps & games](https://alimohsinofficial.github.io/projects/android-apps/) · [Markdown](https://alimohsinofficial.github.io/projects/android-apps/index.md)
+- [PHP2Shell: the UK’s October cyber emergency, explained](https://alimohsinofficial.github.io/blog/uk-php2shell-cyber-emergency/) · [Markdown](https://alimohsinofficial.github.io/blog/uk-php2shell-cyber-emergency/index.md)
 
 ## Contact
 

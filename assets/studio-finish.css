@@ -1,0 +1,46 @@
+/* Content-only Studio finish. Identity rail, header, footer and page geometry stay original. */
+.studio-scroll {
+  --bg:#ffffff;--surface:#ffffff;--ink:#233442;--muted:#536675;
+  --line:#dce1e7;--accent:#aa472c;--studio-soft:#f0f3f6;
+  --studio-media:24px;--studio-control:12px;
+  --color-background:var(--surface);--color-text:var(--ink);--color-text-muted:var(--muted);
+  --color-border:var(--line);--element:var(--studio-soft);--accent-9:var(--accent);--accent-11:var(--accent);
+  background:var(--surface);color:var(--ink);
+}
+html[theme="dark"] .studio-scroll {
+  --bg:#171c23;--surface:#171c23;--ink:#edf0f4;--muted:#aeb8c4;
+  --line:#343d49;--accent:#f2a080;--studio-soft:#222a35;
+}
+/* Rounding belongs to illustrations, notebook paper and controls inside the body. */
+.studio-landing .hero-sculpture {border-radius:var(--studio-media)}
+.studio-landing .notebook-object {
+  border:0;border-radius:var(--studio-media);padding:30px 30px 25px;
+  background-color:var(--studio-soft);overflow:hidden;
+}
+.studio-landing .notebook-object h3,.studio-landing .note-meta {background:var(--studio-soft)}
+.studio-landing .notebook-object h3 {padding-right:8px}
+.studio-landing .work-art {border-radius:var(--studio-media);background-color:var(--studio-soft)}
+.studio-landing .sensor-core {border-radius:18px}
+.studio-landing .studio-profile-section {background:#1c2531;--section-muted:#b8c3d1}
+.studio-landing .studio-profile-section .profile-statement,.studio-landing .studio-profile-section .eyebrow,
+.studio-landing .studio-profile-section .text-link,.studio-landing .studio-profile-section .pill-link,
+.studio-landing .studio-profile-section .career-line b {color:#eef1f5}
+.studio-landing .studio-profile-section .career-line {border-color:#455367}
+.studio-landing .studio-profile-section .career-line>span {background:#c3cddd}
+.studio-landing .studio-profile-section .profile-watermark {color:#eef1f509}
+html[theme="dark"] .studio-landing .studio-profile-section {background:#202a37}
+.studio-detail .detail-wrap .post-card,.studio-detail .detail-wrap .project-card,
+.studio-detail .detail-wrap .service-card,.studio-detail .detail-wrap .contact-card {
+  border-radius:var(--studio-media);box-shadow:none;
+}
+.studio-scroll .case-hero-figure,.studio-scroll .project-figure,
+.studio-scroll .logo-preview {border-radius:var(--studio-media);overflow:hidden}
+.studio-scroll .button,.studio-scroll .pill-link,.studio-scroll .resume-toolbar button {
+  border-radius:var(--studio-control);box-shadow:none;
+}
+.studio-scroll x-contact-form {--radius:12px;--control-height:46px}
+.studio-scroll .logo-search-controls input,.studio-scroll .logo-search-controls select {border-radius:12px}
+@media(max-width:900px) {
+  .studio-scroll {--studio-media:20px}
+  .studio-landing .notebook-object {padding:24px}
+}

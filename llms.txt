@@ -6,6 +6,7 @@ Canonical site: https://alimohsinofficial.github.io/
 
 ## Content
 
+- [PHP2Shell: the UK’s October cyber emergency, explained](https://alimohsinofficial.github.io/blog/uk-php2shell-cyber-emergency/index.md): BlogPosting; [HTML](https://alimohsinofficial.github.io/blog/uk-php2shell-cyber-emergency/).
 - [About Mohsin Ali](https://alimohsinofficial.github.io/about/index.md): ProfilePage; [HTML](https://alimohsinofficial.github.io/about/).
 - [Content for AI agents](https://alimohsinofficial.github.io/agents/index.md): CollectionPage; [HTML](https://alimohsinofficial.github.io/agents/).
 - [A new home for the work, and the thinking behind it](https://alimohsinofficial.github.io/blog/a-new-home/index.md): WebPage; [HTML](https://alimohsinofficial.github.io/blog/a-new-home/).

@@ -28,6 +28,7 @@
       {title:'R&D delivery platform',category:'Software systems',path:'/projects/portfolio-delivery-platform/',text:'Documentation, coordination, and compliance.',value:'48',label:'Platform modules'}
     ],
     articles: [
+      {"title":"PHP2Shell: the UK’s October cyber emergency, explained","path":"/blog/uk-php2shell-cyber-emergency/","category":"Security","date":"26 OCT 2026","kind":"AI-assisted security analysis","text":"Verified UK response, corrected breach claims, and a practical recovery checklist."},
       {title:'A new home for the work, and the thinking behind it',path:'/blog/a-new-home/',category:'Field notes',date:'14 OCT 2026',kind:'AI-assisted site note'}
     ],
     career: [['2014','Game & web dev'],['2016','Software engineer'],['2020','CTO · 143Play'],['2023','CTO · Quantonova']],

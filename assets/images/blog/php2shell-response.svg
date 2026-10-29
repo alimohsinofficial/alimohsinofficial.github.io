@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">PHP2Shell: the response needs evidence</title>
+  <desc id="description">An original schematic connecting four response stages: inventory, patch, verify and investigate. No organisations or victim locations are represented.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#526170" opacity=".35"/></pattern>
+    <linearGradient id="field" x2="1" y2="1"><stop stop-color="#151c24"/><stop offset="1" stop-color="#101317"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#field)"/><rect width="1200" height="630" fill="url(#grid)"/>
+  <g fill="none" stroke="#384653"><path d="M48 48h1104v534H48z"/><path d="M48 112h1104M48 522h1104"/></g>
+  <g font-family="Consolas,monospace" font-size="15" fill="#a6b5c5"><text x="76" y="86">FIELD NOTEBOOK / UK CYBER SECURITY</text><text x="1125" y="86" text-anchor="end">26 OCT 2026</text></g>
+  <text x="76" y="202" font-family="Segoe UI,Arial,sans-serif" font-weight="600" font-size="72" letter-spacing="-3" fill="#eef2f6">PHP2Shell</text>
+  <text x="78" y="249" font-family="Segoe UI,Arial,sans-serif" font-size="27" fill="#b4c1cd">The response needs evidence.</text>
+  <g fill="none" stroke="#8498ae" stroke-width="2"><path d="M290 378h52m-8-6 8 6-8 6M562 378h52m-8-6 8 6-8 6M834 378h52m-8-6 8 6-8 6"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g transform="translate(76 306)"><rect width="214" height="152" rx="16" fill="#1c2630" stroke="#405264"/><text x="20" y="34" fill="#a4b9d0" font-family="Consolas,monospace" font-size="14">01 / INVENTORY</text><text x="20" y="80" fill="#eef2f6" font-size="20">Find the runtime.</text><text x="20" y="119" fill="#aebdcd" font-size="16">Apps · hosts · suppliers</text></g>
+    <g transform="translate(348 306)"><rect width="214" height="152" rx="16" fill="#1c2630" stroke="#405264"/><text x="20" y="34" fill="#a4b9d0" font-family="Consolas,monospace" font-size="14">02 / PATCH</text><text x="20" y="80" fill="#eef2f6" font-size="20">Fix the dependency.</text><text x="20" y="119" fill="#aebdcd" font-size="16">Supported vendor build</text></g>
+    <g transform="translate(620 306)"><rect width="214" height="152" rx="16" fill="#233243" stroke="#8daac8"/><text x="20" y="34" fill="#c4d7eb" font-family="Consolas,monospace" font-size="14">03 / VERIFY</text><text x="20" y="80" fill="#eef2f6" font-size="20">Check what runs.</text><text x="20" y="119" fill="#c4d1de" font-size="16">Serving workers · images</text></g>
+    <g transform="translate(892 306)"><rect width="232" height="152" rx="16" fill="#1c2630" stroke="#405264"/><text x="20" y="34" fill="#a4b9d0" font-family="Consolas,monospace" font-size="14">04 / INVESTIGATE</text><text x="20" y="80" fill="#eef2f6" font-size="20">Review the window.</text><text x="20" y="119" fill="#aebdcd" font-size="16">Logs · processes · files</text></g>
+  </g>
+  <g font-family="Consolas,monospace" font-size="14" fill="#a6b5c5"><text x="76" y="559">EVIDENCE AT EVERY STAGE</text><text x="1124" y="559" text-anchor="end">MOHSIN ALI / ORIGINAL SCHEMATIC</text></g>
+</svg>

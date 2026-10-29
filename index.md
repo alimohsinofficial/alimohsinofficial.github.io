@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-15.
+Author: Mohsin Ali. Content snapshot: 2026-10-26.
 
 INTRODUCTION / MOHSIN ALI
 
@@ -20,6 +20,8 @@ Currently CTO at Quantonova. Building since 2014.
 
 [More about my background ↗](https://alimohsinofficial.github.io/about/)
 
+INPUTS → MODEL → PRODUCT CONCEPTUAL SYSTEM DIAGRAM
+
 01 / THE FIELD NOTEBOOK
 
 ## Work in progress. *Thinking out loud.*
@@ -28,13 +30,13 @@ Notes on AI, engineering, research, and the process of building. Written with AI
 
 [View all writing ↗](https://alimohsinofficial.github.io/blog/)
 
-LATEST ENTRY / FIELD NOTES
+[LATEST ENTRY / SECURITY ANALYSIS
 
 01 / NOTES FROM THE DESK
 
-### [A new home for the work, and the thinking behind it](https://alimohsinofficial.github.io/blog/a-new-home/)
+### PHP2Shell: the UK’s October cyber emergency, explained
 
-14 OCT 2026 · AI-ASSISTED READ NOTE ↗
+26 OCT 2026 · AI-ASSISTED READ NOTE ↗](https://alimohsinofficial.github.io/blog/uk-php2shell-cyber-emergency/)
 
 02 / SELECTED WORK
 
@@ -42,21 +44,25 @@ LATEST ENTRY / FIELD NOTES
 
 [View all projects ↗](https://alimohsinofficial.github.io/projects/)
 
+[FIG. 01 / SENSING SYSTEMS
+
+QA
+
 INDUSTRIAL AI
 
-### [QuantAirSense](https://alimohsinofficial.github.io/projects/quantairsense/)
+### QuantAirSense
 
 Interpretable machine learning for compressed-air monitoring.
 
-ML / SENSING / INDUSTRIAL SYSTEMS VIEW PROJECT ↗
+ML / SENSING / INDUSTRIAL SYSTEMS VIEW PROJECT ↗](https://alimohsinofficial.github.io/projects/quantairsense/)[FIG. 02 / ACOUSTIC PATTERNS
 
 ACOUSTIC INTELLIGENCE
 
-### [AI-AFS](https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/)
+### AI-AFS
 
 Understanding salmon feeding behaviour through underwater acoustics.
 
-ACOUSTICS / ML / AQUACULTURE VIEW PROJECT ↗
+ACOUSTICS / ML / AQUACULTURE VIEW PROJECT ↗](https://alimohsinofficial.github.io/projects/acoustic-ai-aquaculture/)
 
 ANDROID / 09 TITLES [Games & pocket tools ↗](https://alimohsinofficial.github.io/projects/android-apps/)
 
@@ -94,32 +100,32 @@ Over a decade across games, software, and applied research. Today I lead technol
 
 [Explore my resume ↗](https://alimohsinofficial.github.io/resume/)
 
+ERROR CORRECTION / REDUNDANT CHECKS — CONCEPT
+
 04 / RESEARCH
 
 ## Stay curious. *Follow the evidence.*
 
 [View all research ↗](https://alimohsinofficial.github.io/research/)
 
-01
+[01
 
-### [QuantoTrace](https://alimohsinofficial.github.io/research/)
+### QuantoTrace
 
 Quantum error correction / Published research
 
-↗
+↗](https://alimohsinofficial.github.io/research/) [02
 
-02
-
-### [Water quality resilience](https://alimohsinofficial.github.io/research/)
+### Water quality resilience
 
 Deep reinforcement learning / Published research
 
-↗
+↗](https://alimohsinofficial.github.io/research/)
 
 05 / NEXT CONVERSATION
 
 ## Let’s build *something that matters.*
 
-Contact form fields: Full name (required), Email address (required, email format), Subject (General Inquiry / Project Proposal / Support / Feedback / Other), Message (required). Submit sends a native POST to Google Forms in a new tab; check Google’s confirmation. The direct Google Form link below works without portfolio JavaScript.
+Contact fields: Full name, Email address, Subject and Message. Native submission opens Google Forms confirmation in a new tab.
 
 Google Forms handles this message. Confirmation opens in a new tab. [Open Google form directly ↗](https://docs.google.com/forms/d/e/1FAIpQLSfTnbNq_cn2CfGCwQTtUNxg5z5Db9USCzMUQllkSMwnDvtIzg/viewform)

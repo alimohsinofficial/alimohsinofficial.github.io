@@ -1,7 +1,7 @@
 {
   "name": "Mohsin Ali",
   "canonicalSite": "https://alimohsinofficial.github.io/",
-  "updated": "2026-10-14",
+  "updated": "2026-10-26",
   "directory": "https://alimohsinofficial.github.io/llms.txt",
   "fullText": "https://alimohsinofficial.github.io/llms-full.txt",
   "pages": [
@@ -452,6 +452,13 @@
       "markdown": "https://alimohsinofficial.github.io/projects/android-apps/index.md",
       "title": "Android apps & games",
       "type": "project"
+    },
+    {
+      "title": "PHP2Shell: the UK’s October cyber emergency, explained",
+      "url": "https://alimohsinofficial.github.io/blog/uk-php2shell-cyber-emergency/",
+      "markdown": "https://alimohsinofficial.github.io/blog/uk-php2shell-cyber-emergency/index.md",
+      "path": "/blog/uk-php2shell-cyber-emergency/",
+      "type": "BlogPosting"
     }
   ],
   "contact": {

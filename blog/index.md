@@ -2,7 +2,7 @@
 
 Canonical page: https://alimohsinofficial.github.io/blog/
 
-Author: Mohsin Ali. Content snapshot: 2026-10-15.
+Author: Mohsin Ali. Content snapshot: 2026-10-26.
 
 THE FIELD NOTEBOOK
 
@@ -12,15 +12,21 @@ A place for the thinking behind the work. AI, software systems, deep-tech resear
 
 Search the notebook
 
-1 note
+2 notes
 
-Field notes Site note
+[Security Research & analysis
 
-### [A new home for the work, and the thinking behind it](https://alimohsinofficial.github.io/blog/a-new-home/)
+### PHP2Shell: the UK’s October cyber emergency, explained
+
+What UK alerts confirm, how early breach claims changed, and what a verified PHP recovery requires.
+
+26 Oct 2026 · 10 min read ↗](https://alimohsinofficial.github.io/blog/uk-php2shell-cyber-emergency/)[Field notes Site note
+
+### A new home for the work, and the thinking behind it
 
 A portfolio rebuild that makes space for writing, while keeping the engineering work in view.
 
-14 Oct 2026 · 2 min read ↗
+14 Oct 2026 · 2 min read ↗](https://alimohsinofficial.github.io/blog/a-new-home/)
 
 No notes match this search. Try another phrase or category.
 
