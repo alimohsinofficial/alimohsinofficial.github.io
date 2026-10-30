@@ -66,9 +66,9 @@ x-contact-form {--color-primary:var(--accent);--color-primary-contrast:var(--bg)
 html[data-motion="off"] .reading-word {opacity:1!important;transform:none!important}
 @media(prefers-reduced-motion:reduce) {.reading-word {opacity:1!important;transform:none!important}}
 /* One continuous dossier surface. Rules divide fields; widgets have no outer frame. */
-.hud-app {gap:0;padding-inline:22px;grid-template-rows:72px 44px minmax(0,1fr) 30px}
+.hud-app {gap:0;padding-inline:0;grid-template-rows:72px 44px minmax(0,1fr) 30px}
 .hud-dashboard,.hud-owner,.hud-widgets {gap:0}
-.hud-dashboard {border-inline:1px solid var(--line)}
+.hud-dashboard {border:0}
 .hud-owner {border-right:1px solid var(--line)}
 .hud-widgets {border-left:1px solid var(--line)}
 .hud-frame {border:0;background:transparent;box-shadow:none}
@@ -100,7 +100,7 @@ html[data-motion="off"] .reading-word {opacity:1!important;transform:none!import
 #dossier-modal {border:0;outline:1px solid var(--line)}
 .dossier-header {background:var(--surface)}
 @media(max-width:900px) {
-  .hud-app {padding:0 12px calc(77px + env(safe-area-inset-bottom));grid-template-rows:64px minmax(0,1fr) 30px;gap:0}
+  .hud-app {padding:0 0 calc(77px + env(safe-area-inset-bottom));grid-template-rows:64px minmax(0,1fr) 30px;gap:0}
   .hud-owner,.hud-widgets {border:0}
   .hud-record-grid .hud-record {display:flex;gap:12px}
   .overview-projects a+a {padding-left:0;border-left:0}
@@ -108,3 +108,7 @@ html[data-motion="off"] .reading-word {opacity:1!important;transform:none!import
 .hud-dashboard {background:var(--surface)}
 .hud-main {background:transparent}
 .hud-frame-title>span:last-child:not(.live-dot) {opacity:.65}
+
+/* Edge-to-edge shell; spacing belongs inside each section. */
+.hud-header {padding-inline:16px}
+.hud-footer {padding-inline:12px}
